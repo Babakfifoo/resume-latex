@@ -16,7 +16,10 @@
 
 \usepackage{titlesec} % provides an interface to sectioning commands i.e. custom elements
 
+\usepackage{wasysym}
+
 \usepackage{color} % provides both foreground and background color management
+\usepackage{xcolor}
 
 \usepackage{enumitem} % provides control over enumerate, itemize and description
 
@@ -81,7 +84,7 @@
 
 \titleformat{\section}
 {\scshape\large}{}
-{0em}{\color{blue}}[\color{black}\titlerule\vspace{0pt}]
+{0em}{\textcolor[HTML]{415a77}}[\color{black}\titlerule\vspace{0pt}]
 %-------------------------------------
 
 
@@ -154,6 +157,14 @@
 %__________________RESUME____________________
 % You can rearrange sections in any order you may prefer
 \begin{document}
+	\usepackage{hyperref}
+	
+	\hypersetup{
+		pdftitle={My Awesome Document},
+		pdfauthor={Jane Doe},
+		pdfsubject={A brief guide to PDF metadata},
+		pdfkeywords={metadata, pdf, latex, example}
+	}
 	
 	%-----------CONTACT DETAILS------------------
 	% Make sure all the details are correct, you can add more links in the first row of second column if needed
@@ -164,7 +175,7 @@
 	%	\href{https://babakfi.foo}{\uline{babakfi.foo}} $|$ % row = 2, col = 1
 		\href{https://linkedin.com/in/jane-doe}{\uline{LinkedIn}} $|$ % row = 2, col = 1
 		\href{https://github.com/Babakfifoo}{\uline{GitHub}} $|$ % row = 2, col = 1
-		\href{https://leetcode.com/jane-doe}{\uline{Leetcode}} & % row = 2, col = 1
+		\href{https://stackoverflow.com/users/5116559/babak-fi-foo}{\uline{StackOverFlow}} & % row = 2, col = 1
 		Email: \href{mailto:contact@babakfi.foo}{\uline{contact@babakfi.foo}} $|$ % row = 2, col = 2
 		Mobile: +358 46 521 2019 \\ % row = 2, col = 2
 	\end{tabular*}
@@ -185,11 +196,43 @@
 	% Add or remove resumeSectionTypes according to your needs
 	
 	\section{Technical Skills}
-	\resumeHeadingListStart{}
-	\resumeSectionType{Languages}{:}{Python, R, Julia, SQL}
-	\resumeSectionType{Databases}{:}{MongoDB, PostgreSQL, SQLite, DuckkDB}
-	\resumeSectionType{Data Science}{:}{Time-series, Spatial econometrics, PCA, Network, TTE, and much more.}
-	\resumeHeadingListEnd{}
+		\begin{tabular*}{\textwidth}{r@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}l}
+			\textbf{Python:} & $\CIRCLE \CIRCLE \CIRCLE \Circle \Circle$ & &
+			\textbf{R:} & $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \Circle$ & &
+			\textbf{Julia:} & $\CIRCLE \CIRCLE \Circle \Circle \Circle$ & &
+			\textbf{SQL:} & $\CIRCLE \CIRCLE \CIRCLE \Circle \Circle$ & &
+			\\ 
+			
+			\textbf{AZURE:} & $\CIRCLE \CIRCLE \Circle \Circle \Circle$ & &
+			\textbf{Econometric:} & $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \Circle$ & &
+			\textbf{Data Viz.:} & $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ & &
+			\textbf{Spatial data:} & $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ & &
+			\\ 
+			
+			\textbf{PostgreSQL:} & $\CIRCLE \CIRCLE \CIRCLE \Circle \Circle$ & &
+			\textbf{SQLite:} & $\CIRCLE \CIRCLE \CIRCLE \Circle \Circle$ & &
+			\textbf{DuckDB:} & $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \Circle$ & &
+			\textbf{MongoDB:} & $\CIRCLE \CIRCLE \Circle \Circle \Circle$ & &
+			\\ 
+			
+			\textbf{Data Analysis:} & $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \Circle$ & &
+			\textbf{ArcGIS:} & $\CIRCLE \CIRCLE \CIRCLE \Circle \Circle$ & &
+			\textbf{QGIS:} & $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \Circle$ & &
+			\textbf{Excel:} & $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \Circle$ & &
+			\\ 
+			
+			\textbf{PowerPoint:} & $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \Circle$ & &
+			\textbf{PowerBI:} & $\CIRCLE \CIRCLE \Circle \Circle \Circle$ & &
+			\textbf{Tableau:} & $\CIRCLE \CIRCLE \CIRCLE \Circle \Circle$ & &
+			\textbf{Git:} & $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \Circle$ & &
+			\\ 
+		\end{tabular*}
+	
+%	\section{Technical Skills}
+%	
+%	\resumeHeadingListStart{}
+%	\resumeSectionType{Data Science}{:}{Time-series} \\
+%	\resumeHeadingListEnd{}
 	%--------------------------------------------
 	
 	
@@ -199,17 +242,18 @@
 	\section{Experience}
 	\resumeHeadingListStart{}
 	\resumeQuadHeading{DATA ANALYTIC ENGINEERING}{Jan 2025 -- Present}
-	{Self-Employed $|$ Apex-Heat}{Self-Employed -- Espoo, Finland}
+	{Self-Employed $|$ Apex-Heat}  {Self-Employed -- Espoo, Finland}
 	\resumeItemListStart{}
 	\resumeItem{Resolving \textbf{technical debt}.}
-	\resumeItem{Migrating from \textbf{Pandas} to \textbf{Polars} to improve the efficiency and calculation time. }
+	\resumeItem{Migrating from \textbf{Pandas} to \textbf{Polars} to improve the efficiency and calculation time.}
 	\resumeItem{Improving the design pattern, and \textbf{writing documentations}.}
 	\resumeItem{Adjusting an improving data processing test coverage and \textbf{testing} methods.}
 	\resumeItem{\textbf{Optimising} the SQL queries to improve response time.}
 	\resumeItemListEnd{}
+	\noindent\rule{0.5\linewidth}{0.4pt}
 	
-	\resumeQuadHeading{Ph.D. Candidate}{Sep 2020 - Present}
-	{Aalto University}{Part-time, Espoo, Finland}
+	\resumeQuadHeading{Ph.D. Candidate}{Sep 2020 -- Present}
+	{Aalto University}  {Part-time -- Espoo, Finland}
 	\resumeItemListStart{}
 	\resumeItem{Applying Econometric, ML and data analysis for \textbf{quantitative research}.}
 	\resumeItem{Modelling and implementing data pipeline to gather and store the research data.}
@@ -217,11 +261,42 @@
 	\resumeItem{Processing HTML and PDF files and implementing RAG to extract structured data from the land use plan documents.}
 	\resumeItem{Providing consultancy, training and lecturing services for data analysis, GIS and research at Aalto university.}
 	\resumeItemListEnd{}
-	
-	\resumeQuadHeadingChild{Backend Developer Intern}{Jan 2021 -- Aug 2021}
+	\noindent\rule{0.5\linewidth}{0.4pt}
+
+	\resumeQuadHeading{Data Analytics Engineer}{Sep 2020 -- Dec 2024}
+	{Qissa kaupunkisuunnitteluanalytiikka Oy} {Part-time -- Espoo, Finland}
 	\resumeItemListStart{}
-	\resumeItem{Assisted senior web developers in the design and development of websites using \textbf{HTML, CSS, and JavaScript}}
+	\resumeItem{Designing data pipeline to gather data form REST APIs, cleaning, Geo-coding and storing in accordance to the specifications requested by clients}
+	\resumeItem{Creating Spatial data dashboard for spatial network analysis back-end. The analysis used HSL, HERE and HSY APIs to gather and process the data and perform network analysis.}
 	\resumeItemListEnd{}
+	\noindent\rule{0.5\linewidth}{0.4pt}
+	
+	\resumeQuadHeading{Planning Assistant}  {Nov 2018 -- Jun 2021}
+	{WSP Finland Oy}  {Part-time -- Helsinki, Finland}
+	\resumeItemListStart{}
+	\resumeItem{Performing Spatial Data analysis, Processing and storing spatial.}
+	\resumeItem{Performing network analysis for pedestrian route choice forecast. The analysis was fine tuned to existing situation, and then used to forecast pedestrian flow after urban development}
+	\resumeItem{Providing GIS analysis to transport engineers, landscape designers, urban planners and architects.}
+	\resumeItem{ Programming and producing dynamic 3D model of the cities using ESRI CityEngine}
+	\resumeItemListEnd{}
+	\noindent\rule{0.5\linewidth}{0.4pt}
+
+	\resumeQuadHeading{GIS Operator}{Aug 2015 -- May 2016}
+	{University of Tehran}{Part-time, Tehran, Iran}
+	\resumeItemListStart{}
+	\resumeItem{Gathering, processing and preparing GIS data for urban designers to implement and test new directives for urban design in Tehran City}
+	\resumeItemListEnd{}
+	\noindent\rule{0.5\linewidth}{0.4pt}
+
+	\resumeQuadHeading{Chief Operating Officer}{Aug 2011 -- Aug 2018}
+	{Airsa Dorsa Industries}{Full-time, Karaj, Iran}
+	\resumeItemListStart{}
+	\resumeItem{Accounting, cost calculation, financial analysis, human resources and BI}
+	\resumeItem{Provided in house graphic design, CAD and technical solutions for clients.}
+	\resumeItem{Negotiating with the clients regarding their designs, pricing and production.}
+	\resumeItem{Admin duties, supervision duties, high-frequency welding, silk screen printing.}
+	\resumeItemListEnd{}
+	
 	\resumeHeadingListEnd{}
 	%---------------------------------------------
 	
@@ -230,9 +305,20 @@
 	% Mention your CGPA, if its good, in the first row of second column
 	
 	\section{Education}
+
 	\resumeHeadingListStart{}
-	\resumeQuadHeading{University of Anystate}{Anycity, Anystate, Anycountry}
-	{Bachelor of Science in Computer Science}{Jan 2016 -- Dec 2020}
+	\resumeQuadHeading{Aalto University}{Espoo, Finland}
+	{Doctor of Philosophy in Technology, Real Estate Economics}{Sep 2020 - Present}
+	\resumeHeadingListEnd{}
+
+	\resumeHeadingListStart{}
+	\resumeQuadHeading{Aalto University}{Espoo, Finland}
+	{MSc. (Tech.) Urban Studies and Planning in Real Estate Economics}{Sep 2018 - Jul 2020}
+	\resumeHeadingListEnd{}
+
+	\resumeHeadingListStart{}
+	\resumeQuadHeading{Aalto University}{Espoo, Finland}
+	{BA. Town Planning}{Sep 2011 - Jun 2015}
 	\resumeHeadingListEnd{}
 	%---------------------------------------------
 	
@@ -240,33 +326,33 @@
 	%-----------PROJECTS--------------------------
 	% Use resumeQuadHeading if four elements are feasible (ex: demo video link), else use resumeTrioHeading. Keep the bullet points simple and concise and try to cover wide variety of skills you have used to build these projects
 	
-	\section{Projects}
-	\resumeHeadingListStart{}
-	\resumeTrioHeading{\href{https://project1.com}{\uline{Project 1}}}{React.js, Redux, PHP, MySQL Git}{\href{https://proect1.com/source-code/}{\uline{Source Code}}}
-	\resumeItemListStart{}
-	\resumeItem{Designed and developed a clean and modern website using \textbf{HTML, CSS, and JavaScript}}
-	\resumeItem{Optimized website for \textbf{speed and user experience}}
-	\resumeItem{Utilized \textbf{responsive design} to ensure compatibility across all devices}
-	\resumeItem{Deployed on GitHub pages via GitHub Actions}
-	\resumeItemListEnd{}
-	
-	\resumeTrioHeading{Project 2}{Node.js, Express, JavaScript, Git}{\href{https:project2.com/source-code}{\uline{Source Code}}}
-	\resumeItemListStart{}
-	\resumeItem{A \textbf{CRUD application} exposed using a RESTful API made with Node.js}
-	\resumeItem{Exposed POST, GET, PATCH and DELETE HTTP methods using \textbf{Express}}
-	\resumeItemListEnd{}
-	\resumeHeadingListEnd{}
+%	\section{Projects}
+%	\resumeHeadingListStart{}
+%	\resumeTrioHeading{\href{https://project1.com}{\uline{Project 1}}}{React.js, Redux, PHP, MySQL Git}{\href{https://proect1.com/source-code/}{\uline{Source Code}}}
+%	\resumeItemListStart{}
+%	\resumeItem{Designed and developed a clean and modern website using \textbf{HTML, CSS, and JavaScript}}
+%	\resumeItem{Optimized website for \textbf{speed and user experience}}
+%	\resumeItem{Utilized \textbf{responsive design} to ensure compatibility across all devices}
+%	\resumeItem{Deployed on GitHub pages via GitHub Actions}
+%	\resumeItemListEnd{}
+%	
+%	\resumeTrioHeading{Project 2}{Node.js, Express, JavaScript, Git}{\href{https:project2.com/source-code}{\uline{Source Code}}}
+%	\resumeItemListStart{}
+%	\resumeItem{A \textbf{CRUD application} exposed using a RESTful API made with Node.js}
+%	\resumeItem{Exposed POST, GET, PATCH and DELETE HTTP methods using \textbf{Express}}
+%	\resumeItemListEnd{}
+%	\resumeHeadingListEnd{}
 	%--------------------------------------------
 	
 	
 	%----------------OTHERS----------------------
 	% You can add your acheivements, accolades, certifications etc. here.
 	
-	\section{Certifications}
+	\section{Volunteer Work}
 	\resumeItemListStart{}
-	\resumeItem{\href{https://dummy-certification.com}{\uline{Certified Web Developer by the W3C}}}
-	\resumeItem{\href{https://dummy-certification.com}{\uline{Microsoft Certified: Azure Developer Associate}}}
-	\resumeItem{\href{https://dummy-certification.com}{\uline{AWS Certified Developer - Associate}}}
+	\resumeItem{DataTribe collective moderator, contributor}
+	\resumeItem{Helsinki Data Week volunteer}
+
 	\resumeItemListEnd{}
 	%--------------------------------------------
 	
