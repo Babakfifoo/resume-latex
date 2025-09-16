@@ -1,3 +1,4 @@
+% !TEX TS-program = lualatex
 %-------------------------
 % Rezume, a latex resume template for developers
 % Author : Nanu Panchamurthy
@@ -15,6 +16,7 @@
 \usepackage{verbatim} % reimplements the "verbatim" and "verbatim*" environments
 
 \usepackage{titlesec} % provides an interface to sectioning commands i.e. custom elements
+\usepackage{fontspec}
 
 \usepackage{wasysym}
 
@@ -28,6 +30,8 @@
 \usepackage{tabularx} % defines an environment tabularx, extension of "tabular" with an extra designator x, paragraph like column whose width automatically expands to fill the width of the environment
 
 \usepackage{latexsym} % provides mathematical symbols
+
+
 
 \usepackage{marvosym} % provides martin vogel's symbol font which contains various symbols
 
@@ -43,7 +47,16 @@
 %----------FONT OPTIONS-------------------
 \usepackage[default]{sourcesanspro} % uses the font source sans pro
 \urlstyle{same} % changes url font from default urlfont to font being used by the document
+
+\newfontfamily{\headingfont}{AvenirLTProBook.otf}[
+    % Optional: Add font features like bold, italic, etc.
+    % BoldFont = YourOTFFontName-Bold.otf,
+    % ItalicFont = YourOTFFontName-Italic.otf,
+]
+
+
 %-----------------------------------------
+
 
 
 %----------MARGIN OPTIONS-----------------
@@ -83,8 +96,8 @@
 % after-code is the code to be executed after
 
 \titleformat{\section}
-{\scshape\large}{}
-{0em}{\textcolor[HTML]{415a77}}[\color{black}\titlerule\vspace{0pt}]
+{\large\bfseries}{}
+{0em}{\textcolor[HTML]{0619a7}}[\color{black}\titlerule\vspace{0pt}]
 %-------------------------------------
 
 
@@ -157,13 +170,13 @@
 %__________________RESUME____________________
 % You can rearrange sections in any order you may prefer
 \begin{document}
-	\usepackage{hyperref}
+	
 	
 	\hypersetup{
-		pdftitle={My Awesome Document},
-		pdfauthor={Jane Doe},
-		pdfsubject={A brief guide to PDF metadata},
-		pdfkeywords={metadata, pdf, latex, example}
+		pdftitle={A well written resume},
+		pdfauthor={Babak Firoozi Fooladi},
+		pdfsubject={A brief description of my talents and skills.},
+		pdfkeywords={self-driven, motivated, data analyst, data scientist, domain expert, economics, data visualisation, graphic design}
 	}
 	
 	%-----------CONTACT DETAILS------------------
@@ -173,7 +186,7 @@
 		\textbf{\Huge Babäk Firoozi Fooladi \vspace{2pt}} & % row = 1, col = 1
 		Location: Espoo, Uusimaa, Finland \\ % row = 1, col = 2
 	%	\href{https://babakfi.foo}{\uline{babakfi.foo}} $|$ % row = 2, col = 1
-		\href{https://linkedin.com/in/jane-doe}{\uline{LinkedIn}} $|$ % row = 2, col = 1
+		\href{https://www.linkedin.com/in/babak-firoozi-fooladi/}{\uline{LinkedIn}} $|$ % row = 2, col = 1
 		\href{https://github.com/Babakfifoo}{\uline{GitHub}} $|$ % row = 2, col = 1
 		\href{https://stackoverflow.com/users/5116559/babak-fi-foo}{\uline{StackOverFlow}} & % row = 2, col = 1
 		Email: \href{mailto:contact@babakfi.foo}{\uline{contact@babakfi.foo}} $|$ % row = 2, col = 2
@@ -187,7 +200,7 @@
 	
 	\section{Data Analytics Engineer $|$ GIS Developer $|$ Data Scientist}
 	\small{
-		A versatile and proactive problem solver with a strong ability to quickly adapt and learn new skills. I possess a solid foundation in spatial data, GIS, econometrics, statistics, and data science, complemented by expanding expertise in data processing and visualisation. I excel at developing analytical solutions and insights for challenges of varying complexity. I am seeking opportunities to further develop and enhance my skills in data engineering and data science.
+		Proactive and adaptable problem-solver with a solid foundation in spatial data, econometrics, and data science. Skilled in developing analytical solutions and insights, with hands-on experience in data processing, visualization, databases, and data pipelines. Eager to leverage a self-driven attitude and commitment to quality to take ownership of projects and contribute to team goals.
 	}
 	%--------------------------------------------
 	
@@ -256,10 +269,12 @@
 	{Aalto University}  {Part-time -- Espoo, Finland}
 	\resumeItemListStart{}
 	\resumeItem{Applying Econometric, ML and data analysis for \textbf{quantitative research}.}
-	\resumeItem{Modelling and implementing data pipeline to gather and store the research data.}
+	\resumeItem{Designed and deployed database in PostgreSQL and DuckDB data lake for research data in our team.}
+	\resumeItem{Preparing and updating visualisations for lecture and presentation.}
 	\resumeItem{Preparing the providing research data for researchers.}
 	\resumeItem{Processing HTML and PDF files and implementing RAG to extract structured data from the land use plan documents.}
-	\resumeItem{Providing consultancy, training and lecturing services for data analysis, GIS and research at Aalto university.}
+	\resumeItem{Deploying and maintaining \textbf{AZURE functions} to store real estate data for research.}
+	\resumeItem{Self-taught programming skills, and further obtained formal education in data science.}
 	\resumeItemListEnd{}
 	\noindent\rule{0.5\linewidth}{0.4pt}
 
@@ -276,8 +291,9 @@
 	\resumeItemListStart{}
 	\resumeItem{Performing Spatial Data analysis, Processing and storing spatial.}
 	\resumeItem{Performing network analysis for pedestrian route choice forecast. The analysis was fine tuned to existing situation, and then used to forecast pedestrian flow after urban development}
+	\resumeItem{Preparing analysis, graphs, maps and data visualisations for stakeholders, projects managers and clients.}
 	\resumeItem{Providing GIS analysis to transport engineers, landscape designers, urban planners and architects.}
-	\resumeItem{ Programming and producing dynamic 3D model of the cities using ESRI CityEngine}
+	\resumeItem{Programming and producing dynamic 3D model of the cities using ESRI CityEngine}
 	\resumeItemListEnd{}
 	\noindent\rule{0.5\linewidth}{0.4pt}
 

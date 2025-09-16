@@ -1,0 +1,153 @@
+% !TEX TS-program = lualatex
+%-------------------------
+% Rezume, a latex resume template for developers
+% Author : Nanu Panchamurthy
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+
+% Hope this resume template helps you land an awesome job. If you found this helpful, please consider starring the github repo here, .
+%-------------------------
+
+
+
+%------------PACKAGES----------------
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{verbatim} % reimplements the "verbatim" and "verbatim*" environments
+
+\usepackage{titlesec} % provides an interface to sectioning commands i.e. custom elements
+\usepackage{fontspec}
+
+\usepackage{wasysym}
+
+\usepackage{color} % provides both foreground and background color management
+\usepackage{xcolor}
+
+\usepackage{enumitem} % provides control over enumerate, itemize and description
+
+\usepackage{fancyhdr} % provides extensive facilities for constructing headers, footers and also controlling their use
+
+\usepackage{tabularx} % defines an environment tabularx, extension of "tabular" with an extra designator x, paragraph like column whose width automatically expands to fill the width of the environment
+
+\usepackage{latexsym} % provides mathematical symbols
+
+
+
+\usepackage{marvosym} % provides martin vogel's symbol font which contains various symbols
+
+\usepackage[empty]{fullpage} % sets margins to one inch and removes headers, footers etc..
+
+\usepackage[hidelinks]{hyperref} % removes color and shadow of hyperlinks
+
+\usepackage[normalem]{ulem} % provides "\ul" (uline) command which will break at line breaks
+
+\usepackage[english]{babel} % provides culturally determined typographical rules for wide range of languages
+%-----------------------------------------
+
+%----------FONT OPTIONS-------------------
+\usepackage[default]{sourcesanspro} % uses the font source sans pro
+\urlstyle{same} % changes url font from default urlfont to font being used by the document
+
+\newfontfamily{\headingfont}{AvenirLTProBook.otf}[
+    % Optional: Add font features like bold, italic, etc.
+    % BoldFont = YourOTFFontName-Bold.otf,
+    % ItalicFont = YourOTFFontName-Italic.otf,
+]
+
+
+%-----------------------------------------
+
+
+
+%----------MARGIN OPTIONS-----------------
+\pagestyle{fancy} % set page style to one configured by fancyhdr
+\fancyhf{} % clear all header and footer fields
+
+\renewcommand{\headrulewidth}{0in} % sets thickness of linerule under header to zero
+\renewcommand{\footrulewidth}{0in} % sets thickness of linerule over footer to zero
+\setlength{\parskip}{1em}
+
+% origin of the document is one inch from the top and from and the left
+% oddsidemargin and evensidemargin both refer to the left margin
+% right margin is indirectly set using oddsidemargin
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\topmargin}{-0.5in}
+
+\addtolength{\textwidth}{1.0in} % sets width of text area in the page to one inch
+\addtolength{\textheight}{1.0in} % sets height of text area in the page to one inch
+
+\raggedbottom{} % makes all pages the height of current page, no extra vertical space added
+\raggedright{} % makes all pages the width of current page, no extra horizontal space added
+%------------------------------------------
+
+
+%--------SECTIONING COMMANDS---------
+% \titleformat{<command>}
+%   [<shape>]{<format>}{<label>}{<sep>}
+%     {<before-code>}[<after-code>]
+
+% command is the sectioning command to be redefined
+% shape is the style of the font; scshape stands for small caps style
+% format is the format to be applied to whole title- label and text; absent here
+% label defines the label
+% sep is the horizontal separation between label and title body
+% before-code is the code to be executed before
+% after-code is the code to be executed after
+
+\titleformat{\section}
+{\large\bfseries}{}
+{0em}{\textcolor[HTML]{0619a7}}[\color{black}\titlerule\vspace{0pt}]
+%-------------------------------------
+
+
+
+%__________________RESUME____________________
+% You can rearrange sections in any order you may prefer
+\begin{document}
+	
+	
+	\hypersetup{
+		pdftitle={A well written resume},
+		pdfauthor={Babak Firoozi Fooladi},
+		pdfsubject={A brief description of my talents and skills.},
+		pdfkeywords={self-driven, motivated, data analyst, data scientist, domain expert, economics, data visualisation, graphic design}
+	}
+	
+	%-----------CONTACT DETAILS------------------
+	% Make sure all the details are correct, you can add more links in the first row of second column if needed
+	
+	\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+		\textbf{\Huge Babäk Firoozi Fooladi \vspace{2pt}} & % row = 1, col = 1
+		Location: Espoo, Uusimaa, Finland \\ % row = 1, col = 2
+	%	\href{https://babakfi.foo}{\uline{babakfi.foo}} $|$ % row = 2, col = 1
+		\href{https://www.linkedin.com/in/babak-firoozi-fooladi/}{\uline{LinkedIn}} $|$ % row = 2, col = 1
+		\href{https://github.com/Babakfifoo}{\uline{GitHub}} $|$ % row = 2, col = 1
+		\href{https://stackoverflow.com/users/5116559/babak-fi-foo}{\uline{StackOverFlow}} & % row = 2, col = 1
+		Email: \href{mailto:contact@babakfi.foo}{\uline{contact@babakfi.foo}} $|$ % row = 2, col = 2
+		Mobile: +358 46 521 2019 \\ % row = 2, col = 2
+	\end{tabular*}
+	%--------------------------------------------
+	
+	
+	%-----------SUMMARY--------------------------
+	% Keep this short, simple and straigth to point
+	
+	\section{Cover Letter}
+	
+	
+	
+	I am writing to express my interest in the Data Analyst position at Elisa. My ever-growing and adaptable problem-solving skills, coupled with a solid foundation in spatial data, econometrics, and data science, align well with the role's requirements. I have hands-on experience developing creative and analytical solutions, particularly data processing and visualisation.
+
+
+	The job requirements for experience with databases and data pipelines align with my skill-set and experience in taking ownership of projects and ensuring their successful completion with a service-minded attitude. I believe my strong visualisation skills and familiarity with graphic design and academic communication will be valuable to your team. Moreover, my self-driven nature and accountability in managing projects are qualities you have identified as essential for success.
+
+
+	I am eager to contribute to your projects and look forward to the opportunity to discuss my application further. I am available for an interview at your earliest convenience.
+
+
+	Sincerely yours,
+	
+	Babäk Firoozi Fooladi
+	
+	
+\end{document}
