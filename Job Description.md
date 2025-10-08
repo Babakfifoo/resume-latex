@@ -1,59 +1,57 @@
-Source: https://www.linkedin.com/jobs/search/?currentJobId=4310808788
+Source: https://duunitori.fi/tyopaikat/tyo/data-analyst-senior-data-analyst-sosri-19645400
+# Job description
+We are seeking a Data Analyst to transform raw data into meaningful insights via reporting and visualization, building robust dashboards, and partnering across Global Operations to support informed decision making.
 
-About the job
-Marimekko is a Finnish lifestyle design company renowned for its original prints and colors. The company's product portfolio includes high-quality clothing, bags and accessories as well as home décor items ranging from textiles to tableware. When Marimekko was founded in 1951, its unparalleled printed fabrics gave it a strong and unique identity. In 2024, the company's net sales totaled EUR 183 million and comparable operating profit margin was 17.5 percent. Globally, there are roughly 170 Marimekko stores, and online store serves customers in 39 countries. The key markets are Northern Europe, the Asia-Pacific region and North America. The Group employs about 480 people. The company's share is quoted on Nasdaq Helsinki Ltd. www.marimekko.com
+About your role
+As a Data Analyst, you will collect, clean, and organize data from multiple sources; build dashboards and reports using BI tools; and conduct descriptive and diagnostic analytics. You will collaborate closely with data engineers, data scientists, and business stakeholders to combine datasets and enable advanced analytics.
 
-We are looking for a talented and communicative professional with strong technical skills and a passion for helping business teams turn data into smarter decisions.
+The position is based in Turku or Espoo with a hybrid work model. The role is full-time and permanent. The business title of the role will be Data Analyst or Senior Data Analyst based on the experience of the candidate.
 
-ANALYTICS DEVELOPER 
+Your key responsibilities
 
-to join our dynamic Data and Insights team at Marimekko's Technology function at HQ in Helsinki. This is a full-time permanent position, in which you will report to Marimekko's Head of Data and Insights.
+Build reliable data foundations: manual extractions, preliminary cleaning, and assessment of data quality and usability.
 
-As an Analytics Developer with an engineering mindset, you will play a key role in strengthening our data-driven decision-making across the company. You will combine technical expertise with business acumen to deliver insights, build data products, and support strategic initiatives using modern data tools and reporting platforms. Your mission is to transform data into actionable business value by creating meaningful reporting, collaborating closely with business stakeholders, and supporting practical applications such as marketing data activation.
+Create dashboards and reports in BI tools (e.g., Power BI, SAP Analytics Cloud); conduct descriptive/diagnostic analytics to support decisions.
 
-We are looking for someone who is technically skilled and brings a proactive, structured, and goal-oriented approach in working — someone who takes ownership, follows through on tasks, and continuously looks for opportunities to improve and create value.
+Collaborate with data engineers, data scientists, and statisticians to combine datasets and enable advanced analytics.
 
-Your role will focus on ensuring high data quality, building efficient analytics pipelines, and delivering impactful reports and analyses — primarily using Snowflake and Power BI. In addition, you will contribute to initiatives where customer and commercial data are combined from multiple sources (e.g. CRM, e-commerce, store sales) and activated for marketing purposes — such as building audience lists for marketing platforms. You'll be part of a team that values trust, collaboration, and purposeful execution — working at the intersection of technology and commercial impact.
+Leverage cloud-based data platforms (Azure, AWS) and Databricks; participate in monitoring data access, processing, and analytics.
 
-Main responsibilities:
+Key stakeholders: Production, Quality, Supply Chain & Procurement, Operations Development project teams, Data Engineers, Data Scientists, Statisticians, and selected external partners.
 
-Data Engineering & Analytics
+Primary goals: Increase transparency and insight generation, reduce manual reporting, and strengthen KPI-driven decision making.
 
-Developing and maintaining robust data models and pipelines in Snowflake to ensure reliable, high-quality data for analysis and activation.
-Supporting business users in creating and using Power BI reports and dashboards, ensuring they can easily access insights that drive decision-making across functions.
-Identifying opportunities to automate data processes, improve reporting efficiency, and enhance data usability.
+What we offer
+At Orion, your work creates true impact and well-being for our customers, patients and society at large. Our culture of friendliness, respect, mutual appreciation and diversity creates a safe working environment where you can strive for excellence. We offer a wealth of career paths and development opportunities that support the development of innovative solutions and improving the quality of life.
 
-Business Insight, Data Activation & Collaboration
+Please visit our website to find further information about our values and Orion as an employer https://www.orion.fi/en/careers/orion-as-an-employer/ .
 
-Working closely with business owners and stakeholders, understanding their needs and translating them into data solutions.
-Supporting data activation use cases — for example, combining customer data across systems to create audience segments for marketing platforms or personalized campaigns.
-Providing actionable insights and recommendations based on data analysis to support business growth and operational excellence.
-Contributing to defining key metrics and ensuring consistency in reporting across teams.
-Applying knowledge of retail and marketing processes to ensure analyses and activations are relevant and impactful for commercial teams.
+Our expectations
 
-Continuous Improvement & AI Readiness
+Education: Bachelor's degree in Data Analytics, Information Systems, Statistics, Computer Science or similar (Master's preferred).
 
-Promoting best practices in data governance, quality, and documentation.
-Staying current with trends in analytics, data activation, and AI; proactively suggesting enhancements where appropriate.
-Collaborating with internal teams on initiatives that prepare us for future AI or machine learning use cases.
+Core skills: Proficiency in SQL, Python, Excel, and BI tools (e.g., Power BI, Tableau/SAC); experience in data analysis, reporting, and working with raw or unstructured data.
 
-To be successful in this role you should have:
+Tech environment: Familiarity with cloud platforms (Azure, AWS), Databricks; proficiency in orchestrating ETL/ELT workflows (e.g., ADF, Airflow).
 
-Relevant educational background, preferably a degree from in Engineering, Computer Science, Statistics, or a related technical field.
-Background in retail and/or marketing analytics is a strong advantage.
-Hands-on experience working with Snowflake or similar cloud data warehouse technologies.
-Strong skills in Power BI (or comparable BI tools) for reporting and visualization.
-Solid SQL knowledge; ability to design efficient queries and data transformations.
-Experience or understanding of data activation use cases — e.g. creating audience segments for marketing platforms by combining data from CRM, e-commerce, and other sources.
-Strong business understanding and ability to engage with non-technical stakeholders.
-Proactive and structured working style with a focus on delivering results and creating business value.
-Goal-oriented mindset with a pragmatic approach to problem solving.
-Interest and basic familiarity with AI/ML concepts and their potential business applications.
-Excellent communication skills, with the ability to present complex data in a clear and compelling way.
-Fluent in English; Finnish language skills are seen as an advantage
+Ways of working: Ability to translate insights into recommendations; strong stakeholder engagement skills with both business and technical stakeholders, attention to detail, and understanding of business processes/KPIs; experience with agile and fusion teams.
 
-At Marimekko we encourage people to be themselves and value diversity. We believe in fairness and doing things together, using common sense and finding joy in our work. If you connect with these values and have the right background, we might be able to offer you a unique opportunity to work in an exciting, international environment with one of the most iconic lifestyle brands.
+Desired working style: collaborative, analytical, proactive, and comfortable engaging in technical dialogue with data engineers and partnering with data scientists/statisticians.
 
-If all this sparks your interest and you feel like you are the one we are looking for, please send your application including your CV and cover letter with salary expectation via our career site at http://company.marimekko.com/careers by 10.10.. Please note that the applications will be reviewed and interviews conducted already during the application period as the goal is to fill the post as soon as possible when the appropriate candidate is found. We look forward to hearing from you soon!
+Fluent spoken and written Finnish and English
 
-For more information about the role, please contact Head of Data and Insights Antti Voutilainen by phone +358401321311 on 24.9. at 09 - 11 EET or on 26.9 at 09 - 11 EET.
+How to apply and additional information
+Please apply through our system and include your CV/Resume and cover letter. Application deadline: 26.10.2025. For questions, you are welcome to call Senior Manager, Kati Siren-Salokannel, on Thursday 9.10 and on Fridays 17.10 and 24.10 between 14:00 and 15:00.
+
+We typically review applications already during the application period and may start interviewing candidates before the application deadline. Therefore, we invite you to send your application as soon as possible.
+
+Approved medical examination which also includes drug testing is required prior to the employment. We will also carry out a security clearance prior to the employment for the selected person.
+
+Unit description
+Orion's Global Operations covers the entire pharmaceutical manufacturing process, from sourcing of raw materials to the manufacture of products, packaging and delivery to customers. We are also responsible for the industrialization of new products and product life cycle management.
+
+In Global Operations we have approximately 1,600 professionals working in Production, our external supplier network (Externally Sourced Operations) and Fermion Oy (API manufacturing and marketing). In addition, the organization includes Supply Chain & Procurement, Technical Operations, Facility Management, EHS (Environment, Health and Safety), CPD&LCM (Commercial Product Development & Product lifecycle management) and Operations Development.
+
+Operational Development is a team of approximately 25 professionals responsible for project-based improvement initiatives and the development and utilization of data and artificial intelligence capabilities in a global operating environment. The goal of our work is to reduce manual work, improve operational control, and enable deeper insights to support decision-making.
+
+Based on the principles of Lean Six Sigma and business process management, we focus on developing operational practices, culture, and production environments to strengthen productivity and cost-efficiency. We actively promote best practices and scalable models that support continual improvement and change management. We combine analytical thinking, change management, and a strong service attitude. We value curiosity, the courage to challenge the status quo, and the ability to build bridges between different functions.
