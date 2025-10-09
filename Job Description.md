@@ -1,57 +1,68 @@
-Source: https://duunitori.fi/tyopaikat/tyo/data-analyst-senior-data-analyst-sosri-19645400
-# Job description
-We are seeking a Data Analyst to transform raw data into meaningful insights via reporting and visualization, building robust dashboards, and partnering across Global Operations to support informed decision making.
+Source: <https://duunitori.fi/tyopaikat/tyo/data-engineer-swsar-19661349>
 
-About your role
-As a Data Analyst, you will collect, clean, and organize data from multiple sources; build dashboards and reports using BI tools; and conduct descriptive and diagnostic analytics. You will collaborate closely with data engineers, data scientists, and business stakeholders to combine datasets and enable advanced analytics.
+# Data Engineer
 
-The position is based in Turku or Espoo with a hybrid work model. The role is full-time and permanent. The business title of the role will be Data Analyst or Senior Data Analyst based on the experience of the candidate.
+Wärtsilä is an innovative technology company known for being a forerunner in the Marine and Energy markets. Every day, we – Wärtsilians - put our hearts and minds into turning Wärtsilä's purpose of enabling sustainable societies through innovation in technology and services into reality. Our ultimate aim is to provide increased value to both our customers and society. New, game-changing ideas and continuous improvement have been part of our DNA since 1834. Together, we can create new business opportunities and more sustainable future that we can all be proud of.
 
-Your key responsibilities
+We want to transition the world towards a decarbonised and sustainable future. By pushing the boundaries of engineering and technology, we can make it work. We are always on the lookout for future-oriented talent – want to join the ride?
 
-Build reliable data foundations: manual extractions, preliminary cleaning, and assessment of data quality and usability.
+We are always on the lookout for a talent with a growth mindset – are you the one?  
+  
+We are looking for a Data Engineer with a main responsibility in fitting and maintaining our data-driven vessel models, optimizing vessel operations. The preferred location for this position is Helsinki, Finland. We offer a possibility to hybrid remote work.
 
-Create dashboards and reports in BI tools (e.g., Power BI, SAP Analytics Cloud); conduct descriptive/diagnostic analytics to support decisions.
+Your role and responsibilities:
 
-Collaborate with data engineers, data scientists, and statisticians to combine datasets and enable advanced analytics.
+As a Data Engineer your work will include:
 
-Leverage cloud-based data platforms (Azure, AWS) and Databricks; participate in monitoring data access, processing, and analytics.
+Configuring, validating and deploying statistical models developed by Voyage data scientists
+Debugging and solving production service issues
+Improving our automatic data processing machinery
 
-Key stakeholders: Production, Quality, Supply Chain & Procurement, Operations Development project teams, Data Engineers, Data Scientists, Statisticians, and selected external partners.
+You would be doing this work as a part of a team that consists of software and data engineers, and owns various services written mainly in Python. In addition to the listed main responsibilities, you can also focus on other aspects of the team’s work based on your individual skills and interests.
 
-Primary goals: Increase transparency and insight generation, reduce manual reporting, and strengthen KPI-driven decision making.
+Requirements for the position:
 
-What we offer
-At Orion, your work creates true impact and well-being for our customers, patients and society at large. Our culture of friendliness, respect, mutual appreciation and diversity creates a safe working environment where you can strive for excellence. We offer a wealth of career paths and development opportunities that support the development of innovative solutions and improving the quality of life.
+An analytical mindset and good problem-solving skills
+The ability to learn a set of in-house developed tools and techniques
+Basic knowledge of statistical models and the Python programming language
+Good command of both written and spoken English
 
-Please visit our website to find further information about our values and Orion as an employer https://www.orion.fi/en/careers/orion-as-an-employer/ .
+We consider it as a plus if you:
 
-Our expectations
+Are skilled in
+Dealing with time-series data
+Scientific Python ecosystem
+Data pipelines
+Data monitoring
+Understand the maritime business
+Are familiar with some part of maritime technology
+Are an open-source contributor
+  
+Why you and us?
+  
+You will be valued as your true self. We are a mature and diverse team and appreciate the different viewpoints our colleagues can bring to our work. Wärtsilä as a company is committed to diversity and supporting an inclusive work community.
 
-Education: Bachelor's degree in Data Analytics, Information Systems, Statistics, Computer Science or similar (Master's preferred).
+Most of our team members have a developer or engineer background and our hobbies and interests
+include games of all sorts, books, climbing, circus, cooking, and, of course, sailing. If you enjoy any these as well, you should fit in just right! And in case you have experiences and interests to add to the list, even better!
 
-Core skills: Proficiency in SQL, Python, Excel, and BI tools (e.g., Power BI, Tableau/SAC); experience in data analysis, reporting, and working with raw or unstructured data.
+You get to make a difference. We use data every day to decarbonize. Innovation and sustainability are important for us. Every day, we - Wärtsilians - put our hearts and minds into enabling sustainable societies through innovation in technology and services, materializing the company purpose.
+  
+Contact & next steps:  
+  
+Please submit your application before the application deadline of 22.10.2025 through our Careers portal. Applications through email will not be considered. After submitting your application, you will receive a confirmation email.
 
-Tech environment: Familiarity with cloud platforms (Azure, AWS), Databricks; proficiency in orchestrating ETL/ELT workflows (e.g., ADF, Airflow).
+In case of any questions regarding the position, reach out to:
 
-Ways of working: Ability to translate insights into recommendations; strong stakeholder engagement skills with both business and technical stakeholders, attention to detail, and understanding of business processes/KPIs; experience with agile and fusion teams.
+Joris Agtmaal
+Lead Data Science
+<joris.vanagtmaal@wartsila.com>
 
-Desired working style: collaborative, analytical, proactive, and comfortable engaging in technical dialogue with data engineers and partnering with data scientists/statisticians.
+Last application date: 22/10/2025
 
-Fluent spoken and written Finnish and English
+At Wärtsilä we value, respect and embrace all our differences, and are committed to diversity, inclusion and equal employment opportunities; everyone can be their true self and succeed based on their job-relevant merits and abilities.
 
-How to apply and additional information
-Please apply through our system and include your CV/Resume and cover letter. Application deadline: 26.10.2025. For questions, you are welcome to call Senior Manager, Kati Siren-Salokannel, on Thursday 9.10 and on Fridays 17.10 and 24.10 between 14:00 and 15:00.
+Please note that according to Wärtsilä policy, voluntary consent for a security check may be required from candidates being considered for this position, depending on the applicable country.
 
-We typically review applications already during the application period and may start interviewing candidates before the application deadline. Therefore, we invite you to send your application as soon as possible.
+This is Wärtsilä
 
-Approved medical examination which also includes drug testing is required prior to the employment. We will also carry out a security clearance prior to the employment for the selected person.
-
-Unit description
-Orion's Global Operations covers the entire pharmaceutical manufacturing process, from sourcing of raw materials to the manufacture of products, packaging and delivery to customers. We are also responsible for the industrialization of new products and product life cycle management.
-
-In Global Operations we have approximately 1,600 professionals working in Production, our external supplier network (Externally Sourced Operations) and Fermion Oy (API manufacturing and marketing). In addition, the organization includes Supply Chain & Procurement, Technical Operations, Facility Management, EHS (Environment, Health and Safety), CPD&LCM (Commercial Product Development & Product lifecycle management) and Operations Development.
-
-Operational Development is a team of approximately 25 professionals responsible for project-based improvement initiatives and the development and utilization of data and artificial intelligence capabilities in a global operating environment. The goal of our work is to reduce manual work, improve operational control, and enable deeper insights to support decision-making.
-
-Based on the principles of Lean Six Sigma and business process management, we focus on developing operational practices, culture, and production environments to strengthen productivity and cost-efficiency. We actively promote best practices and scalable models that support continual improvement and change management. We combine analytical thinking, change management, and a strong service attitude. We value curiosity, the courage to challenge the status quo, and the ability to build bridges between different functions.
+Wärtsilä is a global leader in innovative technologies and lifecycle solutions for the marine and energy markets. Our team of 18,300 professionals, in more than 230 locations in 77 countries, shape the decarbonisation transformation of our industries across the globe. Read more on <www.wartsila.com>.
