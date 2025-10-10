@@ -1,68 +1,42 @@
-Source: <https://duunitori.fi/tyopaikat/tyo/data-engineer-swsar-19661349>
+Source: <https://www.linkedin.com/jobs/search/?currentJobId=4312596959>
 
-# Data Engineer
+# About the job
 
-Wärtsilä is an innovative technology company known for being a forerunner in the Marine and Energy markets. Every day, we – Wärtsilians - put our hearts and minds into turning Wärtsilä's purpose of enabling sustainable societies through innovation in technology and services into reality. Our ultimate aim is to provide increased value to both our customers and society. New, game-changing ideas and continuous improvement have been part of our DNA since 1834. Together, we can create new business opportunities and more sustainable future that we can all be proud of.
+KONE is a global leader in the elevator and escalator industry: our job is to make the world’s cities better places to live. At KONE, our mission is to improve the flow of urban life. As a global leader in the elevator and escalator industry, KONE provides elevators, escalators, and automatic building doors, as well as solutions for maintenance and modernization, which add value to the life cycle of any building.
 
-We want to transition the world towards a decarbonised and sustainable future. By pushing the boundaries of engineering and technology, we can make it work. We are always on the lookout for future-oriented talent – want to join the ride?
+The Strategy and Transformation unit is responsible for driving KONE’s long-term success by identifying the right strategic priorities, ensuring a common direction and bringing the strategy to life together with KONE’s areas and other functions. Strategy & Transformation develops our strategy and operating model (KONE Way) and is responsible for driving large strategic transformations such as Business Platform Renewal.
 
-We are always on the lookout for a talent with a growth mindset – are you the one?  
-  
-We are looking for a Data Engineer with a main responsibility in fitting and maintaining our data-driven vessel models, optimizing vessel operations. The preferred location for this position is Helsinki, Finland. We offer a possibility to hybrid remote work.
+KONE Strategy Development & Market Intelligence is a motivated team of professionals with backgrounds typically in working with strategy, management consulting and investment banking. We work with KONE’s most important and challenging strategic questions, supporting the Executive Board with analyses and insights, and shaping KONE’s strategic projects with our business leaders.
 
-Your role and responsibilities:
+## We are now looking for
 
-As a Data Engineer your work will include:
+two Interns
 
-Configuring, validating and deploying statistical models developed by Voyage data scientists
-Debugging and solving production service issues
-Improving our automatic data processing machinery
+to join KONE Strategy & Transformation' unit.
 
-You would be doing this work as a part of a team that consists of software and data engineers, and owns various services written mainly in Python. In addition to the listed main responsibilities, you can also focus on other aspects of the team’s work based on your individual skills and interests.
+In your role as a Business Analyst Intern, you get to be a full member of the team and contribute to strategic projects by conducting analyses, presenting insights, and engaging with key stakeholders. One of the interns will work in the KONE Strategy Development & Market Intelligence team and one in the Transformation and Global Process & Data -teams.
 
-Requirements for the position:
+Recent internship projects have focused on market due diligence for our New Building Solutions business, as well as pricing analysis and competitor benchmarking.
 
-An analytical mindset and good problem-solving skills
-The ability to learn a set of in-house developed tools and techniques
-Basic knowledge of statistical models and the Python programming language
-Good command of both written and spoken English
+Requirements for the role:
 
-We consider it as a plus if you:
+University studies in a relevant field – finance, business, engineering or similar
+In 3rd year of studies or higher, with good academic performance
+Some experience from similar type of work e.g., consulting, private equity, or banking
+Strong problem-solving and logical reasoning skills
+Strong communication skills, with a strong command of PowerPoint and Excel. Proficiency in data analysis environments such as Python, Databricks, Power BI, and Celonis is considered an advantage
+Knowledge of using AI agents preferred
+Ability to work both independently with a proactive attitude, and as a team member with excellent collaboration skills
+Fluency in English is required.
 
-Are skilled in
-Dealing with time-series data
-Scientific Python ecosystem
-Data pipelines
-Data monitoring
-Understand the maritime business
-Are familiar with some part of maritime technology
-Are an open-source contributor
-  
-Why you and us?
-  
-You will be valued as your true self. We are a mature and diverse team and appreciate the different viewpoints our colleagues can bring to our work. Wärtsilä as a company is committed to diversity and supporting an inclusive work community.
+This is a full-time internship, lasting 3-4 months. We are looking for 2 candidates to join us for the summer 2026 starting in May, but the exact timing of the internship is negotiable depending on your studies and our project situation. The primary location for this position is in our headquarters in Espoo, Finland, the other main location – in Stockholm is negotiable.
 
-Most of our team members have a developer or engineer background and our hobbies and interests
-include games of all sorts, books, climbing, circus, cooking, and, of course, sailing. If you enjoy any these as well, you should fit in just right! And in case you have experiences and interests to add to the list, even better!
+To apply, please send your CV, cover letter, and transcript of study records latest on the 25th of October 2025 via our Careers site. Please note that applications sent by email or otherwise outside KONE’s application portal will not be processed. Please also indicate your preferred starting time and duration for the internship.
 
-You get to make a difference. We use data every day to decarbonize. Innovation and sustainability are important for us. Every day, we - Wärtsilians - put our hearts and minds into enabling sustainable societies through innovation in technology and services, materializing the company purpose.
-  
-Contact & next steps:  
-  
-Please submit your application before the application deadline of 22.10.2025 through our Careers portal. Applications through email will not be considered. After submitting your application, you will receive a confirmation email.
+The recruitment process consists of video and personal interviews (incl. a business case). We will contact all the candidates as soon as possible after the application period has ended and attempt to make the final decisions latest by the end October.
 
-In case of any questions regarding the position, reach out to:
+For additional information about the position and the process, please contact Joni Talja +358 40 159 1380.
 
-Joris Agtmaal
-Lead Data Science
-<joris.vanagtmaal@wartsila.com>
+We look forward to learning more about you!
 
-Last application date: 22/10/2025
-
-At Wärtsilä we value, respect and embrace all our differences, and are committed to diversity, inclusion and equal employment opportunities; everyone can be their true self and succeed based on their job-relevant merits and abilities.
-
-Please note that according to Wärtsilä policy, voluntary consent for a security check may be required from candidates being considered for this position, depending on the applicable country.
-
-This is Wärtsilä
-
-Wärtsilä is a global leader in innovative technologies and lifecycle solutions for the marine and energy markets. Our team of 18,300 professionals, in more than 230 locations in 77 countries, shape the decarbonisation transformation of our industries across the globe. Read more on <www.wartsila.com>.
+At KONE, we are focused on creating an innovative and collaborative working culture where we value the contribution of each individual. Employee engagement is a key focus area for us and we encourage participation and the sharing of information and ideas. Sustainability is an integral part of our culture and the daily practice. We follow ethical business practices and we seek to develop a culture of working together where co-workers trust and respect each other and good performance is recognized. In being a great place to work, we are proud to offer a range of experiences and opportunities that will help you to achieve your career and personal goals and enable you to live a healthy and balanced life.
