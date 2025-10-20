@@ -1,52 +1,70 @@
-Source: <https://www.linkedin.com/jobs/view/4314065738>
+Source: https://www.linkedin.com/jobs/view/4295699481/?refId=9kFoHAnnS%2Bmxb5R3sR5t6g%3D%3D&trackingId=QT2X32%2BsQm63x%2Fv5PWasPw%3D%3D
 
 # About the job
 
-Quantify is growing rapidly, and we are now looking for a statistician, biostatistician or a quantitatively strong epidemiologist, economist, or other corresponding degrees, to join our international team as a Research Analyst, with start immediately (taking into account any applicable notice period).
+Bring your data analytics and data mining skills to a unique team seeking to understand and shape the future of marketing technology. We are interested in technology adoption patterns, the respect of visitors' data and the use of open source in marketing. We are also interested in those marketing data analysts who are curious enough to embrace new technologies and are ready to work with unfamiliar tools, if needed.
 
-For this particular position, we are looking for someone with a strong background in statistics and programming (preferably R), through university courses, thesis work and/or additional work experience. You should be familiar with data management and running statistical analyses, and be interested in deepening your knowledge in epidemiological and health economic study design.
+The role of a Junior Data Engineer at Canonical
 
-To thrive at Quantify as a consultant, you have to be a flexible team player with strong communication skills, and strive to meet the needs of your clients, in addition to believing in our mission to improve health care for patients worldwide.
+Canonical has provided developers with open source since 2004, helping them build innovations such as public cloud, machine learning, robotics or blockchain. Marketing at Canonical means being at the forefront of innovation, for our customers and for our own martech stack. We’re on the look out for a marketing data analyst to join our team and execute on our growth hacking strategy.
 
-## The Role
+The ideal candidate will be passionate about technology, technology marketing and the use of technology in marketing. You will prefer to work in an environment that has emphasis on ownership of campaigns, collaboration, learning, curiosity and a drive to continually improve oneself / the team / the organisation. You will also love to problem solve, get hands-on, experiment, measure and use automation to make daily life easier.
 
-As a Research Analyst, you will be part of a diverse team responsible for the design and execution of various projects within Health Economics and Outcomes Research (HEOR). Examples of day-to-day activities include:
+The Marketing team at Canonical drives commercial outcomes for the company across its portfolio of products and grows the addressable market through digital marketing campaigns, lifecycle management, events, partnerships and community development. If these things are important to you and you're motivated by driving data engineering, delighting customers and filling the sales funnel, we want to talk with you.
 
-Investigate data availability and quality in different Nordic databases
-Participate in the development of study protocols and statistical analysis plans
-Access and retrieve real-world data
-Develop code for data management and analysis in R or Stata
-Perform quality control of statistical code
-Prepare study reports and academic publications
-Communicate the results to internal or external teams
+This role sits in the Marketing team reporting to the Growth Engineering Manager.
 
-While independent, solutions-oriented work will be required from the start, you will be supported by experienced team members and mentors who will help guide your work and support your professional development.
+Location: This role will be based remotely in the EMEA region.
 
-## Your Qualifications
+What your day will look like
 
-Master’s degree in statistics, epidemiology, economics, engineering, mathematical statistics, biostatistics, or another discipline with strong quantitative focus.
-Demonstrated skills, including solid hands-on experience, with statistics, statistical programming and/or data management in Stata or R, is a requirement
-A valid and current Finnish work permit is mandatory
-Driven and curious with an independent, solutions-oriented “hands-on” mentality
-Ability to work effectively both independently and as part of a team, on multiple projects simultaneously
-Excellent communication skills (verbal and written) in English and Finnish.
-Prior evidence of academic publications is a merit
-Previous work experience from consultancy or health care sector is a merit
+Utilise advanced data analytics to grow Canonical’s product adoption and market penetration
+Design and conduct experiments with data, visualisation and insights into Canonical’s target audiences
+Build a marketing data stack based on open source, and integrate it with our data mesh
+Collaborate with stakeholder teams (Product Management, Engineering, Information Systems, Finance, RevOps, etc) to improve the data and tool ecosystem
+Put in place and maintain systems to ensure teams across the company have self-service access to data dashboards
 
-## Quantify's offer:
+What we are looking for in you?
 
-We are an expert consultancy in health economics and outcomes research with Nordic roots and values. We create evidence to support the value of pharmaceutical products across many disease areas, through three internal business units; Real-world Evidence & Analytics (this position); Modelling, Access & Strategy; Evidence Review & Synthesis. Quantify is proud to work with medical innovators across the globe to improve patient lives.
+Background in data science, mathematics, actuarial science, or engineering
+Up to 1 year of experience in data analytics
+Knowledge in advanced statistics, data sciences, coding/scripting languages (Python, JS, etc), and databases (SQL, etc)
+Strength in data visualisation tools (Looker Studio, Tableau, Apache Superset, etc)
+Ability to translate business questions to key research objectives
+Ability to identify the best methodology to execute research, synthesise and analyse findings
+Excellent writing and communication skills
+Willingness to examine the status quo and resilient in the face of challenges
 
-We provide a workplace where you can develop your skills and knowledge in a fast-paced, high-impact environment. There are many opportunities for leadership, personal growth, and involvement in exciting initiatives. Through your work, you will play a key role in helping patients access life changing medicines in a variety of disease areas.
+What we offer you
 
-This position will be based at our Finnish office and we offer all staff the opportunity of a hybrid workplace model, where you can mix in-office and remote work to enjoy more autonomy and a better work-life balance.
+Your base pay will depend on various factors including your geographical location, level of experience, knowledge and skills. In addition to the benefits above, certain roles are also eligible for additional benefits and rewards including annual bonuses and sales incentives based on revenue or utilisation. Our compensation philosophy is to ensure equity right across our global workforce.
 
-## Application
+In addition to a competitive base pay, we provide all team members with additional benefits, which reflect our values and ideals. Please note that additional benefits may apply depending on the work location and, for more information on these, you can ask in the later stages of the recruitment process.
 
-The deadline for submitting your application is 30 October 2025. Please submit your application as soon as possible since we will review the applications on an on-going basis and the position might be filled before the end of the application period.
+🏠Fully remote working environment - we’ve been working remotely since 2004!
 
-Contact information
+📚Personal learning and development budget of 2,000 USD per annum
 
-If you have any specific questions about the role, please contact Ville Perälä, Country Manager, <ville.perala@quantifyresearch.com>.
+💰Annual compensation review
 
-See curated AI tools for your job search
+🏆Recognition rewards
+
+🏝 Annual holiday leave
+
+👶Parental Leave
+
+🧑‍💼Employee Assistance Programme
+
+🧳Opportunity to travel to new locations to meet colleagues at ‘sprints’
+
+✈️Priority Pass for travel and travel upgrades for long haul company events
+
+About Canonical
+
+Canonical is a pioneering tech firm that is at the forefront of the global move to open source. As the company that publishes Ubuntu, one of the most important open source projects and the platform for AI, IoT and the cloud, we are changing the world on a daily basis. We recruit on a global basis and set a very high standard for people joining the company. We expect excellence - in order to succeed, we need to be the best at what we do.
+
+Canonical has been a remote-first company since its inception in 2004. Work at Canonical is a step into the future, and will challenge you to think differently, work smarter, learn new skills, and raise your game. Canonical provides a unique window into the world of 21st-century digital business.
+
+Canonical is an equal opportunity employer
+
+We are proud to foster a workplace free from discrimination. Diversity of experience, perspectives, and background create a better work environment and better products. Whatever your identity, we will give your application fair consideration.
