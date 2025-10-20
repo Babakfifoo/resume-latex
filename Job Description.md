@@ -1,42 +1,52 @@
-Source: <https://www.linkedin.com/jobs/search/?currentJobId=4312596959>
+Source: <https://www.linkedin.com/jobs/view/4314065738>
 
 # About the job
 
-KONE is a global leader in the elevator and escalator industry: our job is to make the world’s cities better places to live. At KONE, our mission is to improve the flow of urban life. As a global leader in the elevator and escalator industry, KONE provides elevators, escalators, and automatic building doors, as well as solutions for maintenance and modernization, which add value to the life cycle of any building.
+Quantify is growing rapidly, and we are now looking for a statistician, biostatistician or a quantitatively strong epidemiologist, economist, or other corresponding degrees, to join our international team as a Research Analyst, with start immediately (taking into account any applicable notice period).
 
-The Strategy and Transformation unit is responsible for driving KONE’s long-term success by identifying the right strategic priorities, ensuring a common direction and bringing the strategy to life together with KONE’s areas and other functions. Strategy & Transformation develops our strategy and operating model (KONE Way) and is responsible for driving large strategic transformations such as Business Platform Renewal.
+For this particular position, we are looking for someone with a strong background in statistics and programming (preferably R), through university courses, thesis work and/or additional work experience. You should be familiar with data management and running statistical analyses, and be interested in deepening your knowledge in epidemiological and health economic study design.
 
-KONE Strategy Development & Market Intelligence is a motivated team of professionals with backgrounds typically in working with strategy, management consulting and investment banking. We work with KONE’s most important and challenging strategic questions, supporting the Executive Board with analyses and insights, and shaping KONE’s strategic projects with our business leaders.
+To thrive at Quantify as a consultant, you have to be a flexible team player with strong communication skills, and strive to meet the needs of your clients, in addition to believing in our mission to improve health care for patients worldwide.
 
-## We are now looking for
+## The Role
 
-two Interns
+As a Research Analyst, you will be part of a diverse team responsible for the design and execution of various projects within Health Economics and Outcomes Research (HEOR). Examples of day-to-day activities include:
 
-to join KONE Strategy & Transformation' unit.
+Investigate data availability and quality in different Nordic databases
+Participate in the development of study protocols and statistical analysis plans
+Access and retrieve real-world data
+Develop code for data management and analysis in R or Stata
+Perform quality control of statistical code
+Prepare study reports and academic publications
+Communicate the results to internal or external teams
 
-In your role as a Business Analyst Intern, you get to be a full member of the team and contribute to strategic projects by conducting analyses, presenting insights, and engaging with key stakeholders. One of the interns will work in the KONE Strategy Development & Market Intelligence team and one in the Transformation and Global Process & Data -teams.
+While independent, solutions-oriented work will be required from the start, you will be supported by experienced team members and mentors who will help guide your work and support your professional development.
 
-Recent internship projects have focused on market due diligence for our New Building Solutions business, as well as pricing analysis and competitor benchmarking.
+## Your Qualifications
 
-Requirements for the role:
+Master’s degree in statistics, epidemiology, economics, engineering, mathematical statistics, biostatistics, or another discipline with strong quantitative focus.
+Demonstrated skills, including solid hands-on experience, with statistics, statistical programming and/or data management in Stata or R, is a requirement
+A valid and current Finnish work permit is mandatory
+Driven and curious with an independent, solutions-oriented “hands-on” mentality
+Ability to work effectively both independently and as part of a team, on multiple projects simultaneously
+Excellent communication skills (verbal and written) in English and Finnish.
+Prior evidence of academic publications is a merit
+Previous work experience from consultancy or health care sector is a merit
 
-University studies in a relevant field – finance, business, engineering or similar
-In 3rd year of studies or higher, with good academic performance
-Some experience from similar type of work e.g., consulting, private equity, or banking
-Strong problem-solving and logical reasoning skills
-Strong communication skills, with a strong command of PowerPoint and Excel. Proficiency in data analysis environments such as Python, Databricks, Power BI, and Celonis is considered an advantage
-Knowledge of using AI agents preferred
-Ability to work both independently with a proactive attitude, and as a team member with excellent collaboration skills
-Fluency in English is required.
+## Quantify's offer:
 
-This is a full-time internship, lasting 3-4 months. We are looking for 2 candidates to join us for the summer 2026 starting in May, but the exact timing of the internship is negotiable depending on your studies and our project situation. The primary location for this position is in our headquarters in Espoo, Finland, the other main location – in Stockholm is negotiable.
+We are an expert consultancy in health economics and outcomes research with Nordic roots and values. We create evidence to support the value of pharmaceutical products across many disease areas, through three internal business units; Real-world Evidence & Analytics (this position); Modelling, Access & Strategy; Evidence Review & Synthesis. Quantify is proud to work with medical innovators across the globe to improve patient lives.
 
-To apply, please send your CV, cover letter, and transcript of study records latest on the 25th of October 2025 via our Careers site. Please note that applications sent by email or otherwise outside KONE’s application portal will not be processed. Please also indicate your preferred starting time and duration for the internship.
+We provide a workplace where you can develop your skills and knowledge in a fast-paced, high-impact environment. There are many opportunities for leadership, personal growth, and involvement in exciting initiatives. Through your work, you will play a key role in helping patients access life changing medicines in a variety of disease areas.
 
-The recruitment process consists of video and personal interviews (incl. a business case). We will contact all the candidates as soon as possible after the application period has ended and attempt to make the final decisions latest by the end October.
+This position will be based at our Finnish office and we offer all staff the opportunity of a hybrid workplace model, where you can mix in-office and remote work to enjoy more autonomy and a better work-life balance.
 
-For additional information about the position and the process, please contact Joni Talja +358 40 159 1380.
+## Application
 
-We look forward to learning more about you!
+The deadline for submitting your application is 30 October 2025. Please submit your application as soon as possible since we will review the applications on an on-going basis and the position might be filled before the end of the application period.
 
-At KONE, we are focused on creating an innovative and collaborative working culture where we value the contribution of each individual. Employee engagement is a key focus area for us and we encourage participation and the sharing of information and ideas. Sustainability is an integral part of our culture and the daily practice. We follow ethical business practices and we seek to develop a culture of working together where co-workers trust and respect each other and good performance is recognized. In being a great place to work, we are proud to offer a range of experiences and opportunities that will help you to achieve your career and personal goals and enable you to live a healthy and balanced life.
+Contact information
+
+If you have any specific questions about the role, please contact Ville Perälä, Country Manager, <ville.perala@quantifyresearch.com>.
+
+See curated AI tools for your job search
