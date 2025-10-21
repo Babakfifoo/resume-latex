@@ -1,70 +1,60 @@
-Source: https://www.linkedin.com/jobs/view/4295699481/?refId=9kFoHAnnS%2Bmxb5R3sR5t6g%3D%3D&trackingId=QT2X32%2BsQm63x%2Fv5PWasPw%3D%3D
+Source: <https://www.linkedin.com/jobs/search/?currentJobId=4317053959>
 
 # About the job
 
-Bring your data analytics and data mining skills to a unique team seeking to understand and shape the future of marketing technology. We are interested in technology adoption patterns, the respect of visitors' data and the use of open source in marketing. We are also interested in those marketing data analysts who are curious enough to embrace new technologies and are ready to work with unfamiliar tools, if needed.
+Type: Full-time
 
-The role of a Junior Data Engineer at Canonical
+Location: Kalasatama, Helsinki, Finland
 
-Canonical has provided developers with open source since 2004, helping them build innovations such as public cloud, machine learning, robotics or blockchain. Marketing at Canonical means being at the forefront of innovation, for our customers and for our own martech stack. We’re on the look out for a marketing data analyst to join our team and execute on our growth hacking strategy.
+Application DL: 2.11.2025
 
-The ideal candidate will be passionate about technology, technology marketing and the use of technology in marketing. You will prefer to work in an environment that has emphasis on ownership of campaigns, collaboration, learning, curiosity and a drive to continually improve oneself / the team / the organisation. You will also love to problem solve, get hands-on, experiment, measure and use automation to make daily life easier.
+Are you a Geopolitical Analyst looking for an exciting opportunity to make an impact in a fast-growing tech startup? Join us in building cutting-edge solutions to help global companies understand geopolitical risks!
 
-The Marketing team at Canonical drives commercial outcomes for the company across its portfolio of products and grows the addressable market through digital marketing campaigns, lifecycle management, events, partnerships and community development. If these things are important to you and you're motivated by driving data engineering, delighting customers and filling the sales funnel, we want to talk with you.
+What will you be doing?
 
-This role sits in the Marketing team reporting to the Growth Engineering Manager.
+As a Geopolitical Analyst, you will play a key role in our growing analysis team, providing deep insights into global geopolitical risks and their business implications. Your primary responsibility will be to monitor, analyze, and interpret geopolitical changes across various regions and translate these complex scenarios into business understanding for clients. You will help organizations make strategic decisions in an unpredictable world.
 
-Location: This role will be based remotely in the EMEA region.
+In addition to producing analyses and reports, you will also contribute to shaping our SaaS platform. Working closely with the product development team, you will help ensure that technology evolves to meet the needs of effective geopolitical risk management. This is a rare opportunity to work at the intersection of technology and geopolitics!
 
-What your day will look like
+What kind of person thrives in this role?
 
-Utilise advanced data analytics to grow Canonical’s product adoption and market penetration
-Design and conduct experiments with data, visualisation and insights into Canonical’s target audiences
-Build a marketing data stack based on open source, and integrate it with our data mesh
-Collaborate with stakeholder teams (Product Management, Engineering, Information Systems, Finance, RevOps, etc) to improve the data and tool ecosystem
-Put in place and maintain systems to ensure teams across the company have self-service access to data dashboards
+We are looking for a skilled analyst with expertise in geopolitical analysis and structured analytics techniques, who thrives in a fast-paced startup environment. You are a proactive and adaptable professional who thrives on making a meaningful impact, even in the face of uncertainty and change. You enjoy contributing to the growth of your team and organization.
 
-What we are looking for in you?
+We require you to have:
 
-Background in data science, mathematics, actuarial science, or engineering
-Up to 1 year of experience in data analytics
-Knowledge in advanced statistics, data sciences, coding/scripting languages (Python, JS, etc), and databases (SQL, etc)
-Strength in data visualisation tools (Looker Studio, Tableau, Apache Superset, etc)
-Ability to translate business questions to key research objectives
-Ability to identify the best methodology to execute research, synthesise and analyse findings
-Excellent writing and communication skills
-Willingness to examine the status quo and resilient in the face of challenges
+Experience in geopolitical analysis
+Understanding of structured analytic techniques
+Ability to analyze diverse geopolitical developments and connect them to business impacts
+Willingness to work within a startup environment
+Full working proficiency in English
 
-What we offer you
+ We consider as an asset:
 
-Your base pay will depend on various factors including your geographical location, level of experience, knowledge and skills. In addition to the benefits above, certain roles are also eligible for additional benefits and rewards including annual bonuses and sales incentives based on revenue or utilisation. Our compensation philosophy is to ensure equity right across our global workforce.
+Relevant educational background (e.g. international politics, social sciences)
+Experience with data analysis tools (e.g. R, Python) or business intelligence software
+Knowledge of SaaS tools or technology-driven platforms
 
-In addition to a competitive base pay, we provide all team members with additional benefits, which reflect our values and ideals. Please note that additional benefits may apply depending on the work location and, for more information on these, you can ask in the later stages of the recruitment process.
+We can offer you:
 
-🏠Fully remote working environment - we’ve been working remotely since 2004!
+Meaningful work at the intersection of geopolitics, business, and technology
+A unique opportunity to be part of a fast-growing tech startup with a groundbreaking product
+Professional growth opportunities
+Opportunity to make an impact, see the results of your work, and receive recognition for your achievements
+A collaborative environment where you work alongside and learn from talented and driven colleagues
+The possibility to participate in our employee stock option program and grow together with the company
 
-📚Personal learning and development budget of 2,000 USD per annum
+Practicalities:
 
-💰Annual compensation review
+This is a full-time position. You will be employed directly by Clock & Cloud. The preferred starting date is as soon as possible, but no later than January 2026 if needed. The position is based in Finland, and the office is located in Kalasatama, Helsinki. They operate with a flexible hybrid model, requiring one day per week to be spent at the office. Salary in this position is 4000-4500€/month (gross) depending on the level of your experience, and will be negotiated individually.
 
-🏆Recognition rewards
+Sounds like you?
 
-🏝 Annual holiday leave
+Please submit your CV and motivation letter in PDF-format by the latest 2.11.2025 via our application system here: <https://emp.jobylon.com/applications/jobs/317380/create/>. We will review applications on a rolling basis throughout the application period. Remember to use the application system, we do not accept applications by email.
 
-👶Parental Leave
+You can familiarize yourself with Clock & Cloud here: <https://www.clockcloud.ai/>. For more information about the recruitment process contact aTalent Recruitment & HR Consultant Laura Seppä (0405579389, laura.seppa[at]atalent.fi). If I’m unable to answer your call right away, please leave a text message and I’ll get back to you as soon as possible.
 
-🧑‍💼Employee Assistance Programme
+Company description:
 
-🧳Opportunity to travel to new locations to meet colleagues at ‘sprints’
+The world is changing, and geopolitics now dictates the evolution of the business environment. Our mission is driven by the conviction that for any global business, proactive and integrated geopolitical understanding is a necessity for success.
 
-✈️Priority Pass for travel and travel upgrades for long haul company events
-
-About Canonical
-
-Canonical is a pioneering tech firm that is at the forefront of the global move to open source. As the company that publishes Ubuntu, one of the most important open source projects and the platform for AI, IoT and the cloud, we are changing the world on a daily basis. We recruit on a global basis and set a very high standard for people joining the company. We expect excellence - in order to succeed, we need to be the best at what we do.
-
-Canonical has been a remote-first company since its inception in 2004. Work at Canonical is a step into the future, and will challenge you to think differently, work smarter, learn new skills, and raise your game. Canonical provides a unique window into the world of 21st-century digital business.
-
-Canonical is an equal opportunity employer
-
-We are proud to foster a workplace free from discrimination. Diversity of experience, perspectives, and background create a better work environment and better products. Whatever your identity, we will give your application fair consideration.
+Here at Clock & Cloud, we are focused on platformizing geopolitical intelligence, transforming it from a fragmented, manual process into a structured, collaborative, and enterprise-wide capability. We are building a collaborative platform that allows an entire organization to develop a shared, proactive understanding of the external environment and its business impact.
