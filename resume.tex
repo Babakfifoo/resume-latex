@@ -97,7 +97,7 @@
 
 \titleformat{\section}
 {\large\bfseries}{}
-{0em}{\textcolor[HTML]{33a34e}}[\color{black}\titlerule\vspace{0pt}]
+{0em}{\textcolor[HTML]{54bfa0}}[\color{black}\titlerule\vspace{0pt}]
 %-------------------------------------
 
 
@@ -163,7 +163,10 @@
 \newcommand{\resumeHeadingListStart}{
 	\begin{itemize}[leftmargin=0.15in, label={}]
 	}
-	\newcommand{\resumeHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeHeadingListEnd}{\end{itemize}}
+
+% This is the command for making the scores machine readable.
+\newcommand{\whiteScore}[1]{\textcolor{white}{\tiny #1}}
 %-------------------------------------------
 
 
@@ -200,7 +203,7 @@
 	
 	\section{Data Analytics Engineer $|$ Data Scientist}
 	\small{
-		Service-minded data scientist and Ph.D. Candidate with extensive experience in designing, optimizing, and deploying complex data models and solutions. My expertise includes Data analysis, data transformation (ETL/ELT), extracting structured data using RAG, and performing econometric, machine learning and statistical modeling. I have successfully engineered efficient data pipelines, optimized SQL queries, resolved technical debt, and improved performance through migration and optimisation of the data models. I am proficient in Python, R, and SQL with experience of creating data visualizations and deriving forecasts and inference through interprating the results of statistical and ML models.
+		Service-minded data scientist and Ph.D. Candidate with extensive experience in designing, optimizing, and deploying complex data models and solutions. My expertise includes Data analysis, data transformation (ETL/ELT), Large Language Models (LLM, NLP, RAG, CAG), and performing econometric, machine learning and statistical modeling. I have successfully engineered efficient data pipelines, optimized SQL queries, resolved technical debt, and improved performance through migration and optimisation of the data models. I am proficient in Python, R, and SQL with experience of creating data visualizations and deriving forecasts and inference through interprating the results of statistical and ML models.
 	}
 	%--------------------------------------------
 	
@@ -209,34 +212,34 @@
 %--------------Technical Skills
 	\section{Technical Skills}
 		\begin{tabular*}{\textwidth}{r@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}l}
-			\textbf{Python:} & $\CIRCLE \CIRCLE \CIRCLE \Circle \Circle$ & &
-			\textbf{R:} & $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \Circle$ & &
-			\textbf{Julia:} & $\CIRCLE \CIRCLE \Circle \Circle \Circle$ & &
-			\textbf{STATA:} & $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \Circle$ & &
+			\textbf{Python:}\whiteScore{3/5,} & $\CIRCLE \CIRCLE \CIRCLE  $ & &
+			\textbf{R:}\whiteScore{4/5,} & $\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ & &
+			\textbf{Julia:}\whiteScore{2/5,} & $\CIRCLE \CIRCLE   $ & &
+			\textbf{STATA:}\whiteScore{4/5,} & $\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ & &
 			\\ 
 			
-			\textbf{AZURE:} & $\CIRCLE \CIRCLE \Circle \Circle \Circle$ & &
-			\textbf{Econometric:} & $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \Circle$ & &
-			\textbf{Data Viz.:} & $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ & &
-			\textbf{Spatial data:} & $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ & &
+			\textbf{AZURE:}\whiteScore{2/5,}& $\CIRCLE \CIRCLE   $ & &
+			\textbf{Econometric:}\whiteScore{4/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ & &
+			\textbf{Data Viz.:}\whiteScore{5/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ & &
+			\textbf{Spatial data:}\whiteScore{5/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ & &
 			\\ 
 			
-			\textbf{PostgreSQL:} & $\CIRCLE \CIRCLE \CIRCLE \Circle \Circle$ & &
-			\textbf{SQLite:} & $\CIRCLE \CIRCLE \CIRCLE \Circle \Circle$ & &
-			\textbf{DuckDB:} & $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \Circle$ & &
-			\textbf{MongoDB:} & $\CIRCLE \CIRCLE \Circle \Circle \Circle$ & &
+			\textbf{PostgreSQL:}\whiteScore{3/5,}& $\CIRCLE \CIRCLE \CIRCLE  $  & &
+			\textbf{SQLite:}\whiteScore{3/5,}& $\CIRCLE \CIRCLE \CIRCLE  $ & &
+			\textbf{DuckDB:}\whiteScore{4/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ & &
+			\textbf{MongoDB:}\whiteScore{2/5,}& $\CIRCLE \CIRCLE   $ & &
 			\\ 
 			
-			\textbf{ETL/ELT:} & $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \Circle$ & &
-			\textbf{PowerBI:} & $\CIRCLE \CIRCLE \Circle \Circle \Circle$ & &
-			\textbf{SQL:} & $\CIRCLE \CIRCLE \CIRCLE \Circle \Circle$ & &
-			\textbf{Excel:} & $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \Circle$ & &
+			\textbf{ETL/ELT:}\whiteScore{4/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ & &
+			\textbf{PowerBI:}\whiteScore{2/5,}& $\CIRCLE \CIRCLE   $ & &
+			\textbf{SQL:}\whiteScore{3/5,}& $\CIRCLE \CIRCLE \CIRCLE  $ & &
+			\textbf{Excel:}\whiteScore{4/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ & &
 			\\ 
 
-			\textbf{RAG:} & $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ & &
-			\textbf{Data Analysis:} & $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \Circle$ & &
-			\textbf{Feature Extraction:} & $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \Circle$ & &
-			\textbf{Vector Database:} & $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ & &
+			\textbf{RAG:}\whiteScore{5/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ & &
+			\textbf{LLM/NLP:}\whiteScore{4/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ & &
+			\textbf{Feature Extraction:}\whiteScore{4/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ & &
+			\textbf{Vector Database:}\whiteScore{5/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ & &
 			\\ 
 
 		\end{tabular*}
@@ -246,16 +249,16 @@
 	%--------------SOFT SKILLS
 	\section{Soft Skills}
 	\begin{tabular*}{\textwidth}{r@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}l}
-		\textbf{Team work:} & $\CIRCLE \CIRCLE \CIRCLE \Circle \Circle$ & &
-		\textbf{Self-organised} & $\CIRCLE \CIRCLE \CIRCLE \Circle \Circle$ & &
-		\textbf{Project management} & $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \Circle$ 
+		\textbf{Team work:}\whiteScore{3/5,}& $\CIRCLE \CIRCLE \CIRCLE  $ & &
+		\textbf{Self-organised:}\whiteScore{3/5,}& $\CIRCLE \CIRCLE \CIRCLE  $ & &
+		\textbf{Project management:}\whiteScore{4/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ 
 		\\
-		\textbf{Accounting:} & $\CIRCLE \CIRCLE \Circle \Circle \Circle$ & &
-		\textbf{Quality control:} & $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \Circle$ & &
-		\textbf{Visual communication:} & $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ 
+		\textbf{Accounting:}\whiteScore{2/5,}& $\CIRCLE \CIRCLE   $ & &
+		\textbf{Quality control:}\whiteScore{4/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ & &
+		\textbf{Visual communication:}\whiteScore{5/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ 
 		\\
-		\textbf{Quantiative research:} & $\CIRCLE \CIRCLE \Circle \Circle \Circle$ & &
-		\textbf{Prompt engineering:} & $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \Circle$ & &
+		\textbf{Quantiative research:}\whiteScore{2/5,}& $\CIRCLE \CIRCLE   $ & &
+		\textbf{Prompt engineering:}\whiteScore{4/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ & &
 		& 
 		\\
 
@@ -406,21 +409,21 @@
 
 	\section{Machine Learning $|$ Statistical models $|$ Econometrics}
 	\begin{tabular*}{\textwidth}{r@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}l}
-		\textbf{Uni-variate time-series:} & $\CIRCLE \CIRCLE \CIRCLE \Circle \Circle$ & &
-		\textbf{VAR time-series:} & $\CIRCLE \CIRCLE \CIRCLE \Circle \Circle$ & &
-		\textbf{Co-integration time-series:} & $\CIRCLE \CIRCLE \Circle \Circle \Circle$ 
+		\textbf{Uni-variate time-series:}\whiteScore{3/5,}& $\CIRCLE \CIRCLE \CIRCLE  $ & &
+		\textbf{VAR time-series:}\whiteScore{3/5,}& $\CIRCLE \CIRCLE \CIRCLE  $ & &
+		\textbf{Co-integration time-series:}\whiteScore{2/5,}& $\CIRCLE \CIRCLE   $ & &
 		\\
-		\textbf{multi-variate time-series:} & $\CIRCLE \CIRCLE \CIRCLE \Circle \Circle$ & &
-		\textbf{OLS:} & $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ & &
-		\textbf{IV-OLS:} & $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \Circle$ 
+		\textbf{multi-variate time-series:}\whiteScore{3/5,}& $\CIRCLE \CIRCLE \CIRCLE  $ & &
+		\textbf{OLS:}\whiteScore{5/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ & &
+		\textbf{IV-OLS:}\whiteScore{4/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ & &
 		\\
-		\textbf{Panel data:} & $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \Circle$ & &
-		\textbf{Generalised Method of Moments:} & $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \Circle$ & &
-		\textbf{Generalised linear models:} & $\CIRCLE \CIRCLE \Circle \Circle \Circle$ 
+		\textbf{Panel data:}\whiteScore{4/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ & &
+		\textbf{Generalised Method of Moments:}\whiteScore{4/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ & &
+		\textbf{Generalised linear models:}\whiteScore{2/5,}& $\CIRCLE \CIRCLE   $ & &
 		\\
-		\textbf{Spatial econometrics:} & $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \Circle$ & &
-		\textbf{Survival/time-to-event:} & $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ & &
-		\textbf{Additive hazard models:} & $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ 
+		\textbf{Spatial econometrics:}\whiteScore{4/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ & &
+		\textbf{Survival/time-to-event:}\whiteScore{5/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ & &
+		\textbf{Additive hazard models:}\whiteScore{5/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ & &
 		\\
 
 	\end{tabular*}
@@ -436,5 +439,8 @@
 
 	\resumeItemListEnd{}
 	%--------------------------------------------
-	
+
+	\vfill
+ \textit {Disclaimer: This resume is designed with \LaTeX, and contains white text for the skill ratings to increase the accuracy of automated scanning and processing. The white text represents the truth and does not present any additional information that is not included in the visible text.}
+
 \end{document}
