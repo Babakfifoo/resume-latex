@@ -1,74 +1,58 @@
 Source: <https://duunitori.fi/tyopaikat/tyo/data-scientist-llmml-focus-scsom-19708202>
 
-# Job description
+# About the job
 
-As a Data Scientist in our Data & AI organization, you will contribute to building AI-powered features and capabilities within Basware's SaaS products.Working as part of the Basware-wide Data Science Center of Excellence (CoE), you will support and lead both Large Language Model (LLM) and traditional Machine Learning projects. This role combines hands-on technical work with collaborative problem-solving, requiring you to help transform experimental proof of concepts into production-ready solutions.
+Join Our Team as a Warehouse Operator
 
-Key Responsibilities
-• LLM Development & Implementation: Work on LLM projects using modern frameworks, implementing prompt engineering strategies, fine-tuning techniques, and production-ready solutions
-• Proof of Concepts: Design and execute proof of concepts for new AI functionality, evaluating feasibility and performance
-• ML Opportunity Discovery: Help identify new machine learning opportunities across the organization, translating business challenges into technical solutions
-• Productization Support: Support LLM/ML projects from experimentation through to production deployment
-• Cross-functional Collaboration: Work with engineering, product, and business teams to deliver impactful AI solutions
-• Best Practices: Contribute to best practices for LLM/ML monitoring, evaluation, and safety, including implementation of guardrails
+Ready to be at the heart of operations — making sure every part and process flows exactly where it should?
 
-Required Qualifications
-• LLM Experience: Practical experience with Large Language Model projects, including:
+At Beneq, you’ll play a hands-on role ensuring that our operations stay efficient and reliable. As part of the Purchasing & Materials Management team you’ll collaborate closely with Sourcing, Purchasing, Manufacturing, and Life Cycle Services to make sure every component gets where it needs to be—safely, accurately, and on time.
 
-oPrompt engineering and optimization techniques
+This fixed-term position, starting as soon as possible and lasting until the end of August 2026, is a great opportunity for someone who’s proactive, eager to learn, and ready to take initiative in a hands-on logistics environment.
 
-oFine-tuning methodologies (LoRA, QLoRA, full fine-tuning, RLHF, etc.)
+Your Role and Responsibilities
 
-oLLM evaluation and monitoring approaches
+As our Warehouse Operator, you will:
+Handle and inspect incoming and outgoing shipments, ensuring quality and accuracy.
+Pick and prepare parts for manufacturing and internal deliveries.
+Maintain warehouse organization (5S) and inventory accuracy in SAP and other systems.
+Support shipping and logistics operations, including packing, labelling, and coordination with logistics partners.
+Operate warehouse equipment (such as forklifts) safely and efficiently.
+Join continuous improvement projects related to warehouse management and material flow.
 
-oImplementation of safety guardrails and content filtering
+What We’re Looking For
 
-oFamiliarity with modern LLM frameworks (e.g., LangChain, LlamaIndex, Hugging Face)
+We’re seeking someone who’s organized, proactive, and thrives in a hands-on, fast-paced environment. You’ll fit right in if you enjoy variety in your work and take pride in getting things right the first time. In our compact and collaborative warehouse team, you’ll take part in a wide range of tasks and gain a broad understanding of factory logistics from end to end. Every day brings something new - no two days are ever the same.
 
-oAgentic experience or understanding of how agents work
-• ML Foundation: Good understanding and practical experience with core machine learning algorithms including clustering, classification, regression, anomaly detection, and optimization techniques across various data scales
-• Project Lifecycle Experience: Ability to work on the complete lifecycle of LLM/ML projects from conception through deployment, maintenance, and optimization
-• Data Science Methodology: Solid grasp of the data science workflow including experimental design, hypothesis testing, and statistical methods with strong communication skills for explaining complex technical concepts
-• Technical Proficiency: Strong programming skills (Python required) and experience with LLM/ML frameworks and libraries
+Must-haves
 
-Preferred Qualifications
-• Experience with cloud platforms, particularly AWS
-• Hands-on experience with Databricks or similar big data platforms
-• Familiarity with MLOps practices and tools
-• Experience with vector databases and retrieval-augmented generation (RAG) systems
-• Experience deploying ML models to production environments
-• Experience with model monitoring and observability tools
-• Contributions to open-source LLM/ML projects
+Basic skills in Microsoft Office (Outlook, Teams, Excel)
+Willingness to learn SAP and warehouse management tools
+Motivation and readiness for physical warehouse work
+Good teamwork and communication skills - English is our working language
+A positive attitude and flexibility to adapt when priorities change
 
-What We're Looking For
-• Someone who can contribute to LLM initiatives from concept to production
-• A collaborative team member who works well within the Data Science CoE
-• Strong communication skills to work across technical and business teams
+Strong pluses
 
-Curiosity and eagerness to explore new AI technologies and methodologies
+Forklift license or previous forklift experience
+Familiarity with manufacturing or industrial environments
 
-Why Basware?
+Why You’ll Love It Here
 
-We're a purpose-driven company with a global footprint and a collaborative culture. At Basware, you'll work with passionate professionals, cutting-edge technology, and a shared commitment to innovation and excellence.
+You’ll make a real impact on how smoothly Beneq’s operations run every day.
+You’ll be part of a supportive, collaborative team that values learning, improvement, and ownership.
+You’ll have the chance to develop your skills, contribute ideas, and help shape better warehouse practices for the future.
+Discover what it’s like to work with us - explore our culture and people
+Learn more about Beneq by watching a greeting from our CEO
 
-In addition, we offer
-Competitive salary and company incentive program
-Lunch and recreational benefits, transferable to dental care or massages
-Occupational and mental health services
-Hobby clubs and gym
-Free on-site parking, also for electric cars
-Bicycle or subsidized commuter ticket benefit
-Employee awards and team social events
-Good learning opportunities, e.g. LinkedIn Learning license
+Contract & Working Time
 
-...and more!
+Fixed-term position starting as soon as possible and lasting until the end of August 2026, supporting our Warehouse Team during a temporary workforce need.
+Weekdays (Monday–Friday), daytime
+Flexible working hours within the day shift
 
-Ready to make an impact?
+Apply Now
 
-If you're excited by the challenge, apply now and help shape the future of Basware.
+Send your application via the link by November 19th. We will begin reviewing applications during the application period and may start interviews before the deadline — so we encourage you to apply as soon as possible.
 
-Please submit your resume and cover letter by clicking the 'I'm interested' link.
-
-Our recruitment process will include pre-employment actions such as an enhanced background screening by a third party and reference checks.
-
-Basware. Now it all just happens.
+For more information about the position, please contact Antti-Pekka Airaksinen, Supply Chain Manager Manager, by phone at +358 41 5497 920 on November 7th, from 10:00 to 11:00 (EET), or on November 11th, from 14:00 to 15:00 (EET), or on November 14th, from 10:00 to 11:00 (EET).
