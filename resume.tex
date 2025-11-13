@@ -95,9 +95,11 @@
 % before-code is the code to be executed before
 % after-code is the code to be executed after
 
+\definecolor{accent}{HTML}{2f61ff}
+
 \titleformat{\section}
 {\large\bfseries}{}
-{0em}{\textcolor[HTML]{1f324c}}[\color{black}\titlerule\vspace{0pt}]
+{0em}{\textcolor{accent}}[\color{black}\titlerule\vspace{0pt}]
 %-------------------------------------
 
 
@@ -166,7 +168,7 @@
 \newcommand{\resumeHeadingListEnd}{\end{itemize}}
 
 % This is the command for making the scores machine readable.
-\newcommand{\whiteScore}[1]{\textcolor{white}{\tiny #1}}
+\newcommand{\WS}[1]{\textcolor{white}{\tiny #1}}
 %-------------------------------------------
 
 
@@ -212,35 +214,35 @@
 %--------------Technical Skills
 	\section{Technical Skills}
 		\begin{tabular*}{\textwidth}{r@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}l}
-			\textbf{Python:}\whiteScore{3/5,} & $\CIRCLE \CIRCLE \CIRCLE  $ & &
-			\textbf{R:}\whiteScore{4/5,} & $\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ & &
-			\textbf{Julia:}\whiteScore{2/5,} & $\CIRCLE \CIRCLE   $ & &
-			\textbf{STATA:}\whiteScore{4/5,} & $\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ & &
+			\textbf{Python:} 						& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE  $ }\WS{3/5,}& &
+			\textbf{R:}									& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }\WS{4/5,} & &
+			\textbf{Julia:} 						& \textcolor{accent}{$\CIRCLE \CIRCLE   $ }\WS{2/5,}& &
+			\textbf{STATA:} 						& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }\WS{4/5,}& &
 			\\ 
 			
-			\textbf{AZURE:}\whiteScore{2/5,}& $\CIRCLE \CIRCLE   $ & &
-			\textbf{Econometric:}\whiteScore{4/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ & &
-			\textbf{Data Viz.:}\whiteScore{5/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ & &
-			\textbf{Spatial data:}\whiteScore{5/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ & &
+			\textbf{AZURE:}							& \textcolor{accent}{$\CIRCLE \CIRCLE   $ }\WS{2/5,}& &
+			\textbf{Econometric:}				& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }\WS{4/5,}& &
+			\textbf{Data Viz.:}					& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ }\WS{5/5,}& &
+			\textbf{Spatial data:}			& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ }& &
 			\\ 
 			
-			% \textbf{PostgreSQL:}\whiteScore{3/5,}& $\CIRCLE \CIRCLE \CIRCLE  $  & &
-			% \textbf{SQLite:}\whiteScore{3/5,}& $\CIRCLE \CIRCLE \CIRCLE  $ & &
-			% \textbf{DuckDB:}\whiteScore{4/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ & &
-			% \textbf{MongoDB:}\whiteScore{2/5,}& $\CIRCLE \CIRCLE   $ & &
-			% \\ 
+			\textbf{PostgreSQL:}				& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE  $ }\WS{3/5,}& &
+			\textbf{SQLite:}						& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE  $ }\WS{3/5,}& &
+			\textbf{DuckDB:}						& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }\WS{4/5,}& &
+			\textbf{MongoDB:}						& \textcolor{accent}{$\CIRCLE \CIRCLE   $ }\WS{2/5,}& &
+			\\ 
 			
-			\textbf{ETL/ELT:}\whiteScore{4/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ & &
-			\textbf{PowerBI:}\whiteScore{2/5,}& $\CIRCLE \CIRCLE   $ & &
-			\textbf{SQL:}\whiteScore{3/5,}& $\CIRCLE \CIRCLE \CIRCLE  $ & &
-			\textbf{Excel:}\whiteScore{4/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ & &
+			\textbf{ETL/ELT:}						& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }\WS{4/5,}& &
+			\textbf{PowerBI:}						& \textcolor{accent}{$\CIRCLE \CIRCLE   $ }\WS{2/5,}& &
+			\textbf{SQL:}								& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE  $ }\WS{3/5,}& &
+			\textbf{Excel:}							& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }\WS{4/5,}& &
 			\\ 
 
-			% \textbf{RAG:}\whiteScore{5/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ & &
-			% \textbf{LLM/NLP:}\whiteScore{4/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ & &
-			% \textbf{Feature Extraction:}\whiteScore{4/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ & &
-			% \textbf{AI Agents:}\whiteScore{5/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ & &
-			% \\ 
+			\textbf{RAG:}								& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ }\WS{5/5,}& &
+			\textbf{LLM/NLP:}						& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }\WS{4/5,}& &
+			\textbf{Feature Extraction:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }\WS{4/5,}& &
+			\textbf{AI Agents:}					& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ }\WS{5/5,}& &
+			\\ 
 
 		\end{tabular*}
 
@@ -249,16 +251,16 @@
 	%--------------SOFT SKILLS
 	\section{Soft Skills}
 	\begin{tabular*}{\textwidth}{r@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}l}
-		\textbf{Team work:}\whiteScore{3/5,}& $\CIRCLE \CIRCLE \CIRCLE  $ & &
-		\textbf{Self-organised:}\whiteScore{3/5,}& $\CIRCLE \CIRCLE \CIRCLE  $ & &
-		\textbf{Project management:}\whiteScore{4/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ 
+		\textbf{Team work:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE  $} \WS{3/5,}& &
+		\textbf{Self-organised:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE  $}\WS{3/5,} & &
+		\textbf{Project management:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $}\WS{4/5,} 
 		\\
-		\textbf{Accounting:}\whiteScore{2/5,}& $\CIRCLE \CIRCLE   $ & &
-		\textbf{Quality control:}\whiteScore{4/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ & &
-		\textbf{Visual communication:}\whiteScore{5/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ 
+		\textbf{Accounting:}& \textcolor{accent}{$\CIRCLE \CIRCLE   $}\WS{2/5,} & &
+		\textbf{Quality control:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $}\WS{4/5,} & &
+		\textbf{Visual communication:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$} \WS{5/5,}
 		\\
-		\textbf{Quantiative research:}\whiteScore{4/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ & &
-		\textbf{Prompt engineering:}\whiteScore{4/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ & &
+		\textbf{Quantiative research:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $}\WS{4/5,} & &
+		\textbf{Prompt engineering:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $}\WS{4/5,} & &
 		& 
 		\\
 
@@ -296,7 +298,7 @@
 	% \resumeItem{Conducting research on housing development and housing market.}
 	% \resumeItem{performing econometrics, hedonic regression and statistical analysis on property markets, real estate and housing develoipment.}
 	% \resumeItem{Deploying and maintaining \textbf{AZURE functions} to store real estate data for research by scanning and scrapping websites for property advertisements.}
-	% \resumeItem{Designing data-pipelines for local AI to extract features from text and scrctured data.}
+	\resumeItem{Designing data-pipelines for local AI to extract features from text and scrctured data.}
 	\resumeItem{Providing IT service and assitance to my research team to resolve issues with their computers and software.}
 	\resumeItem{Applying Econometric, ML and data analysis for \textbf{quantitative research}.}
 	\resumeItem{Processing HTML and PDF files and implementing \textbf{RAG} to extract structured data from the land use plan documents.}
@@ -341,12 +343,12 @@
 	\resumeItemListEnd{}
 	\noindent\rule{0.5\linewidth}{0.4pt}
 
-	% \resumeQuadHeading{GIS Operator}{Aug 2015 -- May 2016}
-	% {University of Tehran}{Part-time, Tehran, Iran}
-	% \resumeItemListStart{}
-	% \resumeItem{Gathering, processing and preparing GIS data for urban designers to implement and test new directives for urban design in Tehran City}
-	% \resumeItemListEnd{}
-	% \noindent\rule{0.5\linewidth}{0.4pt}
+	\resumeQuadHeading{GIS Operator}{Aug 2015 -- May 2016}
+	{University of Tehran}{Part-time, Tehran, Iran}
+	\resumeItemListStart{}
+	\resumeItem{Gathering, processing and preparing GIS data for urban designers to implement and test new directives for urban design in Tehran City}
+	\resumeItemListEnd{}
+	\noindent\rule{0.5\linewidth}{0.4pt}
 
 	% \resumeQuadHeading{Chief Operating Officer}{Aug 2011 -- Aug 2018}
 	% {Airsa Dorsa Industries}{Full-time, Karaj, Iran}
@@ -414,26 +416,26 @@
 
 
 
-	% \section{Machine Learning $|$ Statistical models $|$ Econometrics}
-	% \begin{tabular*}{\textwidth}{r@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}l}
-	% 	\textbf{Uni-variate time-series:}\whiteScore{3/5,}& $\CIRCLE \CIRCLE \CIRCLE  $ & &
-	% 	\textbf{VAR time-series:}\whiteScore{3/5,}& $\CIRCLE \CIRCLE \CIRCLE  $ & &
-	% 	\textbf{Co-integration time-series:}\whiteScore{2/5,}& $\CIRCLE \CIRCLE   $ & &
-	% 	\\
-	% 	\textbf{multi-variate time-series:}\whiteScore{3/5,}& $\CIRCLE \CIRCLE \CIRCLE  $ & &
-	% 	\textbf{OLS:}\whiteScore{5/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ & &
-	% 	\textbf{IV-OLS:}\whiteScore{4/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ & &
-	% 	\\
-	% 	\textbf{Panel data:}\whiteScore{4/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ & &
-	% 	\textbf{Generalised Method of Moments:}\whiteScore{4/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ & &
-	% 	\textbf{Generalised linear models:}\whiteScore{2/5,}& $\CIRCLE \CIRCLE   $ & &
-	% 	\\
-	% 	\textbf{Spatial econometrics:}\whiteScore{4/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ & &
-	% 	\textbf{Survival/time-to-event:}\whiteScore{5/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ & &
-	% 	\textbf{Additive hazard models:}\whiteScore{5/5,}& $\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ & &
-	% 	\\
+	\section{Machine Learning $|$ Statistical models $|$ Econometrics}
+	\begin{tabular*}{\textwidth}{r@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}l}
+		\textbf{Uni-variate time-series:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE$} \WS{3/5,}& &
+		\textbf{VAR time-series:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE  $} \WS{3/5,}& &
+		\textbf{Co-integration time-series:}& \textcolor{accent}{$\CIRCLE \CIRCLE   $} \WS{2/5,}& &
+		\\
+		\textbf{multi-variate time-series:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE  $} \WS{3/5,}& &
+		\textbf{OLS:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$} \WS{5/5,}& &
+		\textbf{IV-OLS:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $} \WS{4/5,}& &
+		\\
+		\textbf{Panel data:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $} \WS{4/5,}& &
+		\textbf{Generalised Method of Moments:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $} \WS{4/5,}& &
+		\textbf{Generalised linear models:}& \textcolor{accent}{$\CIRCLE \CIRCLE $} \WS{2/5,}& &
+		\\
+		\textbf{Spatial econometrics:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $} \WS{4/5,}& &
+		\textbf{Survival/time-to-event:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$} \WS{5/5,}& &
+		\textbf{Additive hazard models:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$} \WS{5/5,}& &
+		\\
 
-	% \end{tabular*}
+	\end{tabular*}
 
 	%----------------OTHERS----------------------
 	% You can add your acheivements, accolades, certifications etc. here.
