@@ -1,60 +1,39 @@
-Source: <https://duunitori.fi/tyopaikat/tyo/operations-trainee-data-scientist-trainee-snsok-19752345/>
+Source: <https://www.linkedin.com/jobs/collections/recommended/?currentJobId=4336103318/>
 
-# Job description
-JOB DESCRIPTION
+# About the job
 
-Start date: Preferably in the start of January
-Duration: 6 months
+Want to gain hands-on experience in data-driven business transformation?
 
-MN RAN R&D A&S is responsible for development of Nokia Mobile Networks system requirements and architectures. We have over 800 people working globally in the area. OTQ team and its leader is reporting directly to head of MN RAN R&D A&S and we have team of 20 people globally. Our responsibility area covers all operational, transformation and quality topics for our unit.
+We are seeking a Trainee, Commercial Analytics to join Valmet’s Commercial Excellence team. In this role, you will be an active member of our team, supporting analytics initiatives and contributing to Valmet’s commercial transformation journey and customer success. This is an excellent opportunity to gain practical experience in analytics and commercial development in a truly international environment.
 
-Your role would be to work in operations area and partially maintain related scripting. Also, you would be owning our SharePoint and helping with daily operational tasks related to communications & IT related issues and event management. Also part of the role is developing AI solutions to automatize the tasks and also possibly contributing as an AI expert to R&D AI projects. Preferred location would be in Espoo, Finland.
+The preferred location for this position is Valmet’s Head office in Espoo, Finland. This is a full-time trainee role, starting in January 2026 and continuing until end of June 2026. You will report to the VP, Commercial Excellence.
 
-In the role you will get good exposure on how a global organization and it's operations function works and get experience on how to work in dynamic and energetic multicultural environment where everyday is different.
+Key Responsibilities
 
-RESPONSIBILITIES
+Work as an active member of the Commercial Excellence team, supporting analytics-related tasks and projects
+Assist in developing and delivering commercial analytics solutions that help improve business performance
+Contribute to preparing reports, dashboards, and insights for global stakeholders
+Collaborate with different functions and regions in a truly global environment
 
-SharePoint management: understand the organization and manage user permission
-Reporting and project management support: gather data for the generation monthly reports and follow up Jira ticket status on a weekly basis
-Other operations related tasks including communications, IT and training creation
-AI tool development in system engineering and operations tasks automation
+To Be Successful In This Position, You Will Need
 
+On-going master-level studies in Business Analytics, Data Science, Computer Science, Statistics, or a closely related field
+Keen interest in commercial analytics, sales development, and/or pricing analytics in a B2B industrial environment
+Previous work experience in analytics or related tasks is an advantage
+Strong Excel skills and some relevant experience with data analytics tools, e.g. Python, R, or SPSS
+Fluent in written and spoken English; other language skills are an advantage
+Good communication and teamwork skills
 
-QUALIFICATIONS
+We offer
 
-You have:
+At Valmet, you will work in a professional, energetic, and truly global environment alongside experts from diverse fields. This trainee role provides plenty of learning opportunities and a genuine chance to grow your skills while contributing to a purpose that truly matters. With a fresh strategy and operating model in place, you will be part of our change journey and have the opportunity to make an impact in shaping Valmet’s future.
 
-Basic knowledge on AI/ML
-Capability to maintain and develop Python related scripts
-Capability and willingness to learn and adapt to new tools and techniques in AI
-Basic knowledge on Microsoft 365 tools (Words, PowerPoint and Excel)
-Strong written and spoken English
-Strong interpersonal skills to interact with various stakeholders and maintain positive working relationships in international environment
+If you're ready to take the next step in your career, please submit your application with your CV and application letter by November 26, via the link provided.
 
-It would be nice if you also had:
+Valmet Finland is a non-smoking workplace.
 
-Vertex AI and agent technology competencies
-Skill in organizing events and managing logistics for activities
+When everything works together
 
+Valmet is where the best talent from a wide variety of backgrounds comes together. With over 19,000 professionals around the world, we are the leading global developer and supplier of technologies, automation and services for the pulp, paper and energy industries. Our commitment to moving our customers’ performance forward requires creativity, technological innovations, service know-how – and above all, teamwork.
 
-ABOUT US
-
-About Nokia
-
-Join us in creating the technology that helps the world act together.
-
-We are a B2B technology innovation leader, pioneering networks that sense, think and act™, putting the world's people, machines and devices in sync to create a more sustainable, productive and accessible future.
-
-Learn more about life at Nokia.
-
-About the Business Group
-
-Join Mobile Networks (MN) and help us become the trusted partner of choice for Communications Service Providers (CSPs), as well as for non-CSP entities in sectors like utilities, transportation, public services, and defense. Your work will contribute to delivering unbeatable customer experiences in wireless connectivity.
-
-Our recruitment process
-
-We act inclusively and respect the uniqueness of people. Our employment decisions are made regardless of race, color, national or ethnic origin, religion, gender, sexual orientation, gender identity or expression, age, marital status, disability, protected veteran status or other characteristics protected by law. We are committed to a culture of inclusion built upon our core value of respect.
-
-If you're interested in this role but don't meet every listed requirement, we still encourage you to apply. Unique backgrounds, perspectives, and experiences enrich our teams, and you may be just the right candidate for this or another opportunity.
-
-The length of the recruitment process may vary depending on the specific role's requirements. We strive to ensure a smooth and inclusive experience for all candidates. Discover more about the recruitment process at Nokia.
+Join the team! <www.valmet.com/careers>
