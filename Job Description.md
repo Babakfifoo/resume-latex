@@ -1,55 +1,43 @@
-Source: <https://www.linkedin.com/jobs/search/?currentJobId=4340802454/>
+Source: <https://duunitori.fi/tyopaikat/tyo/data-scientist-svsai-19761053/>
 
-# About your role
+# Job description
 
-We are looking for Project Experts to Digitalization projects in Information Management department at Orion Pharma. Your role as Project Expert contains all kinds of IT project related tasks and duties from solution evaluation against the business needs to verifying that the selected solution implementation has been done according to the design. In your role you have direct impact on building Orion's business capabilities, improving the productivity and ensuring the great user experience our future digital solutions aim to. 
+We are looking for an analytical and proactive Data Scientist to join our growing Vaisala Xweather team in Keilaniemi, Espoo. Xcast Sensors form the critical hardware foundation of our Xweather solutions, powered with hyperlocal, real-time weather and environmental data ( Xcast - Weather forecasting technology ). Deployed in diverse settings - from roads and cities to remote energy infrastructure - these sensors are essential to enabling new data-driven business models and driving actionable insights across industries.
 
-Your key responsibilities
+Vaisala itself is a global leader in measurement instruments and intelligence helping industries, nations, people, and the planet to thrive. From predicting hurricanes to optimizing renewable energy production, our technology is used where it matters the most - from data centers, windfarms and laboratories to airports, the Arctic and even the surface of Mars. Vaisala is recognized in TIME Magazine's World's Best Companies in Sustainable Growth 2025 study. Our team of over 2,400 experts and 59 nationalities around the world is committed to taking every measure for the planet. Driven by our shared purpose, curiosity, and pioneering spirit, we stay ahead and make a difference. At Vaisala, you don't have to fit in to belong.
 
-You will assist Digitalization IT projects of various sizes and types (including development, system, life cycle management, and IT infrastructure projects), in following areas:
-Document the requirements based on business demands and business process change needs
-Design the solution in co-operation with vendors and Orion experts to meet the business requirements
-You design and run tests that ensure that the designed digital solution is implemented according to both business needs and pharma quality standards
-You document yourself and ensure that the solution is adequately documented by vendors where applicable
-You will plan and execute projects daily activities based on project plan in co-operation with Project Manager
-You utilize project management tools efficiently in projects
-You promote and nurture project culture and We Can! Attitude and actively participate in networking with internal and external parties
-You will be part of Digitalization Portfolio Management Team and report to Director Digitalization Portfolio Management. Working model is hybrid and you can be located in Espoo or Turku offices. Positions are both full-time and permanent.
+Why join us?
 
-What we offer
+Drive real-world impact by applying machine learning to solve complex time-series and structured data challenges that support climate resilience and sustainability.
 
-We offer an interesting and challenging role in a multidisciplinary and international environment in the pharmaceutical industry, where you will work as a project expert for various IT projects. As a project expert, you will have the opportunity to influence the achievement of Orion's strategic goals and the implementation of Orion's mission through diverse IT projects. You will have the support of both Orion professionals and partners in the project team.
+Collaborate across disciplines with scientists, engineers, designers, and commercial experts to turn data into actionable insights in a fast-growing, purpose-driven product environment.
 
-At Orion Pharma, your work creates true impact and well-being for our customers, patients and society at large. ​ ​Our culture of friendliness, respect, mutual appreciation and diversity creates a safe working environment where you can strive for excellence. We offer a wealth of career paths and development opportunities that support the development of innovative solutions and improving the quality of life.
+Shape the future of data science at Xweather, where innovation meets mission-helping build smarter, safer solutions for a changing world.
 
-Please visit our website to find further information about our values and Orion as an employer https://www.orion.fi/en/careers/orion-as-an-employer/.
+What will you do?
 
-Our expectations
+As the Data Scientist, you will help in advancing our applied machine learning capabilities. You will focus on exploring and developing new features, testing a variety of modeling approaches, and supporting innovation in how we use supervised learning for complex time-series and structured data challenges. You will report to the Chief Science Officer.
 
-Relevant education, e.g. a technical degree or experience in IT work
-Competence in following:
-IT solution design
-Requirement management
-Data migration
-Business process understanding and process change management
-IT system testing
-IT project work
-IT systems training
-IT vendor co-operation
-Excellent teamwork and communication skills and ability to work with different people
-Curious and open minded and eager to learn
-Good problem-solving skills and the ability to work independently
-Fluent in English, both spoken and written, Finnish language considered as a plus
-How to apply and additional information
+Key Responsibilities:
 
-Are you interested in this opportunity? Apply through Orion's recruitment system by delivering your CV/Resume and your motivation letter by 30.11.2025.
+Design and test features for supervised learning models, including temporal and metadata inputs.
 
-For more information, please contact Matti Haario, Director Digitalization Portfolio Management, Tel. +358 10426 7544 on 24.11. between 9.00 -11.00 and 25.11. between 9.00 -11.00. 
+Experiment with a range of modeling techniques to evaluate performance.
 
-Preliminary interviews are planned for weeks 49 and 50 of 2025.
+Explore methods to support both deterministic and statistical approaches to prediction.
 
-We typically review applications already during the application period and may start interviewing candidates before the application deadline. Therefore, we invite you to send your application as soon as possible.
+Contribute to reproducible research practices, including consistent metrics and evaluation.
 
-#LI-ORION
+Collaborate with engineers to integrate promising approaches into larger workflows.
 
-Approved medical examination which also includes drug testing is required prior to the employment. We will also carry out a security clearance prior to the employment for the selected person.
+What will you bring:
+
+Hands-on experience with machine learning libraries (scikit-learn, XGBoost, PyTorch, TensorFlow, or similar).
+
+Strong skills in feature engineering for time-series or structured datasets.
+
+Familiarity with statistical and ensemble methods .
+
+Proficiency in Python, with strong analytical and data manipulation skills.
+
+Interest in working with large, real-world datasets.
