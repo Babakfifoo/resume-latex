@@ -35,6 +35,10 @@
 
 \usepackage{marvosym} % provides martin vogel's symbol font which contains various symbols
 
+% Image and drawing packages for circular profile photo in header
+\usepackage{graphicx}
+\usepackage{tikz}
+
 \usepackage[empty]{fullpage} % sets margins to one inch and removes headers, footers etc..
 
 \usepackage[hidelinks]{hyperref} % removes color and shadow of hyperlinks
@@ -60,8 +64,7 @@
 
 
 %----------MARGIN OPTIONS-----------------
-\pagestyle{fancy} % set page style to one configured by fancyhdr
-\fancyhf{} % clear all header and footer fields
+
 
 \renewcommand{\headrulewidth}{0in} % sets thickness of linerule under header to zero
 \renewcommand{\footrulewidth}{0in} % sets thickness of linerule over footer to zero
@@ -95,7 +98,7 @@
 % before-code is the code to be executed before
 % after-code is the code to be executed after
 
-\definecolor{accent}{HTML}{f78d00}
+\definecolor{accent}{HTML}{043E36}
 
 \titleformat{\section}
 {\large\bfseries}{}
@@ -117,54 +120,54 @@
 
 % resumeItem renders a bullet point
 \newcommand{\resumeItem}[1]{
-	\item\small{#1}
+  \item\small{#1}
 }
 
 % commands to start and end itemization of resumeItem, rightmargin set to 0.11in to avoid the overflow of resumetItem beyond whatever resumeItemHeading is being used
 \newcommand{\resumeItemListStart}{\begin{itemize}[rightmargin=0.11in]}
-	\newcommand{\resumeItemListEnd}{\end{itemize}}
+  \newcommand{\resumeItemListEnd}{\end{itemize}}
 
 % resumeSectionType renders a bolded type to be used under a section, used as skill type here, middle element is used to keep ":"s in the same vertical line
 \newcommand{\resumeSectionType}[3]{
-	\item\begin{tabular*}{0.96\textwidth}[t]{
-			p{0.15\linewidth}p{0.02\linewidth}p{0.81\linewidth}
-		}
-		\textbf{#1} & #2 & #3
-	\end{tabular*}\vspace{-2pt}
+  \item\begin{tabular*}{0.96\textwidth}[t]{
+      p{0.15\linewidth}p{0.02\linewidth}p{0.81\linewidth}
+    }
+    \textbf{#1} & #2 & #3
+  \end{tabular*}\vspace{-2pt}
 }
 
 % resumeTrioHeading renders three elements in three columns with second element being italicized and first element bolded, can be used for projects with three elements
 \newcommand{\resumeTrioHeading}[3]{
-	\item\small{
-		\begin{tabular*}{0.96\textwidth}[t]{
-				l@{\extracolsep{\fill}}c@{\extracolsep{\fill}}r
-			}
-			\textbf{#1} & \textit{#2} & #3
-		\end{tabular*}
-	}
+  \item\small{
+    \begin{tabular*}{0.96\textwidth}[t]{
+        l@{\extracolsep{\fill}}c@{\extracolsep{\fill}}r
+      }
+      \textbf{#1} & \textit{#2} & #3
+    \end{tabular*}
+  }
 }
 
 % resumeQuadHeading renders four elements in a two columns with the second row being italicized and first element of first row bolded, can be used for experience and projects with four elements
 \newcommand{\resumeQuadHeading}[4]{
-	\item
-	\begin{tabular*}{0.96\textwidth}[t]{l@{\extracolsep{\fill}}r}
-		\textbf{#1} & #2 \\
-		\textit{\small#3} & \textit{\small #4} \\
-	\end{tabular*}
+  \item
+  \begin{tabular*}{0.96\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & #2 \\
+    \textit{\small#3} & \textit{\small #4} \\
+  \end{tabular*}
 }
 
 % resumeQuadHeadingChild renders the second row of resumeQuadHeading, can be used for experience if different roles in the same company need to added
 \newcommand{\resumeQuadHeadingChild}[2]{
-	\item
-	\begin{tabular*}{0.96\textwidth}[t]{l@{\extracolsep{\fill}}r}
-		\textbf{\small#1} & {\small#2} \\
-	\end{tabular*}
+  \item
+  \begin{tabular*}{0.96\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{\small#1} & {\small#2} \\
+  \end{tabular*}
 }
 
 % commands to start and end itemization of resumeQuadHeading, lefmargin for left indent of 0.15in for resumeItems
 \newcommand{\resumeHeadingListStart}{
-	\begin{itemize}[leftmargin=0.15in, label={}]
-	}
+  \begin{itemize}[leftmargin=0.15in, label={}]
+  }
 \newcommand{\resumeHeadingListEnd}{\end{itemize}}
 
 % This is the command for making the scores machine readable.
@@ -175,284 +178,321 @@
 %__________________RESUME____________________
 % You can rearrange sections in any order you may prefer
 \begin{document}
+  
+  
+  \hypersetup{
+    pdftitle={A well written resume},
+    pdfauthor={Babak Firoozi Fooladi},
+    pdfsubject={A brief description of my talents and skills.},
+    pdfkeywords={self-driven, motivated, data analyst, data scientist, domain expert, economics, data visualisation, graphic design, machine learning}
+  }
+
 	
-	
-	\hypersetup{
-		pdftitle={A well written resume},
-		pdfauthor={Babak Firoozi Fooladi},
-		pdfsubject={A brief description of my talents and skills.},
-		pdfkeywords={self-driven, motivated, data analyst, data scientist, domain expert, economics, data visualisation, graphic design, machine learning}
-	}
-	
-	%-----------CONTACT DETAILS------------------
-	% Make sure all the details are correct, you can add more links in the first row of second column if needed
-	
-	\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-		\textbf{\Huge Babäk Firoozi Fooladi \vspace{2pt}} & % row = 1, col = 1
-		Location: Espoo, Uusimaa, Finland \\ % row = 1, col = 2
-	%	\href{https://babakfi.foo}{\uline{babakfi.foo}} $|$ % row = 2, col = 1
-		\href{https://www.linkedin.com/in/babak-firoozi-fooladi/}{\uline{LinkedIn}} $|$ % row = 2, col = 1
-		\href{https://github.com/Babakfifoo}{\uline{GitHub}} $|$ % row = 2, col = 1
-		\href{https://stackoverflow.com/users/5116559/babak-fi-foo}{\uline{StackOverFlow}} & % row = 2, col = 1
-		Email: \href{mailto:b.firoozi.f@gmail.com}{\uline{b.firoozi.f@gmail.com}} $|$ % row = 2, col = 2
-		Mobile: +358 46 521 2019 \\ % row = 2, col = 2
-	\end{tabular*}
+  %-----------CONTACT DETAILS------------------
+  % Make sure all the details are correct, you can add more links in the first row of second column if needed
+  \noindent
+\begin{minipage}[t]{0.75\textwidth} % Text takes up 75% of the width
+    {\Huge \textbf{Babäk Firoozi Fooladi}} \vspace{4pt} \\
+    Location: Espoo, Uusimaa, Finland \\
+    \href{https://www.linkedin.com/in/babak-firoozi-fooladi/}{\uline{LinkedIn}} $|$ 
+    \href{https://github.com/Babakfifoo}{\uline{GitHub}} $|$ 
+    \href{https://stackoverflow.com/users/5116559/babak-fi-foo}{\uline{StackOverFlow}} \\
+    Email: \href{mailto:b.firoozi.f@gmail.com}{\uline{b.firoozi.f@gmail.com}} \\
+    Mobile: +358 46 521 2019
+    
+    \vspace{10pt}
+  %--------------------------------------------
+
+  
+
+\end{minipage}%
+\begin{minipage}[t]{0.25\textwidth} % Image takes up 25% of the width
+			\flushright
+		\begin{tikzpicture}[remember picture, overlay]
+		\node[anchor=north east, xshift=0cm, yshift=0.5cm] at (current page.north east) {
+			\begin{tikzpicture}
+				% 1. Create a clipping path
+				\path[clip] (-1.5,-1.5) rectangle (3cm,3cm);
+				
+				% 2. Center the image inside that path
+				% 'anchor=center' ensures the middle of your photo is at (0,0)
+				\node[anchor=center] at (0,0) {%
+					\includegraphics[width=3cm, height=3cm, keepaspectratio]{profile_.jpeg}%
+				};
+			\end{tikzpicture}
+		};
+	\end{tikzpicture}
+
+\end{minipage}
+
+  %-----------SUMMARY--------------------------
+  % Keep this short, simple and straigth to point
+    \section*{Data Analytics Engineer $|$ Data Engineer}
+    \small{
+      I am a service-minded, flexible and curious problem solver who can master new abilities and adjust to new environments. I have mastered time-series and time-related statistical and machine learning models. I am service-minded and can effectively provide data analysis, solutions and insights for the business needs. I leverage my experience in production environment, can-do attitude and fast learning capabilities to adapt to any environment, produce tailor-made solutions with high quality standards, and deliver results in a timely manner. I have a strong foundation in data science, machine learning, econometrics and statistical modelling which I apply to solve complex problems.
+    }
 	%--------------------------------------------
-	
-	
-	%-----------SUMMARY--------------------------
-	% Keep this short, simple and straigth to point
-	
-	\section{Data Analytics Engineer $|$ Data Engineer}
-	\small{
-		I am a service-minded, flexible and curious problem solver who can master new abilities and adjust to new environments. I have mastered time-series and time related statistical and machine learning models. I am service minded and can effectively provide data analysis, solutions and insights for the business needs. I leverage my experience in production environment, can-do attitude and fast learning capabilities to adapt to any environemnt, produce tailor made solutions with high quality standards, and deliver results in a timely manner. I have a strong foundation in data science, machine learning, econometrics and statistical modelling which I apply to solve complex problems.
-	}
-	%--------------------------------------------
-	
+
 %--------------SKILLS------------------------
-	% Add or remove resumeSectionTypes according to your needs
+  % Add or remove resumeSectionTypes according to your needs
 
-	%--------------Technical Skills
-	\section{Technical Skills}
-		\begin{tabular*}{\textwidth}{r@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}l}
-			\textbf{Python:} 						& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE  $ }\WS{3/5,}& &
-			\textbf{R:}									& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }\WS{4/5,} & &
-			\textbf{Julia:} 						& \textcolor{accent}{$\CIRCLE \CIRCLE   $ }\WS{2/5,}& &
-			\textbf{STATA:} 						& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }\WS{4/5,}& &
-			\\ 
-			
-			\textbf{AZURE:}							& \textcolor{accent}{$\CIRCLE \CIRCLE   $ }\WS{2/5,}& &
-			\textbf{Econometric:}				& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }\WS{4/5,}& &
-			\textbf{Data Viz.:}					& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ }\WS{5/5,}& &
-			\textbf{Spatial data:}			& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ }& &
-			\\ 
-			
-			\textbf{PostgreSQL:}				& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE  $ }\WS{3/5,}& &
-			\textbf{SQLite:}						& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE  $ }\WS{3/5,}& &
-			\textbf{DuckDB:}						& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }\WS{4/5,}& &
-			\textbf{MongoDB:}						& \textcolor{accent}{$\CIRCLE \CIRCLE   $ }\WS{2/5,}& &
-			\\ 
-			
-			\textbf{ETL/ELT:}						& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }\WS{4/5,}& &
-			\textbf{PowerBI:}						& \textcolor{accent}{$\CIRCLE \CIRCLE   $ }\WS{2/5,}& &
-			\textbf{SQL:}								& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE  $ }\WS{3/5,}& &
-			\textbf{Excel:}							& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }\WS{4/5,}& &
-			\\ 
+  %--------------Technical Skills
+  \section{Technical Skills}
+    \begin{tabular*}{\textwidth}{r@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}l}
+      \textbf{Python:}             & \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE  $ }\WS{3/5,}& &
+      \textbf{R:}                  & \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }\WS{4/5,} & &
+      \textbf{Julia:}             & \textcolor{accent}{$\CIRCLE \CIRCLE   $ }\WS{2/5,}& &
+      \textbf{STATA:}             & \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }\WS{4/5,}& &
+      \\ 
+      
+      \textbf{AZURE:}              & \textcolor{accent}{$\CIRCLE \CIRCLE   $ }\WS{2/5,}& &
+      \textbf{Econometric:}        & \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }\WS{4/5,}& &
+      \textbf{Data Viz.:}          & \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ }\WS{5/5,}& &
+      \textbf{Spatial data:}      & \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ }& &
+      \\ 
+      
+      \textbf{PostgreSQL:}        & \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE  $ }\WS{3/5,}& &
+      \textbf{SQLite:}            & \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE  $ }\WS{3/5,}& &
+      \textbf{DuckDB:}            & \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }\WS{4/5,}& &
+      \textbf{MongoDB:}            & \textcolor{accent}{$\CIRCLE \CIRCLE   $ }\WS{2/5,}& &
+      \\ 
+      
+      \textbf{ETL/ELT:}            & \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }\WS{4/5,}& &
+      \textbf{PowerBI:}            & \textcolor{accent}{$\CIRCLE \CIRCLE   $ }\WS{2/5,}& &
+      \textbf{SQL:}                & \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE  $ }\WS{3/5,}& &
+      \textbf{Excel:}              & \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }\WS{4/5,}& &
+      \\ 
 
-			\textbf{RAG:}								& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ }\WS{5/5,}& &
-			\textbf{LLM/NLP:}						& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }\WS{4/5,}& &
-			\textbf{Feature Extraction:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }\WS{4/5,}& &
-			\textbf{AI Agents:}					& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ }\WS{5/5,}& &
-			\\ 
+      \textbf{RAG:}                & \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ }\WS{5/5,}& &
+      \textbf{LLM/NLP:}            & \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }\WS{4/5,}& &
+      \textbf{Feature Extraction:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }\WS{4/5,}& &
+      \textbf{AI Agents:}          & \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ }\WS{5/5,}& &
+      \\ 
 
-		\end{tabular*}
-
-
-	
-	%--------------SOFT SKILLS
-	\section{Soft Skills}
-	\begin{tabular*}{\textwidth}{r@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}l}
-		\textbf{Team work:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE  $} \WS{3/5,}& &
-		\textbf{Self-organised:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE  $}\WS{3/5,} & &
-		\textbf{Project management:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $}\WS{4/5,} 
-		\\
-		\textbf{Accounting:}& \textcolor{accent}{$\CIRCLE \CIRCLE   $}\WS{2/5,} & &
-		\textbf{Quality control:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $}\WS{4/5,} & &
-		\textbf{Visual communication:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$} \WS{5/5,}
-		\\
-		\textbf{Quantiative research:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $}\WS{4/5,} & &
-		\textbf{Prompt engineering:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $}\WS{4/5,} & &
-		& 
-		\\
-
-	\end{tabular*}
-%	\section{Technical Skills}
-%	
-%	\resumeHeadingListStart{}
-%	\resumeSectionType{Data Science}{:}{Time-series} \\
-%	\resumeHeadingListEnd{}
-	%--------------------------------------------
+    \end{tabular*}
 
 
-	
-	%-----------EXPERIENCE-----------------------
-	% Distill all your talking points to small bullet points which follow the pattern "challenge-action-result" for maximum efficiency. Try to quantify (use numbers) your points whenver possible, highlist words of importance
-	
-	\section{Experience}
-	\resumeHeadingListStart{}
-	\resumeQuadHeading{DATA ANALYTIC ENGINEERING}{Jan 2025 -- Present}
-	{Self-Employed $|$ Apex-Heat -- Startup}   {Part-time -- Espoo, Finland}
-	\resumeItemListStart{}
-	\resumeItem{Resolving \textbf{technical debt}. Improving the efficiency of the data pipelines.}
-	\resumeItem{Consulting the implementation of \textbf{Generative AI}.}
-	\resumeItem{Migrating from \textbf{Pandas} to \textbf{Polars} to improve the efficiency and calculation time.}
-	\resumeItem{Improving the design pattern, and \textbf{writing documentations}.}
-	\resumeItem{Adjusting an improving data processing test coverage and \textbf{testing} methods.}
-	\resumeItem{\textbf{Optimising} the SQL queries to improve response time.}
-	\resumeItemListEnd{}
-	\noindent\rule{0.5\linewidth}{0.4pt}
-	
+  
+  %--------------SOFT SKILLS
+  \section{Soft Skills}
+  \begin{tabular*}{\textwidth}{r@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}l}
+    \textbf{Team work:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE  $} \WS{3/5,}& &
+    \textbf{Self-organised:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE  $}\WS{3/5,} & &
+    \textbf{Project management:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $}\WS{4/5,} 
+    \\
+    \textbf{Accounting:}& \textcolor{accent}{$\CIRCLE \CIRCLE   $}\WS{2/5,} & &
+    \textbf{Quality control:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $}\WS{4/5,} & &
+    \textbf{Visual communication:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$} \WS{5/5,}
+    \\
+    \textbf{Quantiative research:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $}\WS{4/5,} & &
+    \textbf{Prompt engineering:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $}\WS{4/5,} & &
+    & 
+    \\
 
-	% -------------------------------------------------------
-	\resumeQuadHeading{Ph.D. Candidate}{Sep 2020 -- Present}
-	{Aalto University}  {Full-time -- Espoo, Finland}
-	\resumeItemListStart{}
-	% \resumeItem{Conducting research on housing development and housing market.}
-	% \resumeItem{performing econometrics, hedonic regression and statistical analysis on property markets, real estate and housing develoipment.}
-	\resumeItem{Deploying and maintaining \textbf{AZURE functions} to store real estate data for research by scanning and scrapping websites for property advertisements.}
-	\resumeItem{Designing data-pipelines for local AI to extract features from text and scrctured data.}
-	% \resumeItem{Providing IT service and assitance to my research team to resolve issues with their computers and software.}
-	\resumeItem{Applying Econometric, ML, time-series and data analysis for \textbf{quantitative research}.}
-	\resumeItem{Processing HTML and PDF files and implementing \textbf{RAG} to extract structured data from the land use plan documents.}
-	% \resumeItem{Performing \textbf{GIS analysis} to produce and maintain research datasets, and \textbf{geo-code} real estate transactions.}
-	% \resumeItem{Designed and deployed database in \textbf{PostgreSQL} and \textbf{DuckDB} data lake for research data in our team.}
-	\resumeItem{Preparing and updating \textbf{visualisations} for lecture and presentation.}
-	% \resumeItem{Performing \textbf{time-to-event} statistical modelling for my research using parametric, semi-parametric and non-parametric models. These models include longitudinal data, repeating event, multi-state and joint models.}
-	\resumeItem{ETL/ELT processes with data stewardship duties to acquire, maintain and provide research data.}
-	\resumeItem{Self-taught programming skills, and further obtained formal education in data science.}
-	\resumeItemListEnd{}
-	
-
-	\resumeQuadHeadingChild{Research assistant} {Jun 2019 -- Sep 2019}
-	{Aalto University}  {Full-time -- Espoo, Finland}
-	\resumeItemListStart{}
-	\resumeItem{Working on an \textbf{Agent Based Modelling (ABM)} solution to simulate parking pressure in Otaniemi campus area.}
-	\resumeItem{Collaborating MIT CityLab project on agent based modelling simulation.}
-	\resumeItem{implementing simualtions in GAMA Platform}
-	\resumeItemListEnd{}
-	\noindent\rule{0.5\linewidth}{0.4pt}
+  \end{tabular*}
+%  \section{Technical Skills}
+%  
+%  \resumeHeadingListStart{}
+%  \resumeSectionType{Data Science}{:}{Time-series} \\
+%  \resumeHeadingListEnd{}
+  %--------------------------------------------
 
 
-	% -------------------------------------------------------
-	\resumeQuadHeading{Data Analytics Engineer}{Sep 2020 -- Dec 2024}
-	{Qissa kaupunkisuunnitteluanalytiikka Oy -- Startup}  {Part-time -- Espoo, Finland}
-	\resumeItemListStart{}
-	\resumeItem{Designing data pipeline to gather data form REST APIs, cleaning, \textbf{Geo-coding} and storing in accordance to the specifications requested by clients}
-	\resumeItem{Creating \textbf{Spatial data} dashboard for spatial network analysis back-end. The analysis used HSL, HERE and HSY APIs to gather and process the data and perform \textbf{spatial network analysis}.}
-	\resumeItem{Extracted, processed and served sensus data from US, Denmark, Sweden and Finland for calculating CO\textsubscript{2} emission from commuting.}
-	\resumeItemListEnd{}
-	\noindent\rule{0.5\linewidth}{0.4pt}
-	
-	
-	\resumeQuadHeading{Planning Assistant}  {Nov 2018 -- Jun 2021}
-	{WSP Finland Oy}  {Part-time -- Helsinki, Finland}
-	\resumeItemListStart{}
-	\resumeItem{Performing \textbf{Spatial Data analysis}, Processing and storing spatial.}
-	\resumeItem{Performing network analysis for pedestrian route choice forecast. The analysis was fine tuned to existing situation, and then used to forecast pedestrian flow after urban development}
-	\resumeItem{Preparing analysis, graphs, maps and data \textbf{visualisations} for stakeholders, projects managers and clients.}
-	\resumeItem{Providing \textbf{GIS analysis} to transport engineers, landscape designers, urban planners and architects.}
-	\resumeItem{Setting up ArcGIS Online platroms for \textbf{maritime} planning.}
-	\resumeItem{Programming and producing dynamic 3D model of the cities using ESRI CityEngine}
-	\resumeItemListEnd{}
-	\noindent\rule{0.5\linewidth}{0.4pt}
+  
+  %-----------EXPERIENCE-----------------------
+  % Distill all your talking points to small bullet points which follow the pattern "challenge-action-result" for maximum efficiency. Try to quantify (use numbers) your points whenver possible, highlist words of importance
+  
+  \section{Experience}
+  \resumeHeadingListStart{}
+  \resumeQuadHeading{DATA ANALYTIC ENGINEERING}{Jan 2025 -- Present}
+  {Self-Employed $|$ Consultant}   {Part-time -- Espoo, Finland}
+		I offer an extensive range of data engineering, analytics, and business intelligence services tailored to your needs. With a focus on spatial data, urban environments, and the complexities of the built environment, I ensure that my expertise translates into actionable insights.
 
-	\resumeQuadHeading{GIS Operator}{Aug 2015 -- May 2016}
-	{University of Tehran}{Part-time, Tehran, Iran}
-	\resumeItemListStart{}
-	\resumeItem{Gathering, processing and preparing GIS data for urban designers to implement and test new directives for urban design in Tehran City}
-	\resumeItemListEnd{}
-	\noindent\rule{0.5\linewidth}{0.4pt}
+		Specialising in ETL/ELT processes, I adeptly parse and process diverse data types, presenting results that are not only clear but also aligned with your objectives.
 
-	% \resumeQuadHeading{Chief Operating Officer}{Aug 2011 -- Aug 2018}
-	% {Airsa Dorsa Industries}{Full-time, Karaj, Iran}
-	% \resumeItemListStart{}
-	% \resumeItem{\textbf{Accounting}, cost calculation, financial analysis, human resources and BI}
-	% \resumeItem{Provided in house \textbf{graphic design}, CAD and technical solutions for clients.}
-	% \resumeItem{Negotiating with the clients regarding their designs, pricing and production.}
-	% \resumeItem{Managing timelines of production, maintenance and order delivery.}
-	% \resumeItem{Auditing, accounting, process and inventory management.}
-	% \resumeItem{Admin duties, supervision duties, high-frequency welding, silk screen printing.}
-	% \resumeItemListEnd{}
-	
-	\resumeHeadingListEnd{}
-	%---------------------------------------------
-	
-	
-	%-----------EDUCATION-------------------------
-	% Mention your CGPA, if its good, in the first row of second column
-	
-	\section{Education}
+  \resumeQuadHeadingChild{Apex-Heat, Optimisation Project} {Jan 2025 -- Mar 2025}
+  {Aalto University}  {Full-time -- Espoo, Finland}
+  \resumeItemListStart{}
+  \resumeItem{Resolving \textbf{technical debt}. Improving the efficiency of the data pipelines.}
+  \resumeItem{Migrating from \textbf{Pandas} to \textbf{Polars} to improve the efficiency and calculation time.}
+  \resumeItem{Improving the design pattern, and \textbf{writing documentations}.}
+  \resumeItem{Adjusting an improving data processing test coverage and \textbf{testing} methods.}
+  \resumeItem{\textbf{Optimising} the SQL queries to improve response time.}
+	\resumeItem{Resolving the technical debt in the data pipeline codebase.}
+  \resumeItemListEnd{}
 
-	\resumeHeadingListStart{}
-	\resumeQuadHeading{Aalto University}{Espoo, Finland}
-	{Doctor of Philosophy in Technology, Real Estate Economics}{Sep 2020 - Present}
-	\resumeHeadingListEnd{}
+  \resumeQuadHeadingChild{Apex-Heat, Building Database} {Dec 2025 -- Present}
+  {Aalto University}  {Full-time -- Espoo, Finland}
+  \resumeItemListStart{}
+  \resumeItem{Acquiring and processing building dta from Finland}
+	\resumeItem{Modelling and enhancing the building data models in the pipeline}
+	\resumeItem{Expnding data coverage to include additional countries (Sweden, Norway, Netherlands)}
+	\resumeItem{Designing and implementing connection to Finnish building data API (Ryhti)}
+  \resumeItemListEnd{}
 
-	\resumeHeadingListStart{}
-	\resumeQuadHeading{Aalto University}{Espoo, Finland}
-	{MSc. (Tech.) Urban Studies and Planning in Real Estate Economic}{Sep 2018 - Jul 2020}
-	GPA: 4.1/5, Graduated with honours
-	\resumeHeadingListEnd{}
-
-	\resumeHeadingListStart{}
-	\resumeQuadHeading{University of Tehran}{Tehran, Iran}
-	{BA. Town Planning}{Sep 2011 - Jun 2015}
-	GPA: 16.67/20, Academic excellence
-	\resumeHeadingListEnd{}
-	%---------------------------------------------
-	
-	
-	%-----------PROJECTS--------------------------
-	% Use resumeQuadHeading if four elements are feasible (ex: demo video link), else use resumeTrioHeading. Keep the bullet points simple and concise and try to cover wide variety of skills you have used to build these projects
-	
-%	\section{Projects}
-%	\resumeHeadingListStart{}
-%	\resumeTrioHeading{\href{https://project1.com}{\uline{Project 1}}}{React.js, Redux, PHP, MySQL Git}{\href{https://proect1.com/source-code/}{\uline{Source Code}}}
-%	\resumeItemListStart{}
-%	\resumeItem{Designed and developed a clean and modern website using \textbf{HTML, CSS, and JavaScript}}
-%	\resumeItem{Optimized website for \textbf{speed and user experience}}
-%	\resumeItem{Utilized \textbf{responsive design} to ensure compatibility across all devices}
-%	\resumeItem{Deployed on GitHub pages via GitHub Actions}
-%	\resumeItemListEnd{}
-%	
-%	\resumeTrioHeading{Project 2}{Node.js, Express, JavaScript, Git}{\href{https:project2.com/source-code}{\uline{Source Code}}}
-%	\resumeItemListStart{}
-%	\resumeItem{A \textbf{CRUD application} exposed using a RESTful API made with Node.js}
-%	\resumeItem{Exposed POST, GET, PATCH and DELETE HTTP methods using \textbf{Express}}
-%	\resumeItemListEnd{}
-%	\resumeHeadingListEnd{}
-	%--------------------------------------------
-	
-	
-	%----------------SKILLS----------------------
+  \noindent\rule{0.5\linewidth}{0.4pt}
 
 
+  % -------------------------------------------------------
+  \resumeQuadHeading{Ph.D. Candidate}{Sep 2020 -- Present}
+  {Aalto University}  {Full-time -- Espoo, Finland}
+  \resumeItemListStart{}
+  % \resumeItem{Conducting research on housing development and housing market.}
+  % \resumeItem{performing econometrics, hedonic regression and statistical analysis on property markets, real estate and housing develoipment.}
+  \resumeItem{Deploying and maintaining \textbf{AZURE functions} to store real estate data for research by scanning and scrapping websites for property advertisements.}
+  \resumeItem{Designing data-pipelines for local AI to extract features from text and scrctured data.}
+  % \resumeItem{Providing IT service and assitance to my research team to resolve issues with their computers and software.}
+  \resumeItem{Applying Econometric, ML, time-series and data analysis for \textbf{quantitative research}.}
+  \resumeItem{Processing HTML and PDF files and implementing \textbf{RAG} to extract structured data from the land use plan documents.}
+  % \resumeItem{Performing \textbf{GIS analysis} to produce and maintain research datasets, and \textbf{geo-code} real estate transactions.}
+  % \resumeItem{Designed and deployed database in \textbf{PostgreSQL} and \textbf{DuckDB} data lake for research data in our team.}
+  \resumeItem{Preparing and updating \textbf{visualisations} for lecture and presentation.}
+  % \resumeItem{Performing \textbf{time-to-event} statistical modelling for my research using parametric, semi-parametric and non-parametric models. These models include longitudinal data, repeating event, multi-state and joint models.}
+  \resumeItem{ETL/ELT processes with data stewardship duties to acquire, maintain and provide research data.}
+  \resumeItem{Self-taught programming skills, and further obtained formal education in data science.}
+  \resumeItemListEnd{}
+  
+
+  \resumeQuadHeadingChild{Research assistant} {Jun 2019 -- Sep 2019}
+  {Aalto University}  {Full-time -- Espoo, Finland}
+  \resumeItemListStart{}
+  \resumeItem{Working on an \textbf{Agent Based Modelling (ABM)} solution to simulate parking pressure in Otaniemi campus area.}
+  \resumeItem{Collaborating MIT CityLab project on agent based modelling simulation.}
+  \resumeItem{implementing simualtions in GAMA Platform}
+  \resumeItemListEnd{}
+  \noindent\rule{0.5\linewidth}{0.4pt}
 
 
-	\section{Machine Learning $|$ Statistical models $|$ Econometrics}
-	\begin{tabular*}{\textwidth}{r@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}l}
-		\textbf{Uni-variate time-series:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE$} \WS{3/5,}& &
-		\textbf{VAR time-series:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE  $} \WS{3/5,}& &
-		\textbf{Co-integration time-series:}& \textcolor{accent}{$\CIRCLE \CIRCLE   $} \WS{2/5,}& &
-		\\
-		\textbf{multi-variate time-series:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE  $} \WS{3/5,}& &
-		\textbf{OLS:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$} \WS{5/5,}& &
-		\textbf{IV-OLS:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $} \WS{4/5,}& &
-		\\
-		\textbf{Panel data:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $} \WS{4/5,}& &
-		\textbf{Generalised Method of Moments:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $} \WS{4/5,}& &
-		\textbf{Generalised linear models:}& \textcolor{accent}{$\CIRCLE \CIRCLE $} \WS{2/5,}& &
-		\\
-		\textbf{Spatial econometrics:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $} \WS{4/5,}& &
-		\textbf{Survival/time-to-event:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$} \WS{5/5,}& &
-		\textbf{Additive hazard models:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$} \WS{5/5,}& &
-		\\
+  % -------------------------------------------------------
+  \resumeQuadHeading{Data Analytics Engineer}{Sep 2020 -- Dec 2024}
+  {Qissa kaupunkisuunnitteluanalytiikka Oy -- Startup}  {Part-time -- Espoo, Finland}
+  \resumeItemListStart{}
+  \resumeItem{Designing data pipeline to gather data form REST APIs, cleaning, \textbf{Geo-coding} and storing in accordance to the specifications requested by clients}
+  \resumeItem{Creating \textbf{Spatial data} dashboard for spatial network analysis back-end. The analysis used HSL, HERE and HSY APIs to gather and process the data and perform \textbf{spatial network analysis}.}
+  \resumeItem{Extracted, processed and served sensus data from US, Denmark, Sweden and Finland for calculating CO\textsubscript{2} emission from commuting.}
+  \resumeItemListEnd{}
+  \noindent\rule{0.5\linewidth}{0.4pt}
+  
+  
+  \resumeQuadHeading{Planning Assistant}  {Nov 2018 -- Jun 2021}
+  {WSP Finland Oy}  {Part-time -- Helsinki, Finland}
+  \resumeItemListStart{}
+  \resumeItem{Performing \textbf{Spatial Data analysis}, Processing and storing spatial.}
+  \resumeItem{Performing network analysis for pedestrian route choice forecast. The analysis was fine tuned to existing situation, and then used to forecast pedestrian flow after urban development}
+  \resumeItem{Preparing analysis, graphs, maps and data \textbf{visualisations} for stakeholders, projects managers and clients.}
+  \resumeItem{Providing \textbf{GIS analysis} to transport engineers, landscape designers, urban planners and architects.}
+  \resumeItem{Setting up ArcGIS Online platroms for \textbf{maritime} planning.}
+  \resumeItem{Programming and producing dynamic 3D model of the cities using ESRI CityEngine}
+  \resumeItemListEnd{}
+  \noindent\rule{0.5\linewidth}{0.4pt}
 
-	\end{tabular*}
+  \resumeQuadHeading{GIS Operator}{Aug 2015 -- May 2016}
+  {University of Tehran}{Part-time, Tehran, Iran}
+  \resumeItemListStart{}
+  \resumeItem{Gathering, processing and preparing GIS data for urban designers to implement and test new directives for urban design in Tehran City}
+  \resumeItemListEnd{}
+  \noindent\rule{0.5\linewidth}{0.4pt}
 
-	%----------------OTHERS----------------------
-	% You can add your acheivements, accolades, certifications etc. here.
+  \resumeQuadHeading{Chief Operating Officer}{Aug 2011 -- Aug 2018}
+  {Airsa Dorsa Industries}{Full-time, Karaj, Iran}
+  \resumeItemListStart{}
+  \resumeItem{\textbf{Accounting}, cost calculation, financial analysis, human resources and BI}
+  \resumeItem{Provided in house \textbf{graphic design}, CAD and technical solutions for clients.}
+  \resumeItem{Negotiating with the clients regarding their designs, pricing and production.}
+  \resumeItem{Managing timelines of production, maintenance and order delivery.}
+  \resumeItem{Auditing, accounting, process and inventory management.}
+  \resumeItem{Admin duties, supervision duties, high-frequency welding, silk screen printing.}
+  \resumeItemListEnd{}
+  
+  \resumeHeadingListEnd{}
+  %---------------------------------------------
+  
+  
+  %-----------EDUCATION-------------------------
+  % Mention your CGPA, if its good, in the first row of second column
+  
+  \section{Education}
 
-	\section{Volunteer Work}
-	\resumeItemListStart{}
-	\resumeItem{DataTribe collective moderator, contributor}
-	\resumeItem{DataTribe collective speaker: Spatial data analysis, spatial data engineering}
-	\resumeItem{Helsinki Data Week volunteer, contributor}
+  \resumeHeadingListStart{}
+  \resumeQuadHeading{Aalto University}{Espoo, Finland}
+  {Doctor of Philosophy in Technology, Real Estate Economics}{Sep 2020 - Present}
+  \resumeHeadingListEnd{}
 
-	\resumeItemListEnd{}
-	%--------------------------------------------
+  \resumeHeadingListStart{}
+  \resumeQuadHeading{Aalto University}{Espoo, Finland}
+  {MSc. (Tech.) Urban Studies and Planning in Real Estate Economic}{Sep 2018 - Jul 2020}
+  GPA: 4.1/5, Graduated with honours
+  \resumeHeadingListEnd{}
 
-	\vfill
+  \resumeHeadingListStart{}
+  \resumeQuadHeading{University of Tehran}{Tehran, Iran}
+  {BA. Town Planning}{Sep 2011 - Jun 2015}
+  GPA: 16.67/20, Academic excellence
+  \resumeHeadingListEnd{}
+  %---------------------------------------------
+  
+  
+  %-----------PROJECTS--------------------------
+  % Use resumeQuadHeading if four elements are feasible (ex: demo video link), else use resumeTrioHeading. Keep the bullet points simple and concise and try to cover wide variety of skills you have used to build these projects
+  
+%  \section{Projects}
+%  \resumeHeadingListStart{}
+%  \resumeTrioHeading{\href{https://project1.com}{\uline{Project 1}}}{React.js, Redux, PHP, MySQL Git}{\href{https://proect1.com/source-code/}{\uline{Source Code}}}
+%  \resumeItemListStart{}
+%  \resumeItem{Designed and developed a clean and modern website using \textbf{HTML, CSS, and JavaScript}}
+%  \resumeItem{Optimized website for \textbf{speed and user experience}}
+%  \resumeItem{Utilized \textbf{responsive design} to ensure compatibility across all devices}
+%  \resumeItem{Deployed on GitHub pages via GitHub Actions}
+%  \resumeItemListEnd{}
+%  
+%  \resumeTrioHeading{Project 2}{Node.js, Express, JavaScript, Git}{\href{https:project2.com/source-code}{\uline{Source Code}}}
+%  \resumeItemListStart{}
+%  \resumeItem{A \textbf{CRUD application} exposed using a RESTful API made with Node.js}
+%  \resumeItem{Exposed POST, GET, PATCH and DELETE HTTP methods using \textbf{Express}}
+%  \resumeItemListEnd{}
+%  \resumeHeadingListEnd{}
+  %--------------------------------------------
+  
+  
+  %----------------SKILLS----------------------
+
+
+
+
+  \section{Machine Learning $|$ Statistical models $|$ Econometrics}
+  \begin{tabular*}{\textwidth}{r@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}l}
+    \textbf{Uni-variate time-series:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE$} \WS{3/5,}& &
+    \textbf{VAR time-series:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE  $} \WS{3/5,}& &
+    \textbf{Co-integration time-series:}& \textcolor{accent}{$\CIRCLE \CIRCLE   $} \WS{2/5,}& &
+    \\
+    \textbf{multi-variate time-series:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE  $} \WS{3/5,}& &
+    \textbf{OLS:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$} \WS{5/5,}& &
+    \textbf{IV-OLS:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $} \WS{4/5,}& &
+    \\
+    \textbf{Panel data:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $} \WS{4/5,}& &
+    \textbf{Generalised Method of Moments:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $} \WS{4/5,}& &
+    \textbf{Generalised linear models:}& \textcolor{accent}{$\CIRCLE \CIRCLE $} \WS{2/5,}& &
+    \\
+    \textbf{Spatial econometrics:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $} \WS{4/5,}& &
+    \textbf{Survival/time-to-event:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$} \WS{5/5,}& &
+    \textbf{Additive hazard models:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$} \WS{5/5,}& &
+    \\
+
+  \end{tabular*}
+
+  %----------------OTHERS----------------------
+  % You can add your acheivements, accolades, certifications etc. here.
+
+  \section{Volunteer Work}
+  \resumeItemListStart{}
+  \resumeItem{DataTribe collective moderator, contributor}
+  \resumeItem{DataTribe collective speaker: Spatial data analysis, spatial data engineering}
+  \resumeItem{Helsinki Data Week volunteer (2024 \& 2025), contributor}
+
+  \resumeItemListEnd{}
+  %--------------------------------------------
+
+  \vfill
  \textit {Disclaimer: This resume is designed with \LaTeX, and contains white text for the skill ratings to increase the accuracy of automated scanning and processing. The white text represents the truth and does not present any additional information that is not included in the visible text.}
 
 \end{document}
