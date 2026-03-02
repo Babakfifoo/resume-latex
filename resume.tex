@@ -98,7 +98,7 @@
 % before-code is the code to be executed before
 % after-code is the code to be executed after
 
-\definecolor{accent}{HTML}{04009e}
+\definecolor{accent}{HTML}{36e382}
 
 \titleformat{\section}
 {\large\bfseries}{}
@@ -189,9 +189,10 @@
 
 
 %-----------CONTACT DETAILS------------------
-% Make sure all the details are correct, you can add more links in the first row of second column if needed
+% Make sure all the details are correct, you can add more links in the first row 
+
 \noindent
-\begin{minipage}[t]{0.75\textwidth} % Text takes up 75% of the width
+\begin{minipage}[c]{0.75\textwidth}
   {\Huge \textbf{Babäk Firoozi Fooladi}} \vspace{4pt} \\
   Location: Espoo, Uusimaa, Finland \\
   \href{https://www.linkedin.com/in/babak-firoozi-fooladi/}{\uline{LinkedIn}} $|$
@@ -199,36 +200,23 @@
   \href{https://stackoverflow.com/users/5116559/babak-fi-foo}{\uline{StackOverFlow}} \\
   Email: \href{mailto:b.firoozi.f@gmail.com}{\uline{b.firoozi.f@gmail.com}} \\
   Mobile: +358 46 521 2019
-
-  \vspace{10pt}
-  %--------------------------------------------
-
-
-
 \end{minipage}%
-\begin{minipage}[t]{0.25\textwidth} % Image takes up 25% of the width
-  \flushright
-  \begin{tikzpicture}[remember picture, overlay]
-    \node[anchor=north east, xshift=0cm, yshift=0.5cm] at (current page.north east) {
-      \begin{tikzpicture}
-        % 1. Create a clipping path
-        \path[clip] (-1.5,-1.5) rectangle (3cm,3cm);
-
-        % 2. Center the image inside that path
-        % 'anchor=center' ensures the middle of your photo is at (0,0)
-        \node[anchor=center] at (0,0) {%
-          \includegraphics[width=3cm, height=3cm, keepaspectratio]{profile_.jpeg}%
-        };
-      \end{tikzpicture}
+\hfill
+\begin{minipage}[c]{0.25\textwidth}
+  \raggedleft
+  \begin{tikzpicture}
+    \clip (1.5cm, 1.5cm) circle (1.35cm);
+    \node[anchor=south west] at (0,0) {%
+      \includegraphics[width=3cm, height=3cm]{profile.jpeg}%
     };
   \end{tikzpicture}
-
 \end{minipage}
+
 
 %-----------SUMMARY--------------------------
 % Keep this short, simple and straigth to point
 
-\section{Quantitative Analyst $|$ Data Engineer $|$ Researcher}
+\section{Data Scientist $|$ Data Engineer $|$ Researcher}
 \small{
   Researcher with a strong analytical focus who has spent several years in academic settings conducting quantitative research. I have a comprehensive understanding of time series analysis, survival models, spatial data analysis, and econometric modeling, and I have gained experience in all stages of the data lifecycle, from data collection and processing to analysis and interpretation. Adept at translating complex statistical results into clear, actionable insights. I am currently seeking to leverage my solid background in research and modeling in a quantitative risk or data-focused industry role.
 }
@@ -335,8 +323,8 @@
 \resumeQuadHeading{DATA ANALYTIC ENGINEERING}{Jan 2025 -- Present}
 {Self-Employed | consultant}   {Project based -- Espoo, Finland}
 
-offer an extensive range of data engineering, analytics, and business intelligence services tailored to your needs. With a focus on spatial data, urban environments, and the complexities of the built environment, I ensure that my expertise translates into actionable insights.
-Specialising in ETL/ELT processes, I adeptly parse and process diverse data types, presenting results that are not only clear but also aligned with your objectives.
+Offering an extensive range of data engineering, analytics, and business intelligence services tailored to the client needs heavily influenced by the domain expertise.
+Specialising in ETL/ELT processes, I adeptly parse and process diverse data types, presenting results that are not only clear but also aligned with clients objectives.
 
 \resumeQuadHeadingChild{Building information backend} {Jan 2026 -- Present}
 {Apex-Heat -- Finland}
@@ -346,6 +334,7 @@ Specialising in ETL/ELT processes, I adeptly parse and process diverse data type
 \resumeItem{Producing data pipline to transform and calculate necessary measures of \textbf{buildings spatial data} in Finland}
 \resumeItem{Developing \textbf{API based pipline} for building calculations in Finland.}
 \resumeItem{Assessing and structuring the data models for EU countries.}
+\resumeItem{Modelling data based on the domain knowledge in real esate economics, and zoning laws}
 \resumeItemListEnd{}
 
 \resumeQuadHeadingChild{Optimisation, technical debt} {Jan 2025 -- Dec 2025}
@@ -361,7 +350,7 @@ Specialising in ETL/ELT processes, I adeptly parse and process diverse data type
 
 
 
-\noindent\rule{0.5\linewidth}{0.4pt}
+% \noindent\rule{0.5\linewidth}{0.4pt}
 
 
 % -------------------------------------------------------
