@@ -40,9 +40,8 @@
 \usepackage{tikz}
 
 \usepackage[empty]{fullpage} % sets margins to one inch and removes headers, footers etc..
-
 \usepackage[hidelinks]{hyperref} % removes color and shadow of hyperlinks
-
+\usepackage{changepage}
 \usepackage[normalem]{ulem} % provides "\ul" (uline) command which will break at line breaks
 
 \usepackage[english]{babel} % provides culturally determined typographical rules for wide range of languages
@@ -103,10 +102,15 @@
 % after-code is the code to be executed after
 
 \definecolor{accent}{HTML}{CC785C}
+\definecolor{accent_text}{HTML}{D4A27F}
+
+\definecolor{rule}{HTML}{BFBFBA}
+
+\newcommand{\EM}[1]{\textbf{\textcolor{accent_text}{#1}}}
 
 \titleformat{\section}
 {\large\bfseries}{}
-{0em}{\textcolor{accent}}[\color{black}\titlerule\vspace{0pt}]
+{0em}{\textcolor{accent}}[\color{rule}\noindent\rule{\dimexpr\textwidth-5cm\relax}{0.4pt}\vspace{0pt}]
 %-------------------------------------
 
 
@@ -250,48 +254,53 @@ Email: \href{mailto:b.firoozi.f@gmail.com}{\uline{b.firoozi.f@gmail.com}} \\
 %-----------SUMMARY--------------------------
 % Keep this short, simple and straigth to point
 
+\begin{adjustwidth}{0cm}{5cm}
 \section{Data analyst}
-\small{
-Doctoral candidate and data analytics engineer with six years of experience in academic and consultancy settings, where they built insight-driven dashboards, strong data models, and end-to-end data pipelines with carefully curated visualisations. I have extensive expertise developing ETL/ELT workflows and converting complicated datasets into understandable, practical insights for stakeholders. I have extensive experience working with teams from many departments to establish key performance indicators, provide data for decision-making, and implement analytics solutions that have a direct impact on strategy.
-}
+
+  \small{
+  PhD student in urban and real estate economics who uses econometric and machine learning methods to solve problems with \EM{spatial data}. I have experience managing the entire data lifecycle, from designing data infrastructure and \EM{SQL-based} workflows to building dashboards and sharing results with both \EM{technical} and \EM{non-technical} audiences. Good at \EM{Python}, \EM{R}, and \EM{SQL}, and has a strong sense of how to turn vague stakeholder needs into clear, actionable data work and \EM{visualisations} that make complicated patterns easy to understand and ready to make decisions.
+  }
+
+\end{adjustwidth}
 %--------------------------------------------
 
 %--------------SKILLS------------------------
 % Add or remove resumeSectionTypes according to your needs
 
-\vspace{1cm}
+
+\vspace*{7.8cm - \the\pagetotal}
 
 %--------------Technical Skills
 \section{Technical Skills}
 \begin{tabular*}{\textwidth}{r@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}l}
-  \textbf{Python:}              & \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE  $ }& &
-  \textbf{PostgreSQL:}          & \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE  $ }& &
-  \textbf{DuckDB:}              & \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }& &
-  \textbf{SQL:}                 & \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE  $ }& &
-  \\
-  
-  \textbf{Spatial data:}        & \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ }& &
-  \textbf{LLM/NLP/LLM:}         & \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }& &
-  \textbf{SQLite:}              & \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE  $ }& &
-  \textbf{AZURE:}               & \textcolor{accent}{$\CIRCLE \CIRCLE   $ }& &
-  \\
-  
-  \textbf{GCP:}                 & \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }& &
-  \textbf{R:}                   & \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ } & &
-  \textbf{MongoDB:}             & \textcolor{accent}{$\CIRCLE \CIRCLE   $ }& &
-  \textbf{Excel:}               & \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }& &
-  \\
-  
-  \textbf{AcrGIS:}              & \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE $ }& &
-  \textbf{ETL/ELT:}             & \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }& &
-  \textbf{Cartography:}         & \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }& &
-  \textbf{STATA:}               & \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }& &
-  \\
-  
-  \textbf{Git:}                 & \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE $ }& &
-  \textbf{RAG:}                 & \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ }& &
-  \textbf{Julia:}               & \textcolor{accent}{$\CIRCLE \CIRCLE   $ }& &
-  \textbf{PowerBI:}             & \textcolor{accent}{$\CIRCLE \CIRCLE $ }& &
+  \textbf{Python:}              &   \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE  $ }& &
+  \textbf{PostgreSQL:}          &   \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE  $ }& &
+  \textbf{DuckDB:}              &   \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }& &
+  \textbf{SQL:}                 &   \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE  $ }& &
+  \\  
+
+  \textbf{Spatial data:}        &   \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ }& &
+  \textbf{LLM/NLP/LLM:}         &   \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }& &
+  \textbf{SQLite:}              &   \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE  $ }& &
+  \textbf{AZURE:}               &   \textcolor{accent_text}{$\CIRCLE \CIRCLE   $ }& &
+  \\  
+
+  \textbf{GCP:}                 &   \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }& &
+  \textbf{R:}                   &   \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ } & &
+  \textbf{MongoDB:}             &   \textcolor{accent_text}{$\CIRCLE \CIRCLE   $ }& &
+  \textbf{Excel:}               &   \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }& &
+  \\  
+
+  \textbf{AcrGIS:}              &   \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE $ }& &
+  \textbf{ETL/ELT:}             &   \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }& &
+  \textbf{Cartography:}         &   \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }& &
+  \textbf{STATA:}               &   \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }& &
+  \\  
+
+  \textbf{Git:}                 &   \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE $ }& &
+  \textbf{RAG:}                 &   \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ }& &
+  \textbf{Julia:}               &   \textcolor{accent_text}{$\CIRCLE \CIRCLE   $ }& &
+  \textbf{PowerBI:}             &   \textcolor{accent_text}{$\CIRCLE \CIRCLE $ }& &
   \\
 
 \end{tabular*}
@@ -299,17 +308,21 @@ Doctoral candidate and data analytics engineer with six years of experience in a
 %--------------SOFT SKILLS
 \section{Soft Skills}
 \begin{tabular*}{\textwidth}{r@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}l}
-  \textbf{Team work:}&            \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE  $}& &
-  \textbf{Self-organised:}&       \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE  $}& &
-  \textbf{Project management:}&   \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $}
-  \\
-  \textbf{Accounting:}&           \textcolor{accent}{$\CIRCLE \CIRCLE   $}& &
-  \textbf{Quality control:}&      \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $} & &
-  \textbf{Visual communication:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$} 
-  \\
-  \textbf{Quantiative research:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $} & &
-  \textbf{Prompt engineering:}&   \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $} & &
-  \textbf{Document Management:}&  \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $} & &
+  \textbf{Stakeholde management:}&  \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $} & &
+  \textbf{Visual communication:} &  \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $} & &
+  \textbf{Task management:}      &  \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $} & &
+  \\  
+  \textbf{Team work:}            &  \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE  $}& &
+  \textbf{Self-organised:}       &  \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE  $}& &
+  \textbf{Project management:}   &  \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $}
+  \\  
+  \textbf{Accounting:}           &  \textcolor{accent_text}{$\CIRCLE \CIRCLE   $}& &
+  \textbf{Quality control:}      &  \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $} & &
+  \textbf{Graphic Design:}       &  \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$} 
+  \\  
+  \textbf{Quantiative research:} &  \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $} & &
+  \textbf{Prompt engineering:}   &  \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $} & &
+  \textbf{Document Management:}  &  \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $} & &
   \\
 
 \end{tabular*}
@@ -340,10 +353,12 @@ As a data specialist, I design efficient pipelines that handle diverse data type
 
 \resumeQuadHeadingChild{Building Information Backend}{Jan 2026 -- Present}
 {Apex-Heat -- Finland}
+
+Stakeholders asked for spatial data on all buildings in Finland that could be used in other EU countries. The main problem was figuring out what data was needed and how to get it and put it all together. After two meetings with stakeholders to get everyone on the same page, we came up with a two-phase plan. The first phase is to map out the whole data model and build the data flow into the application. The second phase is to implement the model through several iterations, gradually refactoring the architecture to move data operations outside of the core system, which will make it easier to scale and separate concerns.
+
 \resumeItemListStart{}
-\resumeItem{Consulting on data transformation and business logic to facilitate future integration of spatial data with third-party systems.}
 \resumeItem{Developing a data pipeline to transform and compute key metrics from building spatial data across Finland.}
-\resumeItem{Designing and implementing an \textbf{API-based pipeline} for automated building calculations in Finland.}
+\resumeItem{Designing and implementing an \EM{API-based pipeline} for automated data operations in Finland.}
 \resumeItem{Evaluating and structuring spatial data models for EU-wide coverage.}
 \resumeItem{Modelling data leveraging domain expertise in real estate economics and zoning regulations.}
 \resumeItemListEnd{}
@@ -351,43 +366,43 @@ As a data specialist, I design efficient pipelines that handle diverse data type
 
 \resumeQuadHeadingChild{Optimisation \& Technical Debt Reduction}{Jan 2025 -- Dec 2025}
 {Apex-Heat -- Finland}
-\resumeItemListStart{}
-\resumeItem{Identified and resolved \textbf{technical debt}, significantly improving data pipeline performance and maintainability.}
-\resumeItem{Led migration from \textbf{Pandas} to \textbf{Polars} (including GeoPandas), reducing computation time and improving overall pipeline efficiency.}
 
-\resumeItem{Refactored codebase design patterns and produced comprehensive \textbf{technical documentation}.}
-\resumeItem{Expanded and improved \textbf{test coverage} and testing methodologies for data processing workflows.}
+Led the move of core application calculations to Polars to make them run faster, while also taking care of some technical debt issues, such as writing down how to use key features. To keep things in check, the team only worked on a small set of calculations, but they had a clear plan for how to move the rest of the components in future iterations. The work led to an 86\% improvement in the targeted calculations and a 60\% improvement across the whole application.
+
+\resumeItemListStart{}
+\resumeItem{Identified and resolved \EM{technical debt}, significantly improving data pipeline performance and maintainability.}
+\resumeItem{Led migration from \EM{Pandas} to \EM{Polars} (including GeoPandas)}
+
+\resumeItem{Refactored codebase design patterns and produced \EM{technical documentation}.}
+\resumeItem{Expanded and improved \EM{test coverage} and testing methodologies for data processing workflows.}
 \resumeItemListEnd{}
 
-
-
-\noindent\rule{0.5\linewidth}{0.4pt}
-
-\pagebreak
 % -------------------------------------------------------
 \resumeQuadHeading{Ph.D. Candidate}{Sep 2020 -- Present}
 {Aalto University}{Full-time -- Espoo, Finland}
-Conducting doctoral research in urban and real estate economics, applying econometric and machine learning techniques to housing markets, real estate development, and urban planning. Managing the full spatial data lifecycle across research projects, from collection and processing to analysis and visualization, while building and maintaining the team's data infrastructure.
+
+Performing doctoral research at the crossroads of urban economics, urban planning and real estate, using econometric and machine learning methods on housing markets, real estate development, and city planning. In charge of overseeing the entire spatial data lifecycle for research projects, from gathering and processing the data to analyzing and visualizing it. Also responsible for building and maintaining the team's data infrastructure. Created and set up a data lake with Hive partitioning for research datasets. Also made DuckDB-based extraction workflows with easy-to-understand documentation so that researchers who aren't tech-savvy can query and use the data on their own.
 
 \resumeItemListStart{}
-\resumeItem{Preparing and maintaining \textbf{data visualizations} for academic presentations and lectures.}
-\resumeItem{Designing data-pipelines for local AI to extract features from text and scrctured data.}
-\resumeItem{Providing IT service and assitance to my research team to resolve issues with their computers and software.}
-\resumeItem{Applying Econometric, ML, time-series and data analysis for \textbf{quantitative research}.}
-\resumeItem{Processing HTML and PDF files and implementing \textbf{RAG} to extract structured data from the land use plan documents.}
-\resumeItem{Conducting \textbf{econometric} and \textbf{hedonic regression} analyses on property markets, housing development, and real estate dynamics.}
-\resumeItem{Acquiring GIS data from REST and ArcGIS Online endpoints in the Netherlands to construct a longitudinal panel dataset for research.}
-\resumeItem{Deploying and maintaining \textbf{Azure Functions} to automate web scraping of property listings and store real estate data for research purposes.}
-\resumeItem{Performing \textbf{GIS analysis} to produce and maintain geospatial research datasets and geocode real estate transactions from data sources such as MML, Ryhti, SYKE, and KVKL.}
-\resumeItem{Designing and deploying research databases using \textbf{PostgreSQL} and \textbf{DuckDB} to support team-wide data access.}
+\resumeItem{Preparing and maintaining \EM{data visualizations} for academic presentations and lectures.}
+\resumeItem{Designing data-pipelines for local AI to extract features from text.}
+% \resumeItem{Providing IT service and assitance to my research team to resolve issues with their computers and software.}
+\resumeItem{Applying Econometric, ML, time-series and data analysis.}
+% \resumeItem{Processing HTML and PDF files and implementing \EM{RAG} to extract structured data from the land use plan documents.}
+% \resumeItem{Conducting \EM{econometric} and \EM{hedonic regression} analyses on property markets, housing development, and real estate dynamics.}
+\resumeItem{Acquiring GIS data from REST and ArcGIS Online endpoints.}
+\resumeItem{Deploying and maintaining \EM{Azure Functions} to automate web scraping of property listings and store real estate data for research purposes.}
+\resumeItem{Performing \EM{GIS analysis} to produce and maintain geospatial research datasets and geocode real estate transactions from data sources such as MML, Ryhti, SYKE, and KVKL.}
+\resumeItem{Designing and deploying research databases using \EM{PostgreSQL}, \EM{DuckDB}, and data \EM{hive partitions}}
 % \resumeItem{Applying \textbf{time-to-event} statistical modelling, including longitudinal, repeating event, multi-state, and joint models.}
-\resumeItem{Building and managing \textbf{ETL/ELT pipelines} with data stewardship responsibilities to acquire, curate, and distribute research datasets.}
+\resumeItem{Data stewardship responsibilities to acquire, curate, and distribute research datasets.}
 
 \resumeItemListEnd{}
 
 
 \resumeQuadHeadingChild{Research Assistant}{Jun 2019 -- Sep 2019}
-{Aalto University}{Full-time -- Espoo, Finland}
+{Aalto University}{ Full-time -- Espoo, Finland}
+
 Contributed to an \textbf{Agent-Based Modelling (ABM)} research project simulating urban mobility and parking pressure, developed in collaboration with \textbf{MIT CityLab}.
 
 \resumeItemListStart{}
@@ -455,7 +470,7 @@ Provided GIS and spatial data analysis support across urban planning and transpo
 
 \resumeHeadingListEnd{}
 %---------------------------------------------
-\section{Machine Learning $|$ Statistical models $|$ Econometrics}
+\section{Machine Learning | Statistical models | Econometrics}
 \begin{tabular*}{\textwidth}{r@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}l}
   \textbf{Uni-variate time-series:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE$}& &
   \textbf{VAR time-series:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE  $}& &
