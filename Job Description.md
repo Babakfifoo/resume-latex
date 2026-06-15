@@ -1,59 +1,65 @@
-source:https://www.linkedin.com/jobs/search/?currentJobId=4413519879
+source:https://www.linkedin.com/jobs/search-results/?currentJobId=4427984584
 
 About the job
-Company
-
-NestAI is Europe’s fastest-growing physical AI lab. We build open, sovereign, and reliable autonomous systems and AI-enabled command capabilities for real-world operations — environments where reliability isn’t optional.
-Our work spans defence, security, and other mission-critical domains where systems must earn trust through performance, not promises. At the core of what we build is an open, modular, and interoperable AI command foundation that integrates data from multiple sources — from UAV sensors and edge devices to situational intelligence platforms — and turns it into decision support and operational capability.
-Rooted in Nordic engineering heritage, we focus on openness, reliability, and systems that earn trust through performance. We work with intent, iterate fast, and build technology that protects what matters most.
-
-
-Role Description
-
-We are looking for a GIS Data Engineer to join our team full-time in Tampere, Helsinki, Oulu, Turku or Jyväskylä.
+Citycon is the leading owner, developer and manager of urban hubs in the Nordics. Citycon transforms unique locations into sustainable communities and cities full of life, serving 125 million people each year and delivering long-term share value. Citycon aims for carbon neutrality by 2030. Citycon owns 28 centres: 9 in Finland, 1 in Estonia, 10 in Norway, 6 in Sweden and 2 in Denmark. Citycon has been listed on Nasdaq Helsinki (CTY1S) since 1988 and is a member of EPRA (European Public Real Estate Association). 
 
 
 
-In this role, you will design, build, and maintain the data infrastructure that powers NestAI’s physical AI systems. You’ll work closely with AI researchers, software engineers, and product teams to ensure that data from real-world systems is collected, processed, and made accessible for machine learning and analytics. Your work will enable scalable, reliable data pipelines — from embedded devices to cloud storage — forming the backbone of our AI development.
+Job Summary:
+
+We are looking for an experienced professional to take ownership of property analytics, reporting, and data quality across the organization. In this Real Estate Analyst role, you will ensure the accuracy and continuous development of property analysis and reporting for monthly, quarterly, and annual processes. You will play a key role in both internal and external reporting, providing insights into operational key figures and supporting business decision-making.
 
 
-Day-to-day responsibilities include:
 
-Geospatial Pipeline Engineering: Design and automate scalable ETL processes for diverse spatial data—including Satellite Imagery, LiDAR, and Real-Time Telemetry—while implementing feature extraction and processing for images, orthomosaics, and point clouds.
-Data Architecture for GeoAI: Build and maintain robust storage and retrieval systems that support ML model training, analytics, and experimentation, collaborating closely with researchers to optimize data flow and automated labeling for GeoAI and EO workflows.
-Infrastructure & Data Reliability: Ensure data quality, spatial integrity, and observability across cloud or hybrid environments by implementing CI/CD, monitoring, and automated testing to support continuous delivery and production-grade infrastructure maintenance.
+As this is a new role within the team, its scope will partly be shaped by your experience and strengths. We welcome applications not only from candidates who meet the baseline requirements, but also from more senior professionals who can further develop the role and its impact.
 
 
-Qualifications:
 
-GIS & Spatial Data Expertise: Experience with storing and modeling geospatial data (vector, point cloud, raster) using PostGIS, GeoParquet, or COG, and processing via GDAL, Rasterio, Shapely, or GeoPandas, with a focus on GeoAI and Earth Observation workflows.
-Data Engineering & Pipeline Development: Proficient in Python, SQL, and Bash to build scalable pipelines using Airflow, Spark, dbt, and Kafka, including experience with distributed processing, schema design, and versioned datasets.
-Cloud Infrastructure & DevOps: Skilled in cloud platforms (GCP, AWS, Azure) and data storage (BigQuery, S3, PostgreSQL), with familiarity in CI/CD, Docker, Kubernetes, and IaC to ensure reliability, security, and scalability.
+Employment Type: Permanent
 
+Start of the Employment: As soon as possible
 
-Why join NestAI
-
-At NestAI, you’ll build meaningful, real-world technology as part of a world-class team of engineers, scientists, and experienced professionals. You’ll work on systems where reliability genuinely matters, contribute to Europe’s security and resilience, and solve problems that demand depth, trust, and craftsmanship.
-If you want to build with purpose — and with leading experts in the field — you’ve come to the right place.
+Location: On-site location at Citycon’s Iso Omena office in Espoo, Finland.
 
 
-Perks & Benefits
 
-We offer a growing set of practical benefits to support your work and wellbeing, day to day:
-Occupational healthcare (currently provided by Mehiläinen)
-Epassi Flex benefit (sports, culture, commuting, wellbeing)
-Lunch benefit (25% tax-free coverage)
-Regular team lunches and all-hands events
-Your choice of Mac or PC
-Holiday allowance (50% of holiday salary)
-Phone benefit according to company policy (subscription and device)
-We are continuously developing and expanding our benefits as we grow.
+Key Responsibilities:
 
-
-Practicalities
-
-Employment is subject to applicable security screening (including SUPO, where required).
+Own and develop property-related reporting, ensuring data quality and consistency across monthly, quarterly, and annual cycles
+Prepare and analyse monthly management reports, focusing on key property performance metrics
+Coordinate tenant sales validation processes and analyse tenant performance data
+Contribute to annual reporting by providing operational key figures and property insights
+Deliver ad-hoc analyses and reports to support business needs and group requirements
+Manage external reporting of operational key figures
+Support accounting processes related to service charges and property taxes in collaboration with accounting managers
 
 
-Currently NestAI is focusing to hire talent already located in Finland. Remote work from abroad is not unfortunately possible. Relocation within Europe might be an option - if it is an option for you as well, please bring the topic up in your cover letter!
-NestAI is an equal opportunity employer. We consider all applicants based on their skills, experience, and potential.
+Qualifications and Skills:
+
+Master’s degree in Accounting, Economics, or a related field
+Minimum of 5 years of relevant experience in reporting, analytics, or property/real estate finance
+Strong analytical and problem-solving skills with high attention to detail
+Resilient and able to manage multiple reporting deadlines in a dynamic environment
+Excellent communication and collaboration skills
+Ability to translate data into insights for stakeholders
+Proactive mindset with a drive to improve processes and reporting quality
+English skills is a must, Finnish is seen as an advantage
+
+
+What do we offer you:
+
+A competitive salary complemented by a range of benefits, including lunch, sports, culture and massage perks, a commuting benefit, comprehensive occupational healthcare, and extensive insurance coverage that extends to your leisure time.
+A motivating work community where everyone's contribution matters.
+A working environment where you can learn, make an impact, and work at the forefront of the real estate industry.
+Shared activities ranging from small sports moments to larger events that strengthen team spirit and bring people together.
+
+
+Citycon offers an unique opportunity to become part of a dynamic, international and developing work community. At Citycon, you become part of a diverse group of experts, where extensive know-how and support functions create a strong foundation for success. You are supported by competent colleagues and experts, with whom cooperation opens doors to new opportunities, development and success. Join us in building a sustainable future in the real estate industry as part of Citycon's team of experts.
+
+
+
+Interested? Please send us your CV and cover letter by 25.6.2026, at the latest. We will review applications during the application period and proceed as soon as we find a suitable candidate, so we would love to hear about your skills and motivation for the role as soon as possible.
+
+
+
+Would you like to learn more about working at Citycon? Explore our experts and real estate professionals on our careers pages: Career | Citycon
