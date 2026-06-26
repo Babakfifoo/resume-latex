@@ -1,59 +1,43 @@
-source:https://www.linkedin.com/jobs/search/?currentJobId=4413519879
+source:https://www.linkedin.com/jobs/view/4388999814/
 
-About the job
-Company
+# About the job
 
-NestAI is Europe’s fastest-growing physical AI lab. We build open, sovereign, and reliable autonomous systems and AI-enabled command capabilities for real-world operations — environments where reliability isn’t optional.
-Our work spans defence, security, and other mission-critical domains where systems must earn trust through performance, not promises. At the core of what we build is an open, modular, and interoperable AI command foundation that integrates data from multiple sources — from UAV sensors and edge devices to situational intelligence platforms — and turns it into decision support and operational capability.
-Rooted in Nordic engineering heritage, we focus on openness, reliability, and systems that earn trust through performance. We work with intent, iterate fast, and build technology that protects what matters most.
+## Who We Are
 
+Boston Consulting Group partners with leaders in business and society to tackle their most important challenges and capture their greatest opportunities. BCG was the pioneer in business strategy when it was founded in 1963. Today, we help clients with total transformation-inspiring complex change, enabling organizations to grow, building competitive advantage, and driving bottom-line impact.
 
-Role Description
+To succeed, organizations must blend digital and human capabilities. Our diverse, global teams bring deep industry and functional expertise and a range of perspectives to spark change. BCG delivers solutions through leading-edge management consulting along with technology and design, corporate and digital ventures—and business purpose. We work in a uniquely collaborative model across the firm and throughout all levels of the client organization, generating results that allow our clients to thrive.
 
-We are looking for a GIS Data Engineer to join our team full-time in Tampere, Helsinki, Oulu, Turku or Jyväskylä.
+## We Are BCG X
 
+We’re a diverse team of more than 3,000 tech experts united by a drive to make a difference. Working across industries and disciplines, we combine our experience and expertise to tackle the biggest challenges faced by society today. We go beyond what was once thought possible, creating new and innovative solutions to the world’s most complex problems. Leveraging BCG’s global network and partnerships with leading organizations, BCG X provides a stable ecosystem for talent to build game-changing businesses, products, and services from the ground up, all while growing their career. Together, we strive to create solutions that will positively impact the lives of millions.
 
+## What You'll Do
 
-In this role, you will design, build, and maintain the data infrastructure that powers NestAI’s physical AI systems. You’ll work closely with AI researchers, software engineers, and product teams to ensure that data from real-world systems is collected, processed, and made accessible for machine learning and analytics. Your work will enable scalable, reliable data pipelines — from embedded devices to cloud storage — forming the backbone of our AI development.
+Our BCG X teams own the full analytics value-chain end to end: framing new business challenges, designing innovative algorithms, implementing, and deploying scalable solutions, and enabling colleagues and clients to fully embrace AI. Our product offerings span from fully custom-builds to industry specific leading edge AI software solutions.
 
+As a Data Scientist Intern, you'll be part of our rapidly growing team. You'll have the chance to apply data science methods and analytics to real-world business situations across a variety of industries to drive significant business impact. You'll have the chance to partner with clients in a variety of BCG regions and industries, and on key topics like climate change, enabling them to design, build, and deploy new and innovative solutions.
 
-Day-to-day responsibilities include:
+Additional responsibilities will include developing and delivering thought leadership in scientific communities and papers as well as leading conferences on behalf of BCG X. Successful candidates are intellectually curious builders who are biased toward action, scrappy, and communicative.
 
-Geospatial Pipeline Engineering: Design and automate scalable ETL processes for diverse spatial data—including Satellite Imagery, LiDAR, and Real-Time Telemetry—while implementing feature extraction and processing for images, orthomosaics, and point clouds.
-Data Architecture for GeoAI: Build and maintain robust storage and retrieval systems that support ML model training, analytics, and experimentation, collaborating closely with researchers to optimize data flow and automated labeling for GeoAI and EO workflows.
-Infrastructure & Data Reliability: Ensure data quality, spatial integrity, and observability across cloud or hybrid environments by implementing CI/CD, monitoring, and automated testing to support continuous delivery and production-grade infrastructure maintenance.
+We Are Looking For Talented Individuals With a Passion For Data Science, Statistics, Operations Research And Transforming Organizations Into AI Led Innovative Companies. Successful Candidates Possess The Following
 
+Comfortable in a client-facing role with the ambition to lead teams 
+Likes to distill complex results or processes into simple, clear visualizations 
+Explain sophisticated data science concepts in an understandable manner 
+Love building things and are comfortable working with modern development tools and writing code collaboratively (bonus points if you have a software development or DevOps experience) 
+Significant experience applying advanced analytics to a variety of business situations and a proven ability to synthesize complex data 
+Deep understanding of modern machine learning techniques and their mathematical underpinnings, and can translate this into business implications for our clients 
+Have strong project management skills 
 
-Qualifications:
+### What You'll Bring
 
-GIS & Spatial Data Expertise: Experience with storing and modeling geospatial data (vector, point cloud, raster) using PostGIS, GeoParquet, or COG, and processing via GDAL, Rasterio, Shapely, or GeoPandas, with a focus on GeoAI and Earth Observation workflows.
-Data Engineering & Pipeline Development: Proficient in Python, SQL, and Bash to build scalable pipelines using Airflow, Spark, dbt, and Kafka, including experience with distributed processing, schema design, and versioned datasets.
-Cloud Infrastructure & DevOps: Skilled in cloud platforms (GCP, AWS, Azure) and data storage (BigQuery, S3, PostgreSQL), with familiarity in CI/CD, Docker, Kubernetes, and IaC to ensure reliability, security, and scalability.
+Currently enrolled in a university Master's or PhD degree program in Computer Research Science, Data Science, Statistics, Operations Research, or related field
 
+### Technologies
 
-Why join NestAI
+Programming Languages: Python
 
-At NestAI, you’ll build meaningful, real-world technology as part of a world-class team of engineers, scientists, and experienced professionals. You’ll work on systems where reliability genuinely matters, contribute to Europe’s security and resilience, and solve problems that demand depth, trust, and craftsmanship.
-If you want to build with purpose — and with leading experts in the field — you’ve come to the right place.
+#BCGXjobs
 
-
-Perks & Benefits
-
-We offer a growing set of practical benefits to support your work and wellbeing, day to day:
-Occupational healthcare (currently provided by Mehiläinen)
-Epassi Flex benefit (sports, culture, commuting, wellbeing)
-Lunch benefit (25% tax-free coverage)
-Regular team lunches and all-hands events
-Your choice of Mac or PC
-Holiday allowance (50% of holiday salary)
-Phone benefit according to company policy (subscription and device)
-We are continuously developing and expanding our benefits as we grow.
-
-
-Practicalities
-
-Employment is subject to applicable security screening (including SUPO, where required).
-
-
-Currently NestAI is focusing to hire talent already located in Finland. Remote work from abroad is not unfortunately possible. Relocation within Europe might be an option - if it is an option for you as well, please bring the topic up in your cover letter!
-NestAI is an equal opportunity employer. We consider all applicants based on their skills, experience, and potential.
+Boston Consulting Group is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, age, religion, sex, sexual orientation, gender identity / expression, national origin, disability, protected veteran status, or any other characteristic protected under national, provincial, or local law, where applicable, and those with criminal histories will be considered in a manner consistent with applicable state and local laws.
