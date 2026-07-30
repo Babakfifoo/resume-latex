@@ -32,7 +32,9 @@
 \usepackage{latexsym} % provides mathematical symbols
 
 \usepackage{eso-pic}
-
+\usepackage{xcolor}
+\usepackage{geometry}
+\usepackage{iftex}
 \usepackage{marvosym} % provides martin vogel's symbol font which contains various symbols
 
 % Image and drawing packages for circular profile photo in header
@@ -181,10 +183,7 @@
 %-------------------------------------------
 
 %__________________BG_______________________
-\usepackage{eso-pic}
-\usepackage{xcolor}
-\usepackage{geometry}
-\usepackage{iftex}
+
 \geometry{margin=1cm}
 
 % ── Backgrounds ──────────────────────────────────────────────
@@ -258,9 +257,7 @@ Email: \href{mailto:b.firoozi.f@gmail.com}{\uline{b.firoozi.f@gmail.com}} \\
   \section{Data Analyst | Data Engineer}
 
   \small{
-
-
-I am a service-minded, detail-oriented, and a team-player person. I have over five years of experience in data engineering, spatial analytics, and applied econometrics across academia, consulting, and industry. 
+\EM{Data Scientist} \& \EM{Spatial Researcher} with 6+ years of experience across data engineering, statistical modeling, business intelligence, and spatial analytics. Proven track record in designing end-to-end automated ETL pipelines, optimizing high-performance data architectures, and deploying machine learning models. Expert in transforming complex, multi-source spatial and econometric datasets into actionable business insights and executive dashboards using Python, R, SQL, PostGIS, and cloud environments (GCP/Azure).
   }
 
 \end{adjustwidth}
@@ -269,99 +266,95 @@ I am a service-minded, detail-oriented, and a team-player person. I have over fi
 
 %----------------SKILLS----------------------
 
+\section{Core Competencies \& Technical Skills}
+\resumeItemListStart
+    \resumeItem{\textbf{Programming \& Core Languages:} Python, R, SQL, Julia, STATA}
+    \resumeItem{\textbf{Data Engineering \& Databases:} PostgreSQL, PostGIS, DuckDB, GeoParquet, SQLite, MongoDB, REST APIs, Web Scraping, ETL/ELT Pipelines, Azure Functions, GCP, Azure}
+    \resumeItem{\textbf{Spatial Data \& GIS Analytics:} GeoPandas, Shapely, ArcGIS / ArcGIS Online, ESRI CityEngine, Spatial Econometrics, Cartography, Network Analysis}
+    \resumeItem{\textbf{Data Science \& ML:} Machine Learning, Econometric Modeling, Time-Series Forecasting (VAR, Co-integration, Univariate/Multivariate), OLS / IV-OLS, Panel Data, Survival Analysis, RAG, Agentic AI, LLMs/NLP}
+    \resumeItem{\textbf{Data Analytics \& BI:} Power BI, Dashboard Development, Data Visualization, Quantitative Research, Business Intelligence, Technical Documentation}
+\resumeItemListEnd
 
+
+%-----------EXPERIENCE-----------------------
+% Distill all your talking points to small bullet points which follow the pattern "challenge-action-result" for maximum efficiency. Try to quantify (use numbers) your points whenver possible, highlist words of importance
+\section{Professional Experience}
+\resumeHeadingListStart{}
+\resumeQuadHeading{DATA ANALYTICS \& ENGINEERING}{Jan 2025 -- Present}
+{Self-Employed | Consultant}{Project-Based -- Espoo, Finland}
+
+\resumeItemListStart
+    \resumeItem{Deliver end-to-end data engineering, spatial analytics, and business intelligence solutions tailored to client objectives and scalable growth.}
+    \resumeItem{\textbf{Backend Architecture \& Spatial Engineering (Apex-Heat):} Architected automated Python scripts using GeoPandas, Shapely, GeoParquet, and PostGIS to acquire, clean, geometry-correct, and model national spatial building datasets across Finland.}
+    \resumeItem{\textbf{API \& Data Pipeline Automation:} Designed and implemented API-driven data pipelines for automated spatial operations, evaluating data models for EU-wide scaling using domain expertise in real estate economics and zoning laws.}
+    \resumeItem{\textbf{Pipeline Optimization \& Tech Debt Reduction (Apex-Heat):} Spearheaded core codebase migration from Pandas to Polars, refactoring design patterns and introducing comprehensive test coverage to achieve an \textbf{86\% performance improvement} on targeted calculations and a \textbf{60\% overall application speedup}.}
+\resumeItemListEnd
+
+% -------------------------------------------------------
+\resumeQuadHeading{Ph.D. Candidate}{Sep 2020 -- June 2026}
+{Aalto University}{Full-time -- Espoo, Finland}
+
+\resumeItemListStart
+    \resumeItem{Conduct quantitative research at the intersection of urban economics and real estate, applying econometrics and machine learning to housing market dynamics and spatial development.}
+    \resumeItem{Architected and managed team data infrastructure, deploying a partitioned Data Lake and DuckDB-based querying workflows with full technical documentation for non-technical researchers.}
+    \resumeItem{Engineered automated web scraping pipelines using Azure Functions and REST/ArcGIS endpoints to harvest, geocode, and store real-world property transaction data (MML, Ryhti, SYKE, KVKL).}
+    \resumeItem{Modeled complex urban dynamics using time-series analysis, hedonic regressions, and time-to-event statistical modeling.}
+    \resumeItem{Applied NLP and RAG architectures to process PDF/HTML land-use planning documents for structured feature extraction.}
+\resumeItemListEnd
+
+\resumeQuadHeadingChild{Research Assistant}{Jun 2019 -- Sep 2019}
+{Aalto University}{ Full-time -- Espoo, Finland}
+\resumeItemListStart
+    \resumeItem{Collaborated with \textbf{MIT CityLab} on Agent-Based Modeling (ABM) to simulate urban mobility and parking pressure dynamics across campus infrastructure using the GAMA Platform.}
+\resumeItemListEnd
+
+\noindent\rule{0.5\linewidth}{0.4pt}
+
+
+% ------------------------------------------------------------------------------
+
+\resumeQuadHeading{Data Analytics Engineer}{Sep 2020 -- Dec 2024}
+{Qissa kaupunkisuunnitteluanalytiikka Oy -- Startup}{Part-time -- Espoo, Finland}
+
+\resumeItemListStart
+    \resumeItem{Designed and maintained end-to-end spatial data pipelines ingesting REST API data, performing geocoding and automated storage for urban planning analytics.}
+    \resumeItem{Developed a spatial analytics dashboard with a custom network analysis backend, integrating HSL, HERE, and HSY APIs for real-time transportation routing and network evaluation.}
+    \resumeItem{Processed multi-national census datasets (US, Finland, Sweden, Denmark) to calculate commuting pattern carbon emissions.}
+\resumeItemListEnd
+
+\noindent\rule{0.5\linewidth}{0.4pt}
+
+% ------------------------------------------------------------------------------
+
+\resumeQuadHeading{Planning Assistant}{Nov 2018 -- Jun 2021}
+{WSP Finland Oy}{Part-time -- Helsinki, Finland}
+
+\resumeItemListStart
+    \resumeItem{Performed spatial data analysis and pedestrian network modeling to forecast route choices and post-development pedestrian traffic for municipal clients.}
+    \resumeItem{Built interactive 3D city models using ESRI CityEngine and configured ArcGIS Online platforms for maritime spatial planning projects.}
+    \resumeItem{Produced BI reports, spatial maps, and visualizations to communicate quantitative findings to multidisciplinary teams and executive stakeholders.}
+\resumeItemListEnd
+
+\noindent\rule{0.5\linewidth}{0.4pt}
+% ------------------------------------------------------------------------------
+
+\resumeQuadHeading{GIS Operator}{Aug 2015 -- May 2016}
+{University of Tehran}{Part-time -- Tehran, Iran}
+\resumeItemListStart{}
+\resumeItem{Collected, processed, and prepared \textbf{GIS datasets} to support urban designers in implementing and evaluating new urban design directives for Tehran.}
+\resumeItemListEnd{}
+\noindent\rule{0.5\linewidth}{0.4pt}
+
+
+
+\resumeQuadHeading{Advisor \& Assistant}{Aug 2011 -- Aug 2018}
+{Airsa Dorsa Co. Ltd. -- Family Business}{Full-time -- Karaj, Iran}
+\resumeItemListStart
+    \resumeItem{Managed financial planning, cost metrics, and operational workflows, leveraging accounting datasets to generate business intelligence reporting for executive decision-making.}
+\resumeItemListEnd
+
+\resumeHeadingListEnd{}
 %---------------------------------------------
-\section{Machine Learning | Statistical models | Econometrics}
-\begin{tabular*}{\textwidth}{r@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}l}
-  \textbf{Uni-variate time-series:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE$}& &
-  \textbf{VAR time-series:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE  $}& &
-  \textbf{Co-integration time-series:}& \textcolor{accent}{$\CIRCLE \CIRCLE   $} & &
-  \\
-  \textbf{multi-variate time-series:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE  $}& &
-  \textbf{OLS:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$} & &
-  \textbf{IV-OLS:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $} & &
-  \\
-  \textbf{Panel data:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $} & &
-  \textbf{Generalised Method of Moments:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $} & &
-  \textbf{Generalised linear models:}& \textcolor{accent}{$\CIRCLE \CIRCLE $} & &
-  \\
-  \textbf{Spatial econometrics:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $} & &
-  \textbf{Survival/time-to-event:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$} & &
-  \textbf{Additive hazard models:}& \textcolor{accent}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$} & &
-  \\
-
-\end{tabular*}
-
-
-%--------------SOFT SKILLS
-\section{Soft Skills}
-\begin{tabular*}{\textwidth}{r@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}l}
-  \textbf{Stakeholder management:}&  \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $} & &
-  \textbf{Visual communication:} &  \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $} & &
-  \textbf{Task management:}      &  \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $} & &
-  \\
-  \textbf{Team work:}            &  \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE  $}& &
-  \textbf{Self-organised:}       &  \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE  $}& &
-  \textbf{Project management:}   &  \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $}
-  \\
-  \textbf{Accounting:}           &  \textcolor{accent_text}{$\CIRCLE \CIRCLE   $}& &
-  \textbf{Quality control:}      &  \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $} & &
-  \textbf{Graphic Design:}       &  \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$}
-  \\
-  \textbf{Quantiative research:} &  \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $} & &
-  \textbf{Prompt engineering:}   &  \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $} & &
-  \textbf{Document Management:}  &  \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $} & &
-  \\
-
-\end{tabular*}
-
-
-%--------------Technical Skills
-
-\section{Technical Skills}
-\begin{tabular*}{\textwidth}{r@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}lcr@{\extracolsep{\fill}}l}
-  \textbf{Python:}              &   \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE  $ }& &
-  \textbf{Spatial data:}        &   \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ }& &
-  \textbf{R:}                   &   \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ } & &
-  \textbf{SQL:}                 &   \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE  $ }& &
-  \\
-  
-  \textbf{PostgreSQL:}          &   \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE  $ }& &
-  \textbf{DuckDB:}              &   \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }& &
-  \textbf{Cartography:}         &   \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }& &
-  \textbf{LLM/NLP/LLM:}         &   \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }& &
-  \\
-  
-  \textbf{PowerBI:}             &   \textcolor{accent_text}{$\CIRCLE \CIRCLE $ }& &
-  \textbf{GCP:}                 &   \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }& &
-  \textbf{MongoDB:}             &   \textcolor{accent_text}{$\CIRCLE \CIRCLE   $ }& &
-  \textbf{Excel:}               &   \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }& &
-  \\
-  
-  \textbf{SQLite:}              &   \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE  $ }& &
-  \textbf{AcrGIS:}              &   \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE $ }& &
-  \textbf{ETL/ELT:}             &   \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }& &
-  \textbf{STATA:}               &   \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE $ }& &
-  \\
-  
-  \textbf{Git:}                 &   \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE $ }& &
-  \textbf{RAG:}                 &   \textcolor{accent_text}{$\CIRCLE \CIRCLE \CIRCLE \CIRCLE \CIRCLE$ }& &
-  \textbf{Julia:}               &   \textcolor{accent_text}{$\CIRCLE \CIRCLE   $ }& &
-  \textbf{AZURE:}               &   \textcolor{accent_text}{$\CIRCLE \CIRCLE   $ }& &
-  \\
-
-\end{tabular*}
-
-
-
-%--------------SKILLS------------------------
-% Add or remove resumeSectionTypes according to your needs
-
-
-
-
-
-
 
 
 %-----------EDUCATION-------------------------
@@ -388,189 +381,53 @@ GPA: 16.67/20, Academic excellence
 \resumeHeadingListEnd{}
 %---------------------------------------------
 
-
-
-
-
-%  \section{Technical Skills}
-%  
-%  \resumeHeadingListStart{}
-%  \resumeSectionType{Data Science}{:}{Time-series} \\
-%  \resumeHeadingListEnd{}
-%--------------------------------------------
-
-
-%-----------EXPERIENCE-----------------------
-% Distill all your talking points to small bullet points which follow the pattern "challenge-action-result" for maximum efficiency. Try to quantify (use numbers) your points whenver possible, highlist words of importance
-\section{Experience}
-\resumeHeadingListStart{}
-\resumeQuadHeading{DATA ANALYTICS \& ENGINEERING}{Jan 2025 -- Present}
-{Self-Employed | Consultant}{Project-Based -- Espoo, Finland}
-Delivering end-to-end data engineering, analytics, and BI solutions tailored to each client's industry and business objectives. Advising on data strategy with a focus on scalability and sustainable growth.
-As a data specialist, I design efficient pipelines that handle diverse data types and translate complex data into clear, actionable insights aligned with client goals.
-
-\resumeQuadHeadingChild{Building Information Backend}{Jan 2026 -- Present}
-{Apex-Heat -- Finland}
-
-Stakeholders asked for spatial data on all buildings in Finland that could be used in other EU countries. The main problem was figuring out what data was needed and how to get it and put it all together. I developed the scripts to acquire data from official sources, process them and correct their goemetry, and then compute the key metrics that the stakeholders needed. I also designed and implemented an API-based pipeline to automate the data operations in Finland, and evaluated and structured the spatial data models for EU-wide coverage. I also modelled the data leveraging my domain expertise in real estate economics and zoning regulations.
-
+\section{languages}
 \resumeItemListStart{}
-\resumeItem{Geopandas, Shapely, Geoparquet, DuckDB, PostGIS}
-\resumeItem{Developing a data pipeline to transform and compute key metrics from building spatial data across Finland.}
-\resumeItem{Designing and implementing an \EM{API-based pipeline} for automated data operations in Finland.}
-\resumeItem{Evaluating and structuring spatial data models for EU-wide coverage.}
-\resumeItem{Modelling data leveraging domain expertise in real estate economics and zoning regulations.}
+\resumeItem{Persian (Native)}
+\resumeItem{English (Fluent (C2))}
+\resumeItem{Finnish (Intermediate (A2-B1))}
 \resumeItemListEnd{}
-
-
-\resumeQuadHeadingChild{Optimisation \& Technical Debt Reduction}{Jan 2025 -- Dec 2025}
-{Apex-Heat -- Finland}
-
-Led the move of core application calculations to Polars to make them run faster, while also taking care of some technical debt issues, such as writing down how to use key features. To keep things in check, the team only worked on a small set of calculations, but they had a clear plan for how to move the rest of the components in future iterations. The work led to an 86\% improvement in the targeted calculations and a 60\% improvement across the whole application.
-
-\resumeItemListStart{}
-\resumeItem{Identified and resolved \EM{technical debt}, significantly improving data pipeline performance and maintainability.}
-\resumeItem{Led migration from \EM{Pandas} to \EM{Polars} (including GeoPandas)}
-
-\resumeItem{Refactored codebase design patterns and produced \EM{technical documentation}.}
-\resumeItem{Expanded and improved \EM{test coverage} and testing methodologies for data processing workflows.}
-\resumeItemListEnd{}
-
-% -------------------------------------------------------
-\resumeQuadHeading{Ph.D. Candidate}{Sep 2020 -- Present}
-{Aalto University}{Full-time -- Espoo, Finland}
-
-Performing doctoral research at the crossroads of urban economics, urban planning and real estate, using econometric and machine learning methods on housing markets, real estate development, and city planning. In charge of overseeing the entire spatial data lifecycle for research projects, from gathering and processing the data to analyzing and visualizing it. Also responsible for building and maintaining the team's data infrastructure. Created and set up a data lake with Hive partitioning for research datasets. Also made DuckDB-based extraction workflows with easy-to-understand documentation so that researchers who aren't tech-savvy can query and use the data on their own.
-
-\resumeItemListStart{}
-\resumeItem{Preparing and maintaining \EM{data visualizations} for academic presentations and lectures.}
-\resumeItem{Designing data-pipelines for local AI to extract features from text.}
-% \resumeItem{Providing IT service and assitance to my research team to resolve issues with their computers and software.}
-\resumeItem{Applying Econometric, ML, time-series and data analysis.}
-% \resumeItem{Processing HTML and PDF files and implementing \EM{RAG} to extract structured data from the land use plan documents.}
-% \resumeItem{Conducting \EM{econometric} and \EM{hedonic regression} analyses on property markets, housing development, and real estate dynamics.}
-\resumeItem{Acquiring GIS data from REST and ArcGIS Online endpoints.}
-\resumeItem{Deploying and maintaining \EM{Azure Functions} to automate web scraping of property listings and store real estate data for research purposes.}
-\resumeItem{Performing \EM{GIS analysis} to produce and maintain geospatial research datasets and geocode real estate transactions from data sources such as MML, Ryhti, SYKE, and KVKL.}
-\resumeItem{Designing and deploying research databases using \EM{PostgreSQL}, \EM{DuckDB}, and data \EM{hive partitions}}
-% \resumeItem{Applying \textbf{time-to-event} statistical modelling, including longitudinal, repeating event, multi-state, and joint models.}
-\resumeItem{Data stewardship responsibilities to acquire, curate, and distribute research datasets.}
-
-\resumeItemListEnd{}
-
-
-\resumeQuadHeadingChild{Research Assistant}{Jun 2019 -- Sep 2019}
-{Aalto University}{ Full-time -- Espoo, Finland}
-
-Contributed to an \textbf{Agent-Based Modelling (ABM)} research project simulating urban mobility and parking pressure, developed in collaboration with \textbf{MIT CityLab}.
-
-\resumeItemListStart{}
-\resumeItem{Developed an \textbf{ABM simulation} to model parking pressure dynamics in the Otaniemi campus area.}
-\resumeItem{Collaborated with \textbf{MIT CityLab} on agent-based modelling of urban mobility patterns.}
-\resumeItem{Implemented simulations using the \textbf{GAMA Platform}.}
-\resumeItemListEnd{}
-\noindent\rule{0.5\linewidth}{0.4pt}
-
-
-% ------------------------------------------------------------------------------
-
-\resumeQuadHeading{Data Analytics Engineer}{Sep 2020 -- Dec 2024}
-{Qissa kaupunkisuunnitteluanalytiikka Oy -- Startup}{Part-time -- Espoo, Finland}
-
-Delivered data engineering and spatial analysis solutions for an urban analytics startup, supporting clients in urban planning and sustainability with end-to-end data workflows.
-
-\resumeItemListStart{}
-\resumeItem{Designed and maintained data pipelines to ingest \textbf{GIS data} from REST APIs, performing cleaning, \textbf{geocoding}, and storage in line with client specifications.}
-\resumeItem{Built a \textbf{spatial analytics dashboard} with a network analysis backend, integrating \textbf{HSL, HERE, and HSY APIs} to gather, process, and perform \textbf{spatial network analysis}.}
-\resumeItem{Extracted, processed, and served \textbf{census data} from the US, Denmark, Sweden, and Finland to calculate CO\textsubscript{2} emissions from commuting patterns.}
-\resumeItemListEnd{}
-\noindent\rule{0.5\linewidth}{0.4pt}
-
-% ------------------------------------------------------------------------------
-
-\resumeQuadHeading{Planning Assistant}{Nov 2018 -- Jun 2021}
-{WSP Finland Oy}{Part-time -- Helsinki, Finland}
-
-Provided GIS and spatial data analysis support across urban planning and transport projects, delivering actionable insights and visualizations to multidisciplinary teams and external clients.
-
-\resumeItemListStart{}
-\resumeItem{Conducted \textbf{spatial data analysis}, processing and managing geospatial datasets across multiple concurrent projects.}
-\resumeItem{Performed \textbf{pedestrian network analysis} to forecast route choice and model post-development pedestrian flows, calibrated against real-world conditions.}
-\resumeItem{Prepared maps, graphs, and \textbf{data visualizations} for stakeholders, project managers, and clients to support planning decisions.}
-\resumeItem{Delivered \textbf{GIS analysis} to cross-disciplinary teams including transport engineers, landscape designers, urban planners, and architects.}
-\resumeItem{Configured \textbf{ArcGIS Online} platforms to support \textbf{maritime spatial planning} workflows.}
-\resumeItem{Developed dynamic \textbf{3D city models} using \textbf{ESRI CityEngine} to visualize urban development scenarios.}
-\resumeItemListEnd{}
-\noindent\rule{0.5\linewidth}{0.4pt}
-% ------------------------------------------------------------------------------
-
-\resumeQuadHeading{GIS Operator}{Aug 2015 -- May 2016}
-{University of Tehran}{Part-time -- Tehran, Iran}
-\resumeItemListStart{}
-\resumeItem{Collected, processed, and prepared \textbf{GIS datasets} to support urban designers in implementing and evaluating new urban design directives for Tehran.}
-\resumeItemListEnd{}
-\noindent\rule{0.5\linewidth}{0.4pt}
-
-
-
-% \resumeQuadHeading{Advisor \& Assistant}{Aug 2011 -- Aug 2018}
-% {Airsa Dorsa Co. Ltd. -- Family Business}{Full-time -- Karaj, Iran}
-% Led day-to-day operations of a manufacturing business, overseeing financial management, client relations, production coordination, and technical delivery across a broad range of functions.
-
-% \resumeItemListStart{}
-% \resumeItem{Managed \textbf{accounting}, cost calculations, financial analysis, and HR processes, producing BI reports to support business decisions.}
-% \resumeItem{Delivered in-house \textbf{graphic design}, CAD drafting, and technical solutions tailored to client requirements.}
-% \resumeItem{Negotiated with clients on designs, pricing, and production specifications to ensure alignment and satisfaction.}
-% \resumeItem{Coordinated and tracked production timelines, maintenance schedules, and order delivery to meet deadlines.}
-% \resumeItem{Conducted auditing, inventory management, and process oversight to maintain operational efficiency.}
-% \resumeItem{Performed hands-on technical duties including supervision, high-frequency welding, and silk screen printing.}
-% \resumeItemListEnd{}
-
-\resumeHeadingListEnd{}
-%---------------------------------------------
-
-
-
-
-
 
 %-----------PROJECTS--------------------------
 % Use resumeQuadHeading if four elements are feasible (ex: demo video link), else use resumeTrioHeading. Keep the bullet points simple and concise and try to cover wide variety of skills you have used to build these projects
 
-%  \section{Projects}
-%  \resumeHeadingListStart{}
-%  \resumeTrioHeading{\href{https://project1.com}{\uline{Project 1}}}{React.js, Redux, PHP, MySQL Git}{\href{https://proect1.com/source-code/}{\uline{Source Code}}}
-%  \resumeItemListStart{}
-%  \resumeItem{Designed and developed a clean and modern website using \textbf{HTML, CSS, and JavaScript}}
-%  \resumeItem{Optimized website for \textbf{speed and user experience}}
-%  \resumeItem{Utilized \textbf{responsive design} to ensure compatibility across all devices}
-%  \resumeItem{Deployed on GitHub pages via GitHub Actions}
-%  \resumeItemListEnd{}
-%  
-%  \resumeTrioHeading{Project 2}{Node.js, Express, JavaScript, Git}{\href{https:project2.com/source-code}{\uline{Source Code}}}
-%  \resumeItemListStart{}
-%  \resumeItem{A \textbf{CRUD application} exposed using a RESTful API made with Node.js}
-%  \resumeItem{Exposed POST, GET, PATCH and DELETE HTTP methods using \textbf{Express}}
-%  \resumeItemListEnd{}
-%  \resumeHeadingListEnd{}
-%--------------------------------------------
+\section{Publications:}
 
+ \resumeItemListStart{}
+ \resumeItem{Effects of zoning on property values and impact assessment of changes in land use policy measures: {\href{https://urn.fi/URN:ISBN:978-952-383-083-7}{\uline{Source}}}}
+ \resumeItemListEnd{}
 
+ \section{Certificates:}
 
-
+ \resumeItemListStart{}
+ \resumeItem{Oxford Machine Learning Summer School, OxML 2023}
+ \resumeItem{Urban Economic Association, UEA 2020 Lectures on Urban Economics}
+ \resumeItemListEnd{}
 %----------------OTHERS----------------------
 % You can add your acheivements, accolades, certifications etc. here.
 
-\section{Volunteer Work}
+\section{Community \& Leadership}
 \resumeItemListStart{}
-\resumeItem{DataTribe collective moderator, contributor}
-\resumeItem{DataTribe collective speaker: Spatial data analysis, spatial data engineering}
-\resumeItem{Helsinki Data Week volunteer (2024 \& 2025), contributor}
+\resumeItem{\EM{Speaker}: Spatial data analysis, spatial data engineering. DataTribe collective meetup, 2023}
+\resumeItem{\EM{Contributor}: Helsinki Data Week volunteer (2024 \& 2025)}
+\resumeItem{\EM{Speaker}: "The Effect of Land Development Policies on Implementation of Housing Plans". 28th Annual European Real Estate Society conference, 22nd-25th June, Milan, Italy.}
+\resumeItem{\EM{Speaker}: "The Impact of Public Land Development on Implementation of Housing Plans". AREUEA International Conference, 19th-22nd July, Cambridge, UK.}
+\resumeItem{\EM{Speaker}: "Time limit: is it an effective way to encourage housing construction?". RYTS Science Slam, 25th of January, Helsinki, Finland}
+\resumeItem{\EM{Speaker}: "Balancing financial constraints and public objectives: Assessing the impact of public land ownership on housing development duration". World Planning School Congress, 17th-21st July, Espoo, Finland}
+\resumeItem{DataTribe collective moderator}
+\resumeItem{\EM{Guest Lecturer}: Science and Breakfast Staff Meeting, Introduction to Zotero, how to migrate from Mendeley. \textit{October 2023}.}
+\resumeItem{\EM{Guest Lecturer}: Guest lecturer in Spatial Planning and Traffic engineering (SPT) program, Aalto university. Data analysis and Visualization using PPGIS. \textit{March 2023}.}
+\resumeItem{\EM{Guest Lecturer}: Guest lecturer in Urban Studies and Planning (USP) program, Aalto university. How to use GIS in Urban studies and planning. \textit{January 2023}.}
+\resumeItem{\EM{Guest Lecturer}: Tutor in Urban Studio Challenge 1 (USP) course, Data analysis, GIS, planning and data visualization assistant. \textit{September 2022}.}
+\resumeItem{\EM{Guest Lecturer}: Guest lecturer in Sustainable Built Environment (SBE) course, Aalto university.  GIS, Spatial Thinking and their use cases in sustainability and urban resilience. \textit{November 2021}.}
+\resumeItem{\EM{Guest Lecturer}: Guest lecturer in Sustainable Built Environment (SBE) course, Aalto university.  GIS and its use cases in sustainability and urban resilience. \textit{December 2020}.}
+\resumeItem{\EM{Guest Lecturer}: Guest lecturer in Digital urban course at Aalto university. Teaching about data analysis and its uses in built environment, types of data and available information. \textit{March 2020}.}
 
 \resumeItemListEnd{}
 %--------------------------------------------
 
+
+
 \vfill
-% \textit {Disclaimer: This resume is designed with \LaTeX, and contains white text for the skill ratings to increase the accuracy of automated scanning and processing.}
 
 \end{document}
