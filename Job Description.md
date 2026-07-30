@@ -1,70 +1,56 @@
-source:
+source: https://www.linkedin.com/jobs/view/4428972014/
 
-Environmental Engineer, Helsinki, Finland
-Apply Now
-Mercury is the European leader in construction solutions.
+Data Analyst/Engineer
+Aalto University Executive Education and Professional Development (Aalto EE) is now looking for a Data Analyst/Engineer to join the AI and Digitalization team in the Espoo Office!
 
-We build and manage complex engineering & construction projects for the world’s leading corporations. Our solutions help deliver technologies and life changing advancements that connect people, communities, and businesses, giving them the power to achieve incredible things. Our people have the courage to be innovative. Their determination and sharp focus enable us to deliver with certainty, time and time again.
+We are building the data foundation for Aalto EE's AI and digital transformation. We are looking for a hands-on data professional who wants to be at the center of this shift. You will work across the organization to turn data into decisions, shape our reporting architecture, and modernize our data platforms. You will also be operationally responsible for Executive Education ranking processes and support the business management in analytical reporting needs.
 
-We deliver our clients’ visions through leading edge construction solutions across multiple sectors, including Enterprise Data Centres, Advanced Technology & Life Sciences, Hyperscale Data Centres, Fire Protection.
+Main responsibilities
+• Support and development of internal reporting, including reporting architecture and templates, user support, training and documentation
 
-At Mercury, it is our duty to encourage and back our people to realise their vision of themselves. We place them at the heart of what we do, providing challenging opportunities to develop within a great team in a supportive environment that allows them to reach their full potential.
+• Technical main user role in our reporting systems including development and maintenance of analytics solutions, data platforms in cloud environment and coordinating work with technical partners (Microsoft Azure, Microsoft Power BI, Qlik Sense)
 
- 
+• Project management and data mining related to Executive Education rankings, such as Financial Times rankings
 
-Scope of Role:
+• Support the development of other core business systems and related data integrations as needed (Microsoft Dynamics 365, Power Apps, Dataverse, Power Automate, Rest API etc.)
 
-Provide Engineering support for all environmental compliance matters.
+• Agile analytical support for internal stakeholders and decision-making, including financial, operational and management reporting
 
- 
+We are looking for a candidate with
+• A relevant degree or equivalent experience in the field, such as information systems, information technology, industrial engineering, accounting or equivalent
 
-Key Responsibilities of the Role:
+• 3+ years of relevant work experience
 
-Assist in identifying environmental issues and providing overall support to environmental and engineering staff.
-Maintain effective communications and liaise with regulatory agencies and stakeholders to collect information and help to identify and respond to or address issues.
-Provide engineering support for air quality, land quality, water quality, waste management, and environmental programs.
-Tasks related to environmental programs may include monitoring; data collection; report writing, data calculations, analysis and interpretation.
-Regulation review and implementation.
-Develop and implement programs and plans to introduce best practices and maintain compliance with European, state, local & corporate requirements.
-Complete and submit required regulatory paperwork.
-Prioritize multiple responsibilities with little supervision and be able to interact with local authorities.
-Assist with Mercury Environmental/sustainability tools: Waste tracker or any related.
-Conduct Environmental, Health and Safety compliance audits and track audit findings to completion. Work with EHS Team.
-Any other duties associated with this role.
- 
+• Solid understanding data models in the Business Intelligence context
 
-Core Competencies
+• Excellent Excel skills including use of pivot tables and data queries
 
-Work independently, multi-task and adapt to change in a very dynamic environment.
-Ability to participate as a dynamic team member and take a proactive approach to assignments.
- 
+• Familiarity with Power BI and data platforms, creating and maintaining data models and visualizing data
 
-Essential Criteria
+• Self-directed analytical, methodical and prompt working style
 
-No previous experiences required.
-Professional qualification in Environmental field.
-University or college graduate in environmental studies, planning, geography, or related field
- 
+• Strong teamwork skills
 
-Desirable Criteria
+• Good communication skills in English
 
-Proficient in Microsoft (MS) Office Suite
-Embodied Carbon -EC3.
-LEED certification
-Experience using ESRI software is an asset (ArcMap/ArcPro, ArcGIS Online and knowledge of ArcGIS tools including data driven pages, Spatial Analyst, Topology)
-Experience using modelling programmes (Navisworks, etc)
- 
+We appreciate
+• Understanding and experience of data analytics especially in the areas of finance, accounting, sales and marketing
 
-Mercury is an equal opportunities employer
+• Experience in cloud architecture and data platforms
 
- 
+• Experience in building and maintaining data pipelines using Python and SQL
 
-Mercury on Euroopan johtava rakennusratkaisujen toimittaja.
+• Ability to conduct statistical analyses and interpret quantitative data using Python or R
 
-Rakennamme ja hallinnoimme monimutkaisia ​​suunnittelu- ja rakennusprojekteja maailman johtaville yrityksille. Ratkaisumme auttavat tarjoamaan teknologioita ja elämää mullistavia edistysaskeleita, jotka yhdistävät ihmisiä, yhteisöjä ja yrityksiä ja antavat heille mahdollisuuden saavuttaa uskomattomia asioita. Ihmisillämme on rohkeutta olla innovatiivisia. Heidän päättäväisyytensä ja tarkka keskittymisensä antavat meille mahdollisuuden toimittaa varmuudella, kerta toisensa jälkeen.
+• Experience in data preparation and pipeline work in support of AI use cases
 
-Toteutamme asiakkaidemme visioita huippuluokan rakennusratkaisuilla useilla eri aloilla, mukaan lukien yritystietokonekeskukset, edistynyt teknologia ja biotieteet, hyperskaalatut datakeskukset ja palontorjunta.
+• Experience in education or education technology industry
 
-Mercurylla velvollisuutemme on kannustaa ja tukea ihmisiä toteuttamaan visionsa itsestään. Asetamme heidät toimintamme keskiöön ja tarjoamme heille haastavia kehitysmahdollisuuksia loistavassa tiimissä tukevassa ympäristössä, joka antaa heille mahdollisuuden saavuttaa täyden potentiaalinsa.
+We are looking for a highly motivated person who can learn quickly and work independently in a collaborative way. We offer you an excellent opportunity to develop professionally as a data analyst by having a front-row seat in our AI and digital transformation, with visibility across the whole organization and access to Aalto University's international networks. We offer a permanent, full-time position in a purposeful organization dedicated to shaping a sustainable future through life-wide learning. The indicative salary range is 4900 – 6000 eur/month, depending on level of experience.
 
- 
+Please send your application letter and CV by latest on August 5, 2026. For more information regarding the position, please contact Reetta Ruusunen, Director, AI and Digitalization, +358 40 7158 332 on August 3 and 4, 2026. Due to vacation time, we are unfortunately not able to answer queries during June - July. Please read more about Aalto University Executive Education at www.aaltoee.fi.
+
+Aalto University Executive Education and Professional Development
+Aalto University Executive Education and Professional Development (Aalto EE) offers impactful education, development, and training services. Aalto EE combines a wide range of practical expertise with the latest research from Aalto University. We aim to provide a sustainable platform for lifewide learning at different stages of a career. Furthermore, we operate as a strategic partner for organizations, enabling renewal in a rapidly changing business environment. Our unique portfolio of programs offers concrete solutions, intellectual capital, and professional head start for both individuals and organizations.
+
+Aalto EE has two strongholds: our main office and learning facilities are in Helsinki, while our operations in Asia-Pacific are led from Singapore. In addition to Finland and Singapore, Aalto EE offers education programs worldwide. As a part of Aalto University, it holds three most respected business university accreditations – AACSB, AMBA, and EQUIS – which places it among the top 1% of institutions in the world.
