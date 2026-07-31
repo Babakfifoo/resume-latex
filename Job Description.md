@@ -1,56 +1,70 @@
-source: https://www.linkedin.com/jobs/view/4428972014/
+source: https://jobs.neste.com/job/Espoo-Finance-Trainees-%28hourly-employed%29/1404760400/
 
-Data Analyst/Engineer
-Aalto University Executive Education and Professional Development (Aalto EE) is now looking for a Data Analyst/Engineer to join the AI and Digitalization team in the Espoo Office!
+Finance Trainees (hourly employed)
+Location:  Espoo, FI
+Country/Region:  FI
+Job Area:  Finance
+Business Unit:  Group Finance
+Are you looking for a career in an inspiring, global environment where your expertise makes a difference? At Neste, you will be working for the world’s leading producer of renewable diesel and sustainable aviation fuel, which enable our customers to reduce their greenhouse gas emissions.
 
-We are building the data foundation for Aalto EE's AI and digital transformation. We are looking for a hands-on data professional who wants to be at the center of this shift. You will work across the organization to turn data into decisions, shape our reporting architecture, and modernize our data platforms. You will also be operationally responsible for Executive Education ranking processes and support the business management in analytical reporting needs.
+We are looking for you,
 
-Main responsibilities
-• Support and development of internal reporting, including reporting architecture and templates, user support, training and documentation
+Finance Trainees (hourly employed)
 
-• Technical main user role in our reporting systems including development and maintenance of analytics solutions, data platforms in cloud environment and coordinating work with technical partners (Microsoft Azure, Microsoft Power BI, Qlik Sense)
+to our Global Financial Services’ (GFS) Accounts Payables, Accounts Receivables & Collection, General Ledger, Asset Accounting and Payments teams in Espoo.
 
-• Project management and data mining related to Executive Education rankings, such as Financial Times rankings
+You will work on an hourly basis approximately 0-23 hours per week. These positions are temporary and starting from September / October 2026 and ending on 30th April 2027. The start date is negotiable and will be discussed with the selected candidates.
 
-• Support the development of other core business systems and related data integrations as needed (Microsoft Dynamics 365, Power Apps, Dataverse, Power Automate, Rest API etc.)
+You will work on
 
-• Agile analytical support for internal stakeholders and decision-making, including financial, operational and management reporting
+Finance trainees will work with basic operational finance tasks that vary between teams. GFS Finance trainees process daily finance transactions relating e.g. to vendors, customers, master data, assets, lease assets, payments, journal entries and integrations. You may support projects, perform ad hoc type of tasks and perform selected finance close and reporting tasks. In this role you will work closely with GFS colleagues, vendors, customers and other internal stakeholders.
 
-We are looking for a candidate with
-• A relevant degree or equivalent experience in the field, such as information systems, information technology, industrial engineering, accounting or equivalent
+In Global Financial Services (“GFS”), we have a comprehensive agenda that spans across our entire business and countries. The GFS consists of 60+ finance professionals located in Espoo, Finland.  We provide financial accounting and process management services to Neste companies globally. 
 
-• 3+ years of relevant work experience
+We are working towards a better place to work by improving our way of workings and our team members' engagement and wellbeing. If you have a team player mindset and you are details oriented, you are a great fit for our teams! Together with you and your expertise, we can make an impact today and keep our promises for tomorrow.
 
-• Solid understanding data models in the Business Intelligence context
+Reasons to join
 
-• Excellent Excel skills including use of pivot tables and data queries
+Real impact right now. We create solutions for mitigating climate change and accelerating a shift to a circular economy. We live by our values every day; we care, we have courage, we cooperate.
 
-• Familiarity with Power BI and data platforms, creating and maintaining data models and visualizing data
+Safety and caring. We value safety always and everywhere. We want our work to feel good and do good. At Neste, we nurture a culture where everyone is welcome and feels safe, respected and encouraged to be their unique true selves.
 
-• Self-directed analytical, methodical and prompt working style
+Exciting growth. Transformation brings new possibilities, fostering both courage and curiosity. As a global company, collaboration is the key, and we believe in flexible, smart ways of working. We support personal development with versatile learning and career opportunities.
 
-• Strong teamwork skills
+In addition GFS offers. We support future talents like you to gain valuable hands-on work experience in the field of finance. With us you will get basic knowledge from commonly used finance applications and global finance processes on a large scale. We offer flexible working hours and the possibility to work 2 days weekly remotely. There is access to our on-site gym located in Espoo, giving you the opportunity to stay active and energized.
 
-• Good communication skills in English
+The best combination to succeed in this role
 
-We appreciate
-• Understanding and experience of data analytics especially in the areas of finance, accounting, sales and marketing
+We see that the best combination of experiences, skills and background in this role are
 
-• Experience in cloud architecture and data platforms
+ 
 
-• Experience in building and maintaining data pipelines using Python and SQL
+You are at the early stage of your studies in a relevant field, e.g., finance, accounting or other similar fields
 
-• Ability to conduct statistical analyses and interpret quantitative data using Python or R
+Positive and energetic personality with good social skills
 
-• Experience in data preparation and pipeline work in support of AI use cases
+Motivated to learn new skills
 
-• Experience in education or education technology industry
+Experience and interest in bookkeeping, financial or management accounting tasks and processes
 
-We are looking for a highly motivated person who can learn quickly and work independently in a collaborative way. We offer you an excellent opportunity to develop professionally as a data analyst by having a front-row seat in our AI and digital transformation, with visibility across the whole organization and access to Aalto University's international networks. We offer a permanent, full-time position in a purposeful organization dedicated to shaping a sustainable future through life-wide learning. The indicative salary range is 4900 – 6000 eur/month, depending on level of experience.
+Previous experience on finance applications and tasks are considered as an asset
 
-Please send your application letter and CV by latest on August 5, 2026. For more information regarding the position, please contact Reetta Ruusunen, Director, AI and Digitalization, +358 40 7158 332 on August 3 and 4, 2026. Due to vacation time, we are unfortunately not able to answer queries during June - July. Please read more about Aalto University Executive Education at www.aaltoee.fi.
+Development mindset
 
-Aalto University Executive Education and Professional Development
-Aalto University Executive Education and Professional Development (Aalto EE) offers impactful education, development, and training services. Aalto EE combines a wide range of practical expertise with the latest research from Aalto University. We aim to provide a sustainable platform for lifewide learning at different stages of a career. Furthermore, we operate as a strategic partner for organizations, enabling renewal in a rapidly changing business environment. Our unique portfolio of programs offers concrete solutions, intellectual capital, and professional head start for both individuals and organizations.
+Fluent spoken and written English is required, Finnish & Chinese are an advantage
 
-Aalto EE has two strongholds: our main office and learning facilities are in Helsinki, while our operations in Asia-Pacific are led from Singapore. In addition to Finland and Singapore, Aalto EE offers education programs worldwide. As a part of Aalto University, it holds three most respected business university accreditations – AACSB, AMBA, and EQUIS – which places it among the top 1% of institutions in the world.
+Detailed oriented and solid team player
+
+Flexibility for weekly working hours
+
+Availability to continue in the role from April to August 2027 is considered as an advantage 
+
+ 
+
+ 
+
+Let’s get you started
+
+We look forward to receiving your CV and application by August 8th, 2026. Please note that we will start to process the applications immediately upon the receipt.  
+
+We will do our best to contact you within 2 weeks after the application time has ended. The recruitment process will include interviews. Depending on the requirements of the position, the process may include a security clearance (with a drug test).
