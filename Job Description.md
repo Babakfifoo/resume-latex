@@ -1,50 +1,52 @@
 source: https://www.linkedin.com/jobs/view/4436095609/
 
-About the job
-Norrin is an AI integrator, enabling end-to-end Enterprise AI and data solutions that turn ambition into production and drive real productivity gains. We co-create the solutions, infrastructure, and adoption that make it stick. What brings us together is deep technical expertise, a creative engineering mindset, and a people-first culture. Norrin has strong roots in Finland while operating internationally across the Nordics, the United States, and APAC.
+Trainee, Commercial Analytics, (Fixed-Term Position)
+Apply
+locations
+Espoo
+Vantaa
+time type
+Full time
+posted on
+Posted 4 Days Ago
+job requisition id
+R59520
+Want to gain hands-on experience in data-driven business transformation?
+We are seeking a Trainee, Commercial Analytics to join Valmet’s Commercial Excellence team. In this role, you will be an active member of our team, supporting analytics initiatives and contributing to Valmet’s commercial transformation journey and customer success. This is an excellent opportunity to gain practical experience in analytics and commercial development in a truly international environment.
 
-We’re looking for a Data Scientist to join our Applied AI team. In this role, you’ll get to design and implement solutions that apply mathematical optimization methods and modern technologies. You’ll be solving complex challenges such as logistics and production optimization and bringing solutions into production together with our team. In addition to optimization, you’ll have the opportunity to work on a variety of AI projects, from time series analysis and computer vision to LLMs/GenAI and agentic systems, shaped by your interests and our clients’ needs.
+The preferred location for this position is Valmet’s Head office in Espoo, Finland. This is a fixed-term position, starting in September 2026 and continuing until March 2027. You will report to the VP, Commercial Excellence.
 
-# In this role, you will
+Key responsibilities:
+Work as an active member of the Global Commercial Excellence team, supporting analytics-related tasks and projects
 
-Design and implement solutions using mathematical optimization methods (linear, nonlinear, dynamic, stochastic, etc.)
-Conduct traditional ML modelling, MLOps and data analysis
-Program in Python and work with modern libraries and tools
-Collaborate closely with colleagues and clients while taking ownership of project outcomes
+Assist in developing and delivering commercial analytics solutions that help improve business performance
 
-## What We’re Looking For
+Contribute to preparing reports, dashboards, and insights for global stakeholders
 
-- 3+ years of relevant experience in data science, applied mathematics, operations research, or a related field
-- Hands-on experience in designing and implementing solutions using mathematical optimization methods (linear, nonlinear, dynamic, stochastic, etc)
-- Strong programming skills in Python and solid understanding of linear algebra and statistical analysis
-- Ability to translate complex real-world problems into clear mathematical formulations and implement them in practice
-- Ability to read, research and thoroughly understand academic papers and apply algorithms from them in our client solutions
-- Good knowledge of version control (e.g. Git) and modern development practices
-- Strong problem-solving skills with a structured and systematic approach, combined with excellent teamwork and collaboration
-- Ability to take ownership, deliver results and communicate effectively in English (both written and spoken)
-- Advanced degree (Master’s or PhD) in operations research, applied mathematics, computer science, industrial engineering, or related disciplines
+Collaborate with different functions and regions in a truly global environment
 
-## Nice to have
+To be successful in this position, you will need:
+On-going or recently completed master-level studies in Business Analytics, Data Science, Computer Science, Statistics, or a closely related field
 
-- Familiarity with optimization frameworks
-- Broader experience in machine learning / AI, such as time series analysis, computer vision, LLMs/GenAI, reinforcement learning or agentic systems
-- Experience with PyTorch, deep learning or neural networks
-- Understanding of data platforms and architectures (e.g. Databricks, Microsoft Fabric)
-- Experience with MLOps and modern deployment practices (e.g. Docker, IaC).
-- Consulting or client-facing experience, and ability to guide teams as a technical lead
-- Previous work in industrial sectors (e.g. heavy machinery, power generation, manufacturing), or in e-commerce & b2c services
-- Finnish skills are a strong advantage
+Keen interest in commercial analytics, sales development, and/or pricing analytics in a B2B industrial environment
 
-# Why Norrin?
+Previous work experience in analytics or related tasks is an advantage
 
-At Norrin, you'll join an international team of 220 professionals working across Finland, Sweden, Thailand, Vietnam, and the United States. We work with Nordic enterprises that have the ambition to be the forerunners in data and AI across a wide range of industries, from industrial and finance to retail and energy. The diversity of projects, technologies, and business challenges keeps the work both meaningful and engaging. We never work alone but always together with clients and our colleagues.
+Strong Excel skills and some relevant experience with data analytics tools, e.g. Python, Power BI, or SQL
 
-We invest in continuous learning through training and certification opportunities, as well as our guild communities where knowledge is shared and built together. As a Microsoft and Databricks partner, we work with leading technologies and support you in continuously expanding your expertise. At Norrin, you'll have the opportunity to grow in a direction that matters to you.
+Fluent in written and spoken English; other language skills are an advantage
 
-We believe that great work starts with a supportive environment. That's why we foster a culture built on openness, equality, and mutual respect, with psychological safety at its core. As a member of the Women in Tech network, we're committed to promoting diversity, inclusion, and equal opportunities in the tech industry.
+Good communication and teamwork skills
 
-Our hybrid working model combines flexibility with collaboration, giving you the freedom to work remotely while bringing people together when it creates the most value. To support your well-being, we offer comprehensive benefits, including extensive occupational healthcare and dental care, insurance coverage, regular massages, and culture and sports benefits. Our compensation model includes a competitive base salary, a performance-based bonus, and the opportunity to participate in an employee fund.
+We offer
+At Valmet, you will work in a professional, energetic, and truly global environment alongside experts from diverse fields. This trainee role provides plenty of learning opportunities and a genuine chance to grow your skills while contributing to a purpose that truly matters. With a fresh strategy and operating model in place, you will be part of our change journey and have the opportunity to make an impact in shaping Valmet’s future.
 
-Could this be your next opportunity?
+Want to know more?
+Ready to make an impact? Submit your application by the stated deadline, August 23, 2026. For more information, please contact Visa Mäkeläinen, Senior Manager, Commercial Analytics, at visa.makelainen@valmet.com.
 
-We’re excited to hear from you! Submit your application as soon as possible, as we will review applications on an ongoing basis and move forward as soon as we find the right match.
+We encourage our employees to a healthier lifestyle by being a smoke-free Workplace.
+
+When everything works together 
+
+Valmet is where the best talent from a wide variety of backgrounds comes together. We work together with our customers throughout the entire lifecycle, delivering cutting-edge technologies and services as well as mission-critical automation and flow control solutions. Backed by more than 225 years of industrial experience and a global team of over 19,000 professionals close to customers, we are uniquely positioned to transform industries toward a regenerative tomorrow. At Valmet, diversity of thought drives innovation. We are committed to a respectful and inclusive environment, where people can be themselves and are supported to contribute at their best. We welcome applicants from all backgrounds and make hiring decisions based on skills, experience, and potential, never on personal characteristics such as gender, gender identity, age, ethnicity, nationality, disability, neurodiversity, religion, sexual orientation, or political views. Join the team – and lead the way with us!
+www.valmet.com/careers
