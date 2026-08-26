@@ -1,4 +1,4 @@
-% !TEX TS-program = lualatex
+%!TEX TS-program = lualatex
 %-------------------------
 % Rezume, a latex resume template for developers
 % Author : Nanu Panchamurthy
@@ -30,6 +30,7 @@
 \usepackage{tabularx} % defines an environment tabularx, extension of "tabular" with an extra designator x, paragraph like column whose width automatically expands to fill the width of the environment
 
 \usepackage{latexsym} % provides mathematical symbols
+\usepackage{tikz}
 
 \usepackage{eso-pic}
 \usepackage{xcolor}
@@ -60,7 +61,7 @@
 ]
 
 % Define your custom color
-\definecolor{mycolor}{HTML}{F0F0EB}
+\definecolor{mycolor}{HTML}{000000}
 
 % Set as default text color
 \color{mycolor}
@@ -106,13 +107,13 @@
 \definecolor{accent}{HTML}{50B948}
 \definecolor{accent_text}{HTML}{50B948}
 
-\definecolor{rule}{HTML}{BFBFBA}
+\definecolor{rule}{HTML}{000000}
 
 \newcommand{\EM}[1]{\textbf{\textcolor{accent_text}{#1}}}
 
 \titleformat{\section}
 {\large\bfseries}{}
-{0em}{\textcolor{accent}}[\color{rule}\noindent\rule{\dimexpr\textwidth-5cm\relax}{0.4pt}\vspace{0pt}]
+{0em}{\textcolor{accent}}[\color{rule}\noindent\rule{\dimexpr\textwidth-8cm\relax}{0.4pt}\vspace{0pt}]
 %-------------------------------------
 
 
@@ -197,32 +198,32 @@
 
 % Rest pages background (all pages after first)
 
-\AddToShipoutPictureBG*{%
-  \put(0,0){%
-    \ifpdftex
-      \pdfximage width \paperwidth height \paperheight {Front.pdf}%
-      \pdfrefximage\pdflastximage
-    \else
-      \includegraphics[width=\paperwidth, height=\paperheight]{Front.pdf}%
-    \fi
-  }%
-}
-\newcounter{bgpage}
-\setcounter{bgpage}{0}
+% \AddToShipoutPictureBG*{%
+%   \put(0,0){%
+%     \ifpdftex
+%       \pdfximage width \paperwidth height \paperheight {Front.pdf}%
+%       \pdfrefximage\pdflastximage
+%     \else
+%       \includegraphics[width=\paperwidth, height=\paperheight]{Front.pdf}%
+%     \fi
+%   }%
+% }
+% \newcounter{bgpage}
+% \setcounter{bgpage}{0}
 
-\AddToShipoutPictureBG{%
-  \ifnum\value{bgpage}>0
-    \put(0,0){%
-      \ifpdftex
-        \pdfximage page 1 width \paperwidth height \paperheight {Rest.pdf}%
-        \pdfrefximage\pdflastximage
-      \else
-        \includegraphics[width=\paperwidth, height=\paperheight, page=1]{Rest.pdf}%
-      \fi
-    }%
-  \fi
-  \stepcounter{bgpage}%
-}
+% \AddToShipoutPictureBG{%
+%   \ifnum\value{bgpage}>0
+%     \put(0,0){%
+%       \ifpdftex
+%         \pdfximage page 1 width \paperwidth height \paperheight {Rest.pdf}%
+%         \pdfrefximage\pdflastximage
+%       \else
+%         \includegraphics[width=\paperwidth, height=\paperheight, page=1]{Rest.pdf}%
+%       \fi
+%     }%
+%   \fi
+%   \stepcounter{bgpage}%
+% }
 
 %__________________RESUME____________________
 % You can rearrange sections in any order you may prefer
@@ -235,6 +236,7 @@
   pdfsubject={A brief description of my talents and skills.},
   pdfkeywords={self-driven, motivated, data analyst, data scientist, domain expert, economics, data visualisation, graphic design, machine learning, GIS, Spatial Data, RAG, Agentic AI, LLMs}
 }
+
 
 
 %-----------CONTACT DETAILS------------------
@@ -253,16 +255,19 @@ Email: \href{mailto:b.firoozi.f@gmail.com}{\uline{b.firoozi.f@gmail.com}} \\
 %-----------SUMMARY--------------------------
 % Keep this short, simple and straigth to point
 
-\begin{adjustwidth}{0cm}{5cm}
-  \section{Data Analyst | Real Estate Economist}
+\section{Data Analyst | Real Estate Economist}
+\AddToShipoutPictureFG*{%
+  \put(\LenToUnit{\dimexpr\paperwidth-7cm\relax},\LenToUnit{\dimexpr\paperheight-8.3cm\relax}){%
+    \includegraphics[width=5cm]{profile.jpeg.jpg}%
+  }%
+}
+\begin{adjustwidth}{0cm}{7cm}
 
   \small{
 Analytical and detail-orientated analyst and researcher graduate with a strong foundation in predictive modelling, econometrics, and data manipulation skills. Passionate about applying quantitative methods in practice, especially pricing analytics in commercial and built environments and construction. Effective communicator dedicated to delivering clear, data-driven insights that support international stakeholders and customer success.
   }
 
 \end{adjustwidth}
-%--------------------------------------------
-\vspace*{7.8cm - \the\pagetotal}
 
 %----------------SKILLS----------------------
 
@@ -412,6 +417,7 @@ GPA: 16.67/20, Academic excellence
 \resumeItemListStart{}
 \resumeItem{\EM{Speaker}: Spatial data analysis, spatial data engineering. DataTribe collective meetup, 2023}
 \resumeItem{\EM{Contributor}: Helsinki Data Week volunteer (2024 \& 2025)}
+\resumeItem{\EM{Speaker}: "What is Survival Analysis?". PyData Helsiniki, 12th August 2026, Visma HQ, Helsinki, Finland}
 \resumeItem{\EM{Speaker}: "The Effect of Land Development Policies on Implementation of Housing Plans". 28th Annual European Real Estate Society conference, 22nd-25th June, Milan, Italy.}
 \resumeItem{\EM{Speaker}: "The Impact of Public Land Development on Implementation of Housing Plans". AREUEA International Conference, 19th-22nd July, Cambridge, UK.}
 \resumeItem{\EM{Speaker}: "Time limit: is it an effective way to encourage housing construction?". RYTS Science Slam, 25th of January, Helsinki, Finland}
