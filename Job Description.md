@@ -1,43 +1,48 @@
-source:https://www.linkedin.com/jobs/view/4388999814/
+Source: https://www.linkedin.com/jobs/view/4469388245/
 
 # About the job
 
-## Who We Are
+## About GlucoModicum
 
-Boston Consulting Group partners with leaders in business and society to tackle their most important challenges and capture their greatest opportunities. BCG was the pioneer in business strategy when it was founded in 1963. Today, we help clients with total transformation-inspiring complex change, enabling organizations to grow, building competitive advantage, and driving bottom-line impact.
+GlucoModicum is developing a needle-free glucose monitor that has recently reached product freeze and is now in Verification & Validation (V&V) for CE marking.Our mission is to transform diabetes management through non-invasive glucose monitoring, thereby improving the lives of more than 400 million people worldwide who live with diabetes.
 
-To succeed, organizations must blend digital and human capabilities. Our diverse, global teams bring deep industry and functional expertise and a range of perspectives to spark change. BCG delivers solutions through leading-edge management consulting along with technology and design, corporate and digital ventures—and business purpose. We work in a uniquely collaborative model across the firm and throughout all levels of the client organization, generating results that allow our clients to thrive.
 
-## We Are BCG X
+## About the Role
 
-We’re a diverse team of more than 3,000 tech experts united by a drive to make a difference. Working across industries and disciplines, we combine our experience and expertise to tackle the biggest challenges faced by society today. We go beyond what was once thought possible, creating new and innovative solutions to the world’s most complex problems. Leveraging BCG’s global network and partnerships with leading organizations, BCG X provides a stable ecosystem for talent to build game-changing businesses, products, and services from the ground up, all while growing their career. Together, we strive to create solutions that will positively impact the lives of millions.
+We are looking for a motivated Data Platform Engineer to build and own the data platform that supports clinical studies, algorithm development, verification & validation activities, and future real-world device monitoring.This is a unique opportunity to shape the data foundations of a medical device as it moves toward market launch. The platform will connect clinical datasets, validation evidence, device configurations, firmware versions, and algorithm releases, providing the traceability required for both product development and future post-market surveillance.You will work closely with clinical researchers, algorithm scientists, embedded software engineers, and quality and regulatory teams.
 
-## What You'll Do
 
-Our BCG X teams own the full analytics value-chain end to end: framing new business challenges, designing innovative algorithms, implementing, and deploying scalable solutions, and enabling colleagues and clients to fully embrace AI. Our product offerings span from fully custom-builds to industry specific leading edge AI software solutions.
+## Responsibilities
 
-As a Data Scientist Intern, you'll be part of our rapidly growing team. You'll have the chance to apply data science methods and analytics to real-world business situations across a variety of industries to drive significant business impact. You'll have the chance to partner with clients in a variety of BCG regions and industries, and on key topics like climate change, enabling them to design, build, and deploy new and innovative solutions.
+Design and implement a governed data platform on Azure using technologies such Databricks and containerized Python workflows.
+Build reproducible data and analysis pipelines for clinical studies, R&D, and validation activities.
+Implement data quality controls, lineage tracking, audit-friendly records, and privacy-aware data handling practices.
+Support traceability across datasets, devices, firmware versions, configurations, and algorithm releases.
+Establish engineering standards, CI/CD practices, testing strategies, and platform governance.
 
-Additional responsibilities will include developing and delivering thought leadership in scientific communities and papers as well as leading conferences on behalf of BCG X. Successful candidates are intellectually curious builders who are biased toward action, scrappy, and communicative.
 
-We Are Looking For Talented Individuals With a Passion For Data Science, Statistics, Operations Research And Transforming Organizations Into AI Led Innovative Companies. Successful Candidates Possess The Following
+### Required Skills
 
-Comfortable in a client-facing role with the ambition to lead teams 
-Likes to distill complex results or processes into simple, clear visualizations 
-Explain sophisticated data science concepts in an understandable manner 
-Love building things and are comfortable working with modern development tools and writing code collaboratively (bonus points if you have a software development or DevOps experience) 
-Significant experience applying advanced analytics to a variety of business situations and a proven ability to synthesize complex data 
-Deep understanding of modern machine learning techniques and their mathematical underpinnings, and can translate this into business implications for our clients 
-Have strong project management skills 
+Strong Python software engineering skills.
+Experience building production data platforms, pipelines, or analytics systems.
+Experience with cloud platforms, preferably Azure.
+Experience with workflow orchestration tools such as Dagster, Airflow, or Prefect.
+Experience with Docker, Git, CI/CD, and reproducible execution environments.
+Strong understanding of software engineering best practices.
 
-### What You'll Bring
 
-Currently enrolled in a university Master's or PhD degree program in Computer Research Science, Data Science, Statistics, Operations Research, or related field
+### Bonus Skills
 
-### Technologies
+Experience in medical devices, digital health, clinical research, or other regulated environments.
+Experience supporting reproducible scientific, clinical, or validation workflows.
 
-Programming Languages: Python
+Why Join Us?Few engineers get the opportunity to build a data platform before a medical device reaches market. Your work will directly support clinical evidence generation, algorithm validation, regulatory submissions, and future post-market surveillance for a breakthrough healthcare technology.
+How to ApplyPlease submit your CV and a one-page motivation letter as a single PDF document. In your letter, briefly describe your relevant experience and why you are interested in joining GlucoModicum.Requirements added by the job poster• Authorized to work in Finland
 
-#BCGXjobs
+Requirements added by the job poster
 
-Boston Consulting Group is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, age, religion, sex, sexual orientation, gender identity / expression, national origin, disability, protected veteran status, or any other characteristic protected under national, provincial, or local law, where applicable, and those with criminal histories will be considered in a manner consistent with applicable state and local laws.
+• Bachelor's Degree
+
+• 2+ years of work experience with Python (Programming Language)
+
+• Authorized to work in Finland
